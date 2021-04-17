@@ -1,0 +1,2693 @@
+Error during initialization.;Fehler bei der Initialisierung
+Error;Fehler
+Error parsing on line %d. Incorrect file format?\nLine contents: %s;Fehler bei der Verarbeitung vn Zeile %d. Falsches Dateiformat?\nZeileninhalt: %s
+Cannot close file :%s;Kann die Datei nicht schließen: %s
+The program installation directory '%s' is read-only!;Kein Schreibzugriff auf das Programmverzeichnis '%s'!
+Quant Analyzer will not work correctly, because it wouldn't be able to write changes to settings or database.;Das Programm wird nicht fehlerfrei ausgeführt, da es Änderungen an Einstellungen oder Datenbanken nicht speichern kann.
+Please reinstall Quant Analyzer to a normal directory, for example C:\\Trading or C:\\QuantAnalyzer.;Bitte installiere StrategyQuant erneut in ein normales Verzeichnis, zum Beispiel C:\StrategyQuant.
+Installation Error?;Installationsfehler?
+OK;OK
+Cancel;Abbrechen
+Close;Schließen
+Equity (%s);Equity (%s)
+Cannot perform cross-over with different length parents.;Kreuzung von Eltern mit unterschiedlicher Länge nicht möglich.
+Session;Session
+Store chart data in the backtest result?;Chartdaten im Backtest-Ergebnis speichern?
+Store Chart Data;Chartdaten speichern
+Build options;Generierungsoptionen
+Cannot start project.;Projekt kann nicht gestartet werden.
+abe;abe
+days;Tage
+hours;Stunden
+mins;Minuten
+Others;andere
+StrategyQuant Test Email;StrategyQuant Test-E-mail
+This is a test email.;Dies ist eine Test-E-Mail
+Test Email was sent to your email address.;Test-E-Mail wurde an deine Mailadresse geschickt.
+Test Email could not be sent. Please check your SMTP settings.;Test-E-Mail konnte nicht gesendet werden. Bitte SMTP-Einstellungen überprüfen.
+Monte Carlo trades manipulation;Monte Carlo Trades-Manipulation
+This cross check uses Monte Carlo method to perform various simulations of resulting equity curve by manipulating the order of the trades.<br/>It allows you to quickly assess how much the good results are dependent on order of the trades.;Dieser Cross-Check nutzt die Monte-Carlo-Methode, um verschiedene Simulationen der resultierenden Ergebniskurve durchzuführen, indem die Reihenfolge der Trades verändert wird.<br/>So kannst du schnell herausfinden, wie stark die guten Ergebnisse von der Trade-Reihenfolge abhängen.
+Monte Carlo retest methods;Monte Carlo Retest-Methoden
+This cross check uses Monte Carlo methods that perform simulations that require retesting the strategy - using different spread, parameters or history data.<br/>Note that it is slow, strategy will have to be retested multiple times, depending on your number of simulations.;Dieser Cross-Check nutzt Monte-Carlo-Methoden mit Simulationen, die einen erneuten Retest der Strategie erfordern - mit verändertem Spread, Parametern oder Historiendaten.<br/>Beachte, dass dies länger dauert, da die Strategie, je nach Anzahl an Simulationen, mehrmals getestet werden muss.
+Retest on additional markets;Retest auf anderen Märkten
+This cross check retest the strategy on multiple additional markets (symbols).<br/>It allows you to compare the performance on multiple symbols, ideally you want to find the strategy that will work on multiple markets.;Dieser Cross-Check testet die Strategie erneut auf mehreren zusätzlichen Märkten (Symbolen).<br/>So kannst du die Performance auf verschiedenen Symbolen vergleichen - idealerweise sollte eine Strategie auf mehreren Märkten funktionieren.
+Retest with higher precision;Retest mit höherer Präzision
+This cross checks retests the strategy with higher precision.<br/>It can be used if you are using the lowest 'Selected timeframe' precision in the main backtest to quickly find and evaluate the valid strategies. You can then use this cross check to retest the strategy with higher precision to see if it performs in a same way with higher precision backtesting.;Dieser Cross-Check testet die Strategie erneut mit erhöhter Präzision.<br/>Er kann verwendet werden, wenn du die schnellste 'Ausgewählter Timeframe'-Präzision im Haupttest benutzt, um schnell die besten Strategien zu finden. Du kannst dann diesen Cross-Check verwenden, um die Strategie mit erhöhter Präzision zu testen und herauszufinden, ob sie sich bei erhöhter Präzision genauso verhält.
+Walk-Forward Matrix;Walk-Forward Matrix
+This cross check performs Walk-Forward Matrix evaluation of the strategy using the settings below.<br/>Be aware that WF Matrix is extremely slow, it consists of running a number of WF optimizations, which themselves are very slow.<br/>The number of backtests required can easily grow to thousands or even tens of thousands for one WF optimization,<br/>so it is a good idea to limit the maximum tests for one WF optimization to some realistic number. ;Dieser Cross-Check führt eine Walk-Forward Matrix-Auswertung der Strategie mit den unten angegebenen Einstellungen durch.<br/>Beachte, dass WF Matrix extrem langsam ist - sie besteht aus einer Anzahl WF-Optimierungen, welche ihrerseits bereits sehr langsam sind.<br/>Die Anzahl an erforderlichen Backtests kann schnell auf mehrere Tausend pro WF-Optimierung anwachsen,<br/>es ist also empfehlenswert, die Maximale Anzahl an Tests pro WF-Optimierung realistisch zu begrenzen. 
+Walk-Forward Optimization;Walk-Forward Optimierung
+This cross check performs Walk-Forward Optimization of the strategy using the settings below.<br/>Be aware that WF optimization is very slow, it requires repeated backtests of the strategy in different time ranges and using different parameter values.<br/>The number of backtests required can easily grow to thousands or even tens of thousands for one WF optimization, so it is a good idea to limit the maximum tests to some realistic number. ;Dieser Cross-Check führt eine Walk-Forward-Optimierung der Strategie mit den unten angegebenen Einstellungen durch.<br/>Beachte, dass WF-Optimierung sehr langsam ist - sie erfordert wiederholte Backtests der Strategie in verschiedenen Zeitrahmen und mit verschiedenen Parametern.<br/>Die Anzahl an erforderlichen Backtests kann schnell auf mehrere Tausend pro WF-Optimierung anwachsen,<br/>es ist also empfehlenswert, die Maximale Anzahl an Tests realistisch zu begrenzen. 
+Cannot find MT4 data folder in default location '%s'.;MT4 Datenverzeichnis am Standardort '%s' nicht gefunden.
+Data folder doesn't contain MT4 history files.;Datenverzeichnis enthält keine MT4 Historiendaten.
+Main data backtest;Hauptdaten-Backtest
+Net Profit (Return);Nettoprofit (Gewinn)
+Return / Drawdown ratio;Gewinn- / Drawdown Verhältnis
+R Expectancy (Van Tharp);Gewinnerwartung (Van Tharp)
+Annual Return % / Max DD %;Jahresgewinn % / Max DD %
+Weighted Fitness (multiple goals);Gewichtete Eignung (verschiedene Ziele)
+Hour;Stunde
+Day;Tag
+Week;Woche
+Month;Monat
+no;nr
+N/A;K/A
+Strategy '%s' doesn't exist.;Strategie '%s' existiert nicht.
+%d entry blocks, %d exit types;%d Einstiegsblöcke, %d Ausstiegstypen
+Building blocks;Blöcke
+yes;ja
+Cross checks;Cross-Checks
+Data;Daten
+Filtering;Filter
+Go To Task;Gehe zur Aufgabe
+Money Management method;Moneymanagement Methode
+Risk Management method;Risikomanagement Method
+Money management;Moneymanagement
+Note;Notizen
+SMTP server is not configured.;SMTP-Server ist nicht konfiguriert.
+Email is not valid.;E-Mail ist ungültig.
+Notification;Benachrichtigung
+Optimization;Optimierung
+Options settings not found in XML config;Optionen-Einstellungen nicht in der XML-Konfiguration gefunden
+Trading options;Trading-Optionen
+No parameters selected;Keine Parameter ausgewählt
+Cannot get distribution value;Verteilungswert kann nicht ermittelt werden
+Cannot get maxSteps value;maxSteps-Wert kann nicht ermittelt werden
+Parameters;Parameter
+Parts to improve;Bereiche zum Verbessern
+Cannot find XML Task element ;XML Aufgaben-Element nicht gefunden
+Cannot recognize task type;Aufgabentyp kann nicht erkannt werden
+Max strategies count not set or invalid;Max. Strategienanzahl nicht definiert oder ungültig
+Passed strategies count not set or has invalid value;Die Anzahl bestandener Strategien ist nicht definiert oder hat einen ungültigen Wert
+Stop condition type not set;Stopbedingungs-Typ nicht festgelegt
+Cannot load custom filters.;Benutzerdefinierte Filter können nicht geladen werden.
+Cannot load automatic filters.;Automatische Filter können nicht geladen werden.
+Cannot load fitness function;Eignungsfunktionen können nicht geladen werden
+Maximum top strategies to store;Maximalanzahl bester Strategien zum Speichern
+Fitness computation;Eignungs-Berechnung
+Rankings;Ranking
+Islands number must be between 1 and 100;Inselanzahl muss sich zwischen 1 und 100 bewegen
+Improve type not set;Verbesserungstyp nicht eingestellt
+Improve strategy file not set;Strategieverbesserungs-Datei nicht eingestellt
+Improve databank not set;Verbesserungsdatenbank nicht eingestellt
+Additional charts number not set or invalid;Anzahl zusätzlicher Charts nicht eingestellt oder ungültig
+Simple strategies;Einfache Strategien
+Multi-symbol/Multi-TF strategies;Multi-Symbol/Multi-TF Strategien
+Strategies using template;Strategien nach Vorlage
+Improve existing strategy;Existierende Strategie verbessern
+Strategy type;Strategietyp
+What to build;Whas generieren?
+What to retest;Was erneut testen?
+Restarting genetic evolution;Starte genetische Evolution erneut
+GRID: Stopping build, job failures (exceptions) exceeded 70%!;GRID: Generierung angehalten, Fehler (Ausnahmen) überschreiten 70%!
+Loading data and starting test run...;Lade Daten und starte Testlauf…
+Test run finished ok;Testlauf abgeschlossen ok
+Starting strategies generation...;Starte Strategiegenerierung…
+Build finished because databank is full;Generierung abgeschlossen, weil die Datenbank voll ist
+Build finished because totally %d strategies were generated, excluding dismissed;Generierung beendet, weil insgesamt %d Strategien generiert wurden, abzüglich der verworfenen
+Created new batch of strategies, evaluating them...;Neuer Stapel an Strategien erstellt, auswerten…
+Starting strategies filtering...;Starte Strategiefilterung…
+%s, deleted: %s;%s, gelöscht: %s
+%s, copied: %s;%s, kopiert: %s
+%s, moved: %s;%s, verschoben: %s
+No conditions;Keine Bedingungen
+fit %s;geeignet %s
+not fit %s;nicht geeignet %s
+Going to task: %s, %s;Gehe zu Aufgabe: %s, %s
+Task notification for project %s;Aufgabenbenachrichtigung für Projekt %s
+Note - Project is paused, waiting for your action.;Hinweis - Projekt ist pausiert, warte auf Anweisung.
+Please don't reply to this email, it is not watched!;Bitte nicht auf diese E-Mail antworten, Adresse wird nicht überwacht!
+SQ Task notification for project %s;SQ Aufgabenbenachrichtigung für Projekt %s
+Task notification was successfully sent.;Aufgabenbenachrichtigung wurde erfolgreich gesendet.
+Task notification could not be sent. Please check your SMTP settings.;Aufgabenbenachrichtigung konnte nicht gesendet werden. Bitte überprüfe deine SMTP-Einstellungen.
+Project is paused, waiting for your action.;Projekt ist pausiert, warte auf Anweisung.
+Starting optimization...;Starte Optimierung...
+Starting strategies retesting...;Starte erneuten Test der Strategien…
+No strategies in databank, nothing to retest!;Keine Strategien in der Datenbank, nichts zum erneuten Testen!
+Result '%s' doesn't contain strategy, skipping!;Ergebnis '%s' enthält keine Strategie, wird übersprungen!
+GRID: Stopping retest, job failures (exceptions) exceeded 70%!;GRID: Erneuten Test angehalten, Fehler (Ausnahmen) überschreiten 70%!
+GRID: Error while processing strategy result - %s;GRID: Fehler beim Verarbeiten des Strategieergebnisses - %s
+GRID: Error while creating batch of jobs - %s;GRID: Fehler beim Erstellen des Aufgabenstapels - %s
+File;Datei
+New...;Neu...
+Save;Speichern
+Save As;Speichern unter
+Edit;Bearbeiten
+Undo;Rückgängig
+Redo;Wiederholen
+Find (Ctrl + F);Finden (Ctrl + F)
+Find next (F3);Nächstes Finden (F3)
+Replace (Ctrl + H);Ersetzen (Ctrl + H)
+Find in files;In Dateien finden
+Tools;Werkzeuge
+Compile;Kompilieren
+Recompile all;Alle rekompilieren
+Fix imports;Importe reparieren
+Help;Hilfe
+About QuantEditor;Übef den QuantEditor
+Are you sure you want to exit?;Möchtest du wirklich beenden?
+User Confirmation;Benutzerbestätigung
+Description;Beschreibung
+Line;Zeile
+Column;Spalte
+Ready;Bereit
+Monitor;Monitor
+Heap;Heap
+Used: %.2f MB;Verwendet: %.2f MB
+Enter name of cloned file;Name der geklonten Datei eingeben
+Class name cannot be blank.;Klassenname darf nicht leer sein.
+File name cannot contain spaces or special characters.;Dateiname darf keine Leer- oder Sonderzeichen enthalten.
+Please choose a different name.;Bitte einen anderen Namen auswählen.
+A file with this name already exists.;Eine Dtei mit diesem Namen existiert bereits.
+An error has occurred while cloning the file.;Beim Klonen der Datei ist ein Fehler aufgetreten.
+Please see the Log for more details.;Bitte überprüfe das Log für weitere Details.
+An error has occurred while creating the new file.;Beim erstellen der neuen Datei ist ein Fehler aufgetreten.
+Name your file;Benenne deine Datei
+(Special characters or spaces are not allowed);(Special characters or spaces are not allowed)
+Choose template;Vorlage auswählen
+Create New;Neu erstellen
+An error occurred while saving the file.;Beim speichern der Datei ist ein Fehler aufgetreten
+The file with given name already exists, do you want to overwrite it?;Die Datei mit dem angegebenen Namen existiert bereits, möchtest du sie überschreiben?
+Confirm file overwrite;Überschreiben der Datei bestätigen
+Log;Log
+Search;Suche
+Navigator;Navigator
+Live;Live
+Original;Original
+New;Neu
+Save As..;Speichern unter..
+Recompile All;Alle rekompilieren
+File '%s' contains unsaved changes.\nDo you really want to close it?;Datei '%s' enthält nicht gespeicherte Änderungen.\nMöchtest du sie wirklich schließen?
+Warning;Warnung
+Close Others;Andere schließen
+Close All;Alle schließen
+Collapse All;Alle minimieren
+Expand All;Alle erweitern
+Type here to filter.;Zum Filtern hier eingeben.
+Original version;Originalversion
+This is the original, non-editable version of this Snippet from StrategyQuant. You can use it as reference point when you are editing the Live version of this snippet, and you can always revert to this original version.;Dies ist die originale, nicht editierbare Version dieses Snippets aus StrategyQuant. Du kannst sie als Referenzpunkt beim Editieren der Live-Version dieses Snippets verwenden, und du kannst diese Originalversion jederzeit wiederherstellen.
+#NAME?;#NAME?
+#NAME?;#NAME?
+#NAME?;#NAME?
+New Directory;Neues Verzeichnis
+Refresh;Aktualisieren
+Open;Öffnen
+Delete;Löschen
+Rename;Umbenennen
+Reload from Disk;Neuladen vom Laufwerk
+Revert to original;Originalversion wiederherstellen
+New File;Neue Datei
+Clone;Klonen
+Do you really want to replace the file with original version?;Möchtest du die Datei wirklich mit der Originalversion ersetzen?
+Are you sure you want to remove '%s';Möchtest du '%s' wirklich entfernen
+Do you really want to refresh '%s' from disc? Unsaved changes will be lost.;Möchtest du '%s' wirklich vom Laufwerk aktualisieren? Nicht gespeicherte Änderungen gehen verloren.
+Are you sure you want to rename?;Möchtest du wirklich umbenennen?
+Cannot rename file.;Kann Datei nicht umbenennen.
+Please check  if this file is open in another program.;Bitte überprüfe, ob die Datei in einem anderen Programm geöffnet ist.
+An error has occurred while renaming the file.;Beim Umbenennen der Datei ist ein Fehler aufgetreten.
+Enter a new name;Gib einen neuen Namen ein.
+Find what;Was finden
+Find;Finden
+No files found.;Keine Dateien gefunden.
+No search results available. Start a search from Edit > Find in files;Keine Suchergebnisse verfügbar. Starte eine Suche über Bearbeiten > In Dateien finden
+Initializing database & settings...;Initialisiere Datenbank & Einstellungen...
+Checking updates...;Überprüfe Updates...
+Compiling snippets...;Kompiliere Snippets...
+Loading performance settings...;Lade Performance-Einstellungen...
+Initializing building blocks...;Initialisiere Blöcke...
+Loading plugins...;Lade Plugins...
+Initializing stats computer...;Initialisiere Statistiken-Computer...
+Initializing look & feel...;Initialisiere Look&Feel…
+Initializing engines...;Initialisiere Engines...
+Initializing communication channels...;Initialisiere Kommunikationskanäle...
+Checking data...;Überprüfe Daten...
+You cannot disable random placeholders, because your strategy already contains them. Delete your random placeholders from this strategy first.;Du kannst die zufälligen Platzhalter nicht deaktivieren, da deine Strategie sie bereits enthält. Entferne zuerst die zufälligen Platzhalter aus deiner Strategie.
+Are you sure you want to remove the rule?;Bist du sicher, dass du die Regel entfernen möchtest?
+Non-existing action;Nichtexistente Handlung
+Simple Wizard is disabled for now.;Der einfache Wizard ist aktuell deaktiviert.
+Empty;Leer
+You cannot delete this chart, because it is used in one or more conditions. Change your conditions properties first.;Du kannst diesen Chart nicht löschen, weil er in einer oder mehreren Bedingungen verwendet wird. Ändere zuerst die Eigenschaften deiner Bedingungen.
+The MainChart can not be deleted.;Der Hauptchart kann nicht gelöscht werden.
+Choose save directory before saving.;Wähle vor dem Speichern das Speicherverzeichnis aus.
+Market;Markt
+Stop;Stop
+Limit;Limit
+Buy;Kaufen
+Sell;Verkaufen
+Sell Short;Short verkaufen
+Buy to cover;Kaufen zur Deckung
+none;keine
+reload;neu laden
+Load;Laden
+Load from file...;Laden aus Datei…
+Recent;Letzte
+Save as...;Speichern als…
+Examples;Beispiele
+Get source code;Quellcode anzeigen
+Strategy;Strategie
+Backtest;Backtest
+Result;Ergebnis
+Back To Strategy Editor;Zurück zum Strategieeditor
+Benchmark StrategyQuant speed;StrategyQuant-Geschwindigkeit messen
+estimate strategy testing time we have to run some initial benchmarks of StrategyQuant speed on this computer.;zum Messen der Strategietestdauer müssen wir einige anfängliche Messungen der StrategyQuant-Geschwindigkeit auf diesem Computer durchführen.
+This benchmark will use your actual performance settings, which is:;Diese Messung nutzt die aktuellen Performanceeinstellungen:
+Please be patient, benchmark shouldn't take more than a couple of minutes.;Bitte warten, die Messung sollte nur ein paar Minuten dauern.
+Start benchmark;Messung starten
+Benchmark results;Messungsergebnis
+Total duration (data preparation / test);Gesamtdauer (Datenvorbereitung / Test)
+Strategy avg. time (parallel);Durchschn. Strategiezeit (Parallel)
+Time per tick;Zeit pro Tick
+Total ticks;Ticks insgesamt
+Strategies per hour;Strategien pro Stunde
+You can repeat this benchmark by choosing Benchmark... action in the global menu on the top right corner.;Du kannst die Messung wiederholen, indem du die Benchmark... Aktion im globalen Menü in der oberen rechten Ecke nutzt.
+Please note that benchmark runs using standardized artifical strategy and data, so its result can be compared with other installations of SQ on another computers.;Bitte beachte, dass die Messung mit künstlichen Strategien und Daten läuft, damit ihr Ergebnis mit anderen SQ-Installationen auf anderen Computern verglichen werden kann.
+It is only an estimation, real backtest time depends a lot on the complexity of the strategy, timeframe and data range and precision.;Es handelt sich nur um eine Schätzung, die reale Backtestdauer hängt stark von der Komplexität der Strategie, Timeframe, Datenbereich und Präzision ab.
+beforeStart;vorDemStart
+Single threaded.;Einzelthread.
+Reserve 1 core for UI, compute tasks in parallel on all remaining cores.;Reserviere 1 Kern für das UI, berechne Aufgaben parallel auf allen verbleibenden Kernen.
+Custom number of cores - %d.;Benutzerdefinierte Kernanzahl - %d.
+Max performance - running multiple tasks in parallel, using all processor cores.;Max. Leistung - bearbeite mehrere Aufgaben parallel, unter Verwendung aller Prozessorkerne.
+running;arbeitet
+showResults;zeigeErgebnisse
+Predefined parameter sets;Vordefinierte Parameter-Sets
+Parameters of this building block. They can be generated randomly or have fixed value - you can configure it for every parameter by double-clicking on it in the grid below.;Parameter dieses Blocks. Sie können zufällig generiert werden oder einen festen Wert haben - du kannst dies für jeden Parameter durch einen Doppelklick unten in der Liste festlegen.
+Parameters are either generated all randomly as defined in tab;Parameter werden entweder komplett zufällig generiert, wie in der Registerkarte definiert
+Parameter name;Parametername
+Type;Typ
+Generation;Generation
+Possible values;Mögliche Werte
+No parameters defined.;Keine Parameter definiert.
+Set name;Name festlegen
+Add new set;Neues Set hinzufügen
+Delete parameter set;Parameter-Set löschen
+Do you want to delete selected parameter set?;Möchtest du das ausgewählte Parameter-Set löschen?
+Name;Name
+Parameters of type 'value' cannot be modified.;Parameter vom Typ 'Wert' können nicht verändert werden.
+Symbol parameter cannot be modified;Symbolparameter können nicht verändert werden.
+You must check at least one option;Du musst mindestens eine Option auswählen
+Fixed value must be set;Fester Wert muss festgelegt werden
+Parameter set '%s' already exists. Please choose another name;Parameter-Set '%s' existiert bereits. Bitte wähle einen anderen Namen
+All charts;Alle Charts
+shift;Shift
+period;Periode
+SL Value;SL Wert
+SL ATR Multiple;SL ATR Faktor
+SL ATR Period;SL ATR Periode
+PT Value;PT Wert
+PT ATR Multiple;PT ATR Faktor
+PT ATR Period;PT ATR Periode
+value;Wert
+Edit parameter;Parameter bearbeiten
+Parameter;Parameter
+Randomly generated;Zufällig generiert
+Fixed value;Fester Wert
+Minimum;Minimum
+Global;Global
+Custom;Benutzerdefiniert
+Maximum;Maximum
+Global Minimum and Maximum can be configured in;Globales Minimum und Maximum kann konfiguriert werden in
+What to build -> Additional build config;Was generieren? -> Zusätzliche Generierungseinstellungen
+Step;Schritt
+All available charts;Alle verfügbaren Charts
+or pick only specific charts below:;oder wähle unten nur bestimmte Charts aus:
+Value;Wert
+Edit parameter set;Parameter-Set bearbeiten
+Block:;Block:
+Parameter set options;Parameter-Set Optionen
+Delete set;Set löschen
+Parameters configuration;Parameterkonfiguration
+Double click on a parameter row to edit it;Doppelklicke zum Bearbeiten auf eine Parameterzeile
+Date from must be before date to;Datum von muss früher sein als Datum bis
+Main chart;Hauptchart
+Symbol;Symbol
+Start day;Starttag
+End day;Endtag
+Trading engine;Trading-engine
+Engine;Engine
+Additional charts;Zusätzliche Charts
+these are additional charts that strategy has access to;dies sind zusätzliche Charts, auf die die Strategie Zugriff hat
+Backtest data settings;Backtestdaten-Einstellungen
+Timeframe;Timeframe
+Reset dates;Datum zurücksetzen
+Available from;Verfügbar von
+to;bis
+Subcharts;Untercharts
+Test parameters;Testparameter
+Precision;Präzision
+Commision;Kommission
+Spread;Spread
+Slippage;Slippage
+Min. distance;Min. Distanz
+Commission settings;Kommissions-Einstellungen
+Commission is in $ per full lot. It is computed according to the size of order.;Kommission ist in $ pro ganzes Lot. Sie wird entsprechend zur Tradegröße berechnet.
+Subchart;Unterchart
+From backtest;Von Backtest
+At confidence level;Auf Verlässlichkeitsniveau
+Subresult;Unterergebnis
+Sample type;Sampletyp
+Full sample;Vollständiger Zeitraum
+In sample;In Sample
+Out of sample;Out-of-sample
+Direction;Richtung
+Both;Beide
+Long;Long
+Short;Short
+Result in;Ergebnis in
+Money;Geld
+Percent;Prozent
+Pips;Pips
+Every market;Alle Märkte
+Market %s;Markt %s
+IS;IS
+OOS;OOS
+Ticks;Ticks
+Add conditions;Bedingungen hinzufügen
+Choose conditions to add;Bedingungen zum hinzufügen auswählen
+Constants;Konstanten
+Use;Verwenden
+Left value;Linker Wert
+Right value;Rechter Wert
+No conditions defined.;Keine Bedingungen definiert.
+this;dies
+Value '%s' has invalid number format.;Wert '%s' hat ungültiges Zahlenformat.
+Search for condition;Bedingung suchen
+No results matching;Keine übereinstimmenden Ergebnisse
+Edit condition;Bedingung bearbeiten
+Apply percentage ratio;Prozentsatz anwenden
+Percentage ratio allows you to compare one value;Prozentsatz lässt dich einen Wert vergleichen
+Settings;Einstellungen
+Choose config;Konfiguration wählen
+No config files found;Keine Konfigurationsdateien gefunden
+Reset to default settings;Auf Standardeinstellungen zurücksetzen
+Tasks Flow;Aufgabenverlauf
+Results;Ergebnisse
+XML Config Files;XML Konfigurationsdateien
+Reset task settings;Aufgabeneinstellungen zurücksetzen
+Do you want to reset task settings? <br>Any unsaved changes will be lost.;Möchtest du die Aufgabeneinstellungen zurücksetzen? <br>Alle nicht gespeicherten Änderungen gehen verloren.
+Load xml config;XML-Konfiguration laden
+Do you want to load config from selected file? <br>Any unsaved changes will be lost.;Möchtest du die Konfiguration aus der ausgewählten Datei laden? <br>Alle nicht gespeicherten Änderungen gehen verloren.
+Save template config;Konfigurationsvorlage speichern
+Do you want to save this config into the template? <br>Original template config will be overwritten.;Möchtest du diese Konfiguration in eine Vorlage speichern? <br>Ursprüngliche Konfigurationsvorlage wird überschrieben.
+Save config;Konfiguration speichern
+Select config file to load;Konfigurationsdatei zum Laden auswählen
+Retester;Retester
+Builder;Generator
+Optimizer;Optimierer
+Custom Project;Benutzerdefiniertes Projekt
+Date is out of range;Datum liegt außerhalb des Bereichs
+Date;Datum
+Since last date;Seit letztem Datum
+Last 6 months;Letzte 6 Monate
+Last year;Letzten Jahr
+Last 5 years;Letzte 5 Jahre
+Last 10 years;Letzte 10 Jahre
+All time;Gesamter Zeitraum
+Loading directory picker root folders failed.;Laden der Wurzelverzeichnisse aus Verzeichnisauswahl fehlgeschlagen.
+Path:;Pfad:
+Select;Auswählen
+instrument;Instrument
+Choose instrument;Instrument auswählen
+Instrument is a specification of this symbol - it contains tick size, point value etc.;Instrument ist eine Spezifizierung des Symbols - es enthält Tickgröße, Punktwert usw.
+You can have mutiple data imported - for example EURUSD_1, EURUSD_2, EURUSD_3, but they share the same instrument specification for EURUSD.;Es können mehrere Datenreihen importiert werden - z.B. EURUSD_1, EURUSD_2, EURUSD_3, aber sie teilen alle die Instrumentenspezifikation für EURUSD.
+Instrument *;Instrument *
+Add new instrument;Neues Instrument hinzufügen
+Instrument added;Instrument hinzugefügt
+Instrument modified;Instrument bearbeitet
+Data type *;Datenyp *
+Point value in $ *;Punktwert in $ *
+Pip/Tick size *;Pip-/Tickgröße *
+Pip/Tick step *;Pip-/Tickschritt *
+Default spread *;Standard-Spread *
+Optional fields;Optionale Felder
+Select conditions;Bedingungen auswählen
+Or choose from frequently used;Oder wähle aus häufig verwendeten
+Add;Hinzufügen
+Item '%s' not found;Element '%s' nicht gefunden
+Select items;Elemente auswählen
+Add items;Elemente hinzufügen
+Choose items to add;Elemente zum Hinzufügen auswählen
+Manage views;Ansichten verwalten
+Select view;Ansicht auswählen
+Add new;Neue hinzufügen
+Default view cannot be modified. Please choose another view or clone the default view to edit it;Standardansicht kann nicht bearbeitet werden. Bitte wähle eine andere Ansicht oder klone die Standardansicht, um sie zu bearbeiten.
+Edit selected view;Ausgewählte Ansicht bearbeiten
+View name;Name der Ansicht
+Columns in view;Spalten in Ansicht
+Use drag and drop to change columns order;Spaltenreihenfolge per Drag&Drop ändern
+Add columns;Spalten hinzufügen
+Save view changes;Ansichtsänderungen speichern
+Cannot remove the default view;Standardansicht kann nicht entfernt werden
+Deleting view;Lösche Ansicht
+Do you really want to delete selected view?;Möchtest du die ausgewählte Ansicht wirklich löschen?
+New view;Neue Ansicht
+Cannot change the default view;Standardansicht kann nicht geändert werden
+Changes not saved. Do you want to save them?;Änderungen nicht gespeichert. Möchtest du sie speichern?
+Start;Start
+End;Ende
+ID;ID
+No Parameters available.;Keine Parameter verfügbar.
+Cannot get variable on row;Spaltenvariable kann nicht abgerufen werden
+Invalid input for type '%s';Ungültige Eingabe für Typ '%s'
+Zero step used at row %d. Please correct the step value or leave the parameter unchecked.;Null-Schritt verwendet bei Reihe %d. Bitte korrigiere den Schrittwert oder lasse den Parameter unverwendet.
+Invalid values logic at row %d. Please correct the start/stop/step values.;Ungültige Wertelogik bei Reihe %d. Bitte korrigiere die Start-/Stop-/Schritt-Werte.
+Periods;Perioden
+Shifts;Shifts
+Exits / Protection;Ausstiege / Schutz
+Exits / Unused;Ausstiege / Unverwendet
+Default;Voreinstellung
+Cannot find ManualSettings object in task config. XML config seems to be corrupted;ManualSettings-Objekt in Aufgabenkonfiguration nicht gefunden. XML-Konfiguration scheint fehlerhaft zu sein
+Cannot find ManualSettings object in selected file. Have you selected the right config file?;ManualSettings-Objekt in ausgewählter Datei nicht gefunden. Ist die richtige Konfigurationsdatei ausgewählt?
+Cannot save settings. Parameters element not found in xml config.;Einstellungen können nicht gespeichert werden. Parameter-Element in XML-Konfiguration nicht gefunden.
+Cannot save settings. ManualSettings element not found in xml config.;Einstellungen können nicht gespeichert werden. ManualSettings-Element in XML-Konfiguration nicht gefunden.
+Save variables settings;Variableneinstellungen speichern
+Pause;Pause
+Resume;Fortfahren
+Saving strategies;Speichere Strategien
+Removing strategies;Entferne Strategien
+Changing databank type;Ändere Datenbank-Typ
+Updating databank;Aktualisiere Datenbank
+Moving strategies to retester;Verschiebe Strategien zum Retester
+Action - %s;Aktion - %s
+Expected integer value;Erwarteter Ganzzahl-Wert
+Expected numeric value;Erwarteter numerischer Wert
+Property grid error. No properties found;Eigenschaftennetz-fehler. Keine Eigenschaften gefunden
+Property grid error. No categories found;Eigenschaftennetz-fehler. Keine Kategorien gefunden
+Properties error. Cannot get options for property '%s';Eigenschaftenfehler. Kann Optionen für Eigenschaft '%s' nicht abrufen
+Properties error. Unknown data type '%s';Eigenschaftenfehler. Unbekannter Datentyp '%s'
+Error saving settings. Cannot get parameter type of dataType '%s';Fehler beim Speichern der Einstellungen. Kann Parametertyp des Datentyps '%s' nicht abrufen
+L+S;L+S
+Lng;Lng
+Shr;Shr
+Sample;Sample
+Full;Vollständig
+Target file path;Ziel-Dateipfad
+Directory;Verzeichnis
+Browse;Durchsuchen
+File name;Dateiname
+Select target folder;Zielverzeichnis auswählen
+Filter items;Elemente filtern
+Advanced settings;Erweiterte Einstellungen
+for;für
+Create some tasks first;Erstelle zuerst Aufgaben
+{{tab.translatedTitle}};{{tab.translatedTitle}}
+cope.in;cope.in
+Cross checks (strategy robustness tests);Cross-Checks (Strategie-Robustheits-Tests)
+Cross checks perform additional backtests on the generated strategy;Cross-Checks führen zusätzliche Backtests der generierten Strategie aus
+Learn more;Mehr lernen
+Disable all cross checks;Alle Cross-Checks deaktivieren
+Est. time per strategy;Geschätzte Zeit pro Strategie
+of;von
+checks;Checks
+FAST;SCHNELL
+SLOW;LANGSAM
+VERY SLOW;SEHR LANGSAM
+CUSTOM;BENUTZERDEFINIERT
+Out of sample:;Out-of-sample:
+ranges;Bereiche
+Symbol '%s' doesn't exist;Symbol '%s' existiert nicht
+Instrument '%s' doesn't exist;Instrument '%s' existiert nicht
+Minimum value is;Minimalwert ist
+Maximum value is;Maximalwert ist
+Calling unknown action '%s';Rufe unbekannte Aktion '%s' ab
+Regeneration failed.;Regenerierung fehlgeschlagen.
+Cannot apply config to task '%s'. Invalid source task.;Konfiguration kann nicht auf Aufgabe '%s' angewandt werden. Ungültige Quellaufgabe.
+Cannot apply config to task '%s'. Source task doesn't contain any settings;Konfiguration kann nicht auf Aufgabe '%s' angewandt werden. Quellaufgabe enthält keine Einstellungen.
+Cannot apply config to task '%s'. Cannot find task with this name;Konfiguration kann nicht auf Aufgabe '%s' angewandt werden. Aufgabe mit diesem Namen nicht gefunden.
+Remote Access settings saved.;Fernzugriffs-Einstellungen gespeichert.
+SMTP settings saved.;SMTP-Einstellungen gespeichert.
+Please specify your email address.;Bitte gib deine E-Mail-Adresse an.
+Add new timeframe;Neuen Timeframe hinzufügen
+Seconds;Sekunden
+Minutes;Minuten
+Hours;Stunden
+Days;Tage
+Unknown timeframe prefix '%s';Unbekanntes Timeframe-Prefix '%s'
+What to parametrize;Was parametisieren?
+Specify which of the available parameters should be put into variables;Gib an, für welche der verfügbaren Parameter Variablen generiert werden sollen
+Exit params (SL, PT,...) only used;Ausstiegsparameter (SL, PT,...) nur verwendete
+Boolean params;Bool'sche Parameter
+Other params;Andere Parameter
+Exit params (SL, PT,...) also unused;Ausstiegsparameter (SL, PT,...) auch unverwendete
+Custom Project Notification;Benutzerdefinierte Projektbenachrichtigung
+Project continues with the next task.;Projekt fährt mit nächster Aufgabe fort.
+Project was paused and it is waiting for user action - you have to resume it to continue.;Projekt wurde pausiert und wartet auf Benutzeraktion - du musst es manuell fortsetzen.
+Go to project;Gehe zu Projekt
+Turn off notification sounds;Benachrichtigungstöne abschalten
+Global...;Global...
+Performance...;Leistung...
+Benchmark...;Messung...
+Remote access...;Fernzugriff...
+SMTP server...;SMTP-Server...
+Language;Sprache
+Zoom;Zoom
+SQX beta version page;SQX Betaversion Homepage
+Help center;Helpcenter
+Articles;Artikel
+Support;Unterstützung
+About;Über
+Exit;Beenden
+Performance;Leistung
+Performance - total cores available;Leistung - Verfügbare Prozessorkerne
+Single threaded - program runs tasks sequentially, one after another.;Einzelthread - Programm bearbeitet Aufgaben sequenziell, eine nach der anderen.
+This is slower, but consumes less memory.;Dies ist langsamer, verbraucht aber weniger Arbeitsspeicher.
+Custom number of cores;Benutzerdefinierte Anzahl Prozessorkerne
+Use thread affinity;Thread-Affinität verwenden
+Thread affinity means that every computing threads is bound to a fixed CPU core.;Thread-Affinität bedeutet, dass jeder Berechnungs-Thread an einen bestimmten Prozessorkern gebunden ist.
+This should prevent thread context switching and improve the performance.;Dies sollte Threadkontext-Sprünge verhindern und die Leistung verbessern.
+The real results may wary depending on your configuration.;Die realen Ergebnisse können abhängig von deiner Konfiguration abweichen.
+Memory and disk space;Arbeitsspeicher und Festplattenkapazität
+Maximum memory used;Maximal verwendeter Arbeitsspeicher
+GB;GB
+Don't store unfilled pending orders (Recommended);Nicht ausgelöste Pending Orders nicht speichern (Empfohlen)
+It is usually not necessary to keep unfilled pending orders(orders that expired;Es ist normalerweise nicht notwendig, nicht ausgelöste (abgelaufene) Pending Orders zu behalten.
+Use offheap memory;Offheap-Speicher verwenden
+Off-heap memory bypasses Java memory management for some allocated objects.;Offheap-Speicher umgeht die Java-Speicherverwaltung für einige alloziierte Objekte.
+It results in less frequent use of Java garbage collector, which might make program faster.;Hierdurch wird der Java Garbage Collector seltener verwendet, wodurch das Prgramm eventuell schneller wird.
+Actual results may vary, it depends a lot on your configuration.;Tatsäcliche Ergebnisse können abweichen, sie hängen stark von deiner Konfiguration ab.
+Using offheap memory could sometimes cause Java crashes - if you experience crashes turn it off.;Verwendung des Offheap-Speichers kann möglicherweise Java-Abstürze verursachen - wenn dies geschieht, schalte die Funktion ab.
+Display;Anzeige
+Accelerate internal browser using GPU;Internen browser mittels GPU beschleunigen
+You have to restart the program to apply the settings.;Du musst zum Übernehmen der Einstellungen das Program neustarten.
+Remote access;Fernzugriff
+Allow remote access;Fernzugriff erlauben
+By checking this you'll allow access to your StrategyQuant remotely from browser on a given URL address and port.;Hierdurch erlaubst du Zugriff auf dein StrategyQuant von einem entfernten Browser über eine gegebene URL-Adresse und Port
+Of course, StrategyQuant must be running in order to access it.;Natürlich muss StrategyQuant laufen, um darauf zuzugreifen.
+URL to access the system;URL zum Systemzugriff
+Require password;Passwort anfordern
+Password;Passwort
+Secure connection;Gesicherte Verbindung
+Certificate not installed;Zertifikat nicht installiert
+Install;Installieren
+SMTP;SMTP
+SMTP Server;SMTP-Server
+Port;Port
+Use secure (SSL) connection;Gesicherte (SSL) Verbindung verwenden
+Username;Benutzername
+Email from;E-Mail von
+Send test email;Test-E-Mail senden
+Email;E-Mail
+Send;Senden
+Snippets error;Snippets-Fehler
+Compilation of Snippets during program start failed. Program uses the old version of snippets, which may not be relevant.;Kompilierung der Snippets während des Programmstarts fehlgeschlagen. Programm verwendet veraltete Version der Snippets, welche möglicherweise nicht relevant sind.
+Please check what is wrong in Code Editor and recompile the Snippets.;Bitte überprüfe den Fehler im Code-Editor und rekompiliere die Snippets.
+Go to Code Editor;Gehe zum Code Editor
+Start build;Starte Generierung
+Build configuration was successfully loaded.;Generierungskonfiguration erfolgreich geladen.
+Do you want to start build?;Möchtest du die Generierung starten?
+StrategyQuant;StrategyQuant
+Problem with license? Click here.;Problem mit Lizenz? Hier klicken.
+Enter license number:;Lizenznummer eingeben:
+Verify license;Lizenz überprüfen
+or;oder
+Purchase license;Lizenz erwerben
+SQ Home page;SQ Homepage
+Copyright StrategyQuant 2017. All rights reserved.;Copyright StrategyQuant 2017. Alle Rechte vorbehalten.
+Hardware ID:;Hardware ID:
+Enter the remote access password;Fernzugriffs-Passwort eingeben
+Enter your password;Passwort eingeben
+Submit;Absenden
+Unauthorized access. Remote access is disabled.;Unauthorisierter Zugriff. Fernzugriff deaktiviert.
+ex;ex
+No result chosen - Double-click on result on databank to see the details;Kein Ergebnis ausgewählt - Doppelklicke auf ein Ergebnis in der Datenbank, um die Details zu sehen
+entry blocks;Einstiegsblöcke
+exit types;Ausstiegstypen
+Cross checks disabled;Cross-Checks deaktiviert
+No Cross checks configured;Keine Cross-Checks konfiguriert
+No data defined;Keine Daten definiert
+Delete from %s;Löschen von %s
+Copy from %s to %s;Kopieren von %s nach %s
+Move from %s to %s;Verschieben von %s nach %s
+with %d conditions;mit %d Bedingungen
+Go to %s with %d conditions;Gehe zu %s mit %d Bedingungen
+Send email to %s;E-Mail senden an %s
+Show popup;Popup anzeigen
+Wait for User Action;Auf Benutzeraktion warten
+Simple;Einfach
+Walk - Forward;Walk - Forward
+Walk - Forward matrix;Walk - Forward - Matrix
+Exit at end of day<br/>;Ausstieg am Tagesende<br/>
+Exit on Friday<br/>;Ausstieg am Freitag<br/>
+Limit time from %s to %s<br/>;Zeit begrenzen von %s bis %s<br/>
+Max trades per day: %d<br/>;Max. Trades pro Tag: %d<br/>
+No trading limits;Keine Trading-Begrenzungen
+Fitness: %s;Eignung: %s
+Cross check - Retest on additional markets;Cross-Check - Retest auf zusätzlichen Märkten
+Cross check - Monte Carlo retest;Cross-Check - Monte Carlo Retest
+Cross check - Monte Carlo manipulation;Cross-Check - Monte Carlo Manipulation
+Save best %d strategies;Die besten %d Strategien speichern
+Unknown settings;Unbekannte Einstellungen
+SL/PT not required;SL/PT nicht erforderlich
+SL;SL
+PT required;PT erforderlich
+ATR;ATR
+or fixed pips;oder feste Pips
+fixed pips;feste Pips
+Backtest options;Backtest-Optionen
+Money Management;Money Management
+Ranking & Filtering options;Ranking- & Filterungs-Optionen
+CrossChecks;Cross-Checks
+Filtering options;Filterungsoptionen
+Go to task options;Gehe zu Aufgabenoptionen
+Go to task;Gehe zur Aufgabe
+Notification options;Benachrichtigungsoptionen
+Optimization options;Optimierungsoptionen
+No Strategy selected.;Keine Strategie ausgewählt.
+%d tests with %d simulations;%d Tests mit %d Simulationen
+Retest on:;Erneut testen auf:
+%d more;%d mehr
+Higher precision: %s;Erhöhte Präzision: %s
+optimize Periods and Exit types;Perioden und Ausstiegstypen optimieren
+optimize Periods;Perioden optimieren
+optimize Exit types;Ausstiegstypen optimieren
+Out of sample: %f - %f %, runs: %f - %f;Out-of-sample: %f - %f %, Durchläufe: %f - %f
+In sample: %d - %d days, Out of sample: %d - %d days;In Sample: %d - %d Tage, Out-of-sample: %d - %d Tage
+OOS: %f - %f %, runs: %f - %f;OOS: %f - %f %, Durchläufe: %f - %f
+IS: %d - %d days, OOS: %d - %d days;IS: %d - %d Tage, OOS: %d - %d Tage
+Out of sample: %f %, runs: %d;Out-of-sample: %f %, Durchläufe: %d
+In sample: %d days, Out of sample: %d days;InSsample: %d Tage, Out-of-sample: %d Tage
+OOS: %f %, runs: %d;OOS: %f %, Durchläufe: %d
+IS: %d days, OOS: %d days;IS: %d Tage, OOS: %d Tage
+%d conditions;%d Bedingungen
+App XML error;Anwendungs XML-Fehler
+XML element 'Settings' not found;XML-Element 'Einstellungen' nicht gefunden
+Task XML error;Aufgaben XML-Fehler
+Corrupted XML - element 'Settings' not found;Fehlerhaftes XML - Element 'Einstellungen' nicht gefunden
+default value;Standardwert
+Number of results in databank;Anzahl Ergebnisse in Datenbank
+is bigger;ist größer
+is bigger or equal;ist größer oder gleich
+is equal;ist gleich
+is lower;ist kleiner
+is lower or equal;ist kleiner oder gleich
+Select file to load;Datei zum Laden auswählen
+Loading strategy file;Lade Strategiedatei
+You are going to load a new strategy to Optimizer.<br>Do you want to delete all existing results in the Optimizer databank?;Du bist dabei, eine neue Strategie in den Optimierer zu laden.<br>Möchtest du alle vorhandenen Ergebnisse in der Optimierungsdatenbank löschen?
+Config XML error;Konfigurations XML-Fehler
+Select the strategy to optimize and type of optimization;Wähle die Strategie zum Optimieren und den Optimierungstyp aus
+Exit params used;verwendete Ausstiegsparameter
+Exit params unused;Nicht verwendete Ausstiegsparameter
+Booleans;Bool'sche Ausdrücke
+Strategies that open at market price, they use almost all availablle signals and can produce a variety of trading approaches;Strategien, die zum Marktpreis eröffnen - sie nutzen fast alle verfügbaren Signale und können eine Vielzahl an Tradingmöglichkeiten produzieren
+Trend following (breakout) strategies that use stop orders to catch breakouts and go with the trend;Trendfolge- (Breakout-) Strategien, die Stop-Orders verwenden, um Breakouts abzufangen und mit dem Trend zu gehen
+Strategies that are exploiting reversal of price from extreme values to mean;Strategien, die die Rückkehr des Preises von Extremwerten ausnutzen, um
+Strategies using fuzzy logic rules - fuzzy rule has multiple conditions, but only a defined % of them must be valid in order for rule to be triggered;Strategien, die Fuzzy-Logic-Regeln verwenden - Fuzzy Regeln haben mehrere Bedingungen, aber nur ein definierter Prozentsatz davon muss gültig sein, damit die Regel angewandt wird
+Daily strategies that place high emphasis on their robustness in multiple markets;Daytrading-Strategien, die großen Wert auf Robustheit in mehreren Märkten legen
+Custom build settings are used.;Benutzerdefinierte Generierungseinstellungen werden verwendet..
+Choose one of the types above to apply standard settings.;Wähle einen der obenstehenden Typen, um die Standardeinstellungen anzuwenden.
+Order types;Orderarten
+Weight;Gewichtung
+No order types defined.;Keine Orderarten definiert.
+Exit types;Ausstiegsarten
+Required;Erforderlich
+No exit types defined.;Keine Ausstiegsarten definiert.
+Signals;Signale
+No signals defined.;Keine Signale definiert.
+All;Alle
+Reset to default;Auf Standard zurücksetzen
+Selected block has no parameters;Ausgewählter Block hat keine Parameter
+Cannot add random blocks - only %d blocks left unused;Kann keine Zufallsblöcke hinzufügen - nur %d nicht verwendete Blöcke übrig
+Saving settings failed. Block '%s' not found in the grid.;Speichern der Einstellungen fehlgeschlagen. Block '%s' nicht im Grid gefunden.
+Random generation;Zufallsgenerierung
+Genetic evolution;Genetische Evolution
+%d generations max / %d islands / %d per island;%d Generationen max. / %d Inseln / %d pro Insel
+Initial population used;Verwendete Anfangspopulation
+Restart on finish;Neustart nach Fertigstellung
+Conditions to generate: %d-%d;Zu generierende Bedingungen: %d-%d
+Indicator periods: %d-%d;Indikatorperioden: %d-%d
+Risk-Reward ratio error - From must be lower or equal To;Risk-Reward-Ratio Fehler - Von muss kleiner oder gleich zu sein
+Not required;Nicht erforderlich
+same ranges as SL;Selbe Bereiche wie SL
+Pips based:;Pips-basiert:
+pips;Pips
+ATR based: Coefficient:;ATR-basiert: Koeffizient:
+Risk-Reward Ratio limit:;Risk-Reward-Ratio Begrenzung:
+% SL;% SL
+Pips based: %d-%d pips;Pips-basiert: %d-%d Pips
+ATR based: Coefficient: %f-%f;ATR-basiert: Koeffizient: %f-%f
+Invalid Fuzzy Logic settings. Min value must be lower or equal to max value;Ungültige Fuzzy-Logic-Einstellungen. Minimalwert muss kleiner oder gleich Maximalwert sein
+SQX Signals;SQX-Signale
+SQX Signals with Fuzzy Logic, True conditions: %d-%d %;SQX-Signale mit Fuzzy-Logik, Erfüllte Bedingungen: %d-%d %
+Old SQ3 architecture;Alte SQ3-Architektur
+Both (Long & Short);Beide (Long & Short)
+No symmetry;Keine Symmetrie
+Entry symmetry;Einstiegssymmetrie
+Exit symmetry;Ausstiegssymmetrie
+Long only;Nur Long
+Short only;Nur Short
+Remove setup;Einstellungen entfernen
+Do you want to remove selected setup?;Möchtest du die ausgewählten Einstellungen entfernen?
+Symbol Name;Symbolname
+Instrument Specification;Instrumentenspezifikation
+Timezone;Zeitzone
+Date from;Datum von
+Date to;Datum bis
+Total Days;Tage insgesamt
+Total Records;Einträge insgesamt
+Source;Quelle
+Data type;Datentyp
+Timestamp represents start of bar time (MetaTrader, Dukascopy, forex data);Zeitstempel repräsentiert Anfang der Kerzenzeit (MetaTrader, Dukascopy, Forex-Daten)
+Timestamp represents end of bar time (NinjaTrader, Tradestation, futures data);Zeitstempel repräsentiert Ende der Kerzenzeit (NinjaTrader, Tradestation, Futures-Daten)
+You have to select a symbol.;Du musst ein Symbol auswählen.
+Do you want to remove selected symbols (%d) or only clear their data ?;Möchtest du die ausgewählten Symbole (%d) entfernen oder nur ihre Daten leeren ?
+Do you want to remove symbol '%s' or only clear its data ?;Möchtest du das Symbol '%s' entfernen oder nur seine Daten leeren ?
+You have to select some symbol.;Du musst irgendein Symbol auswählen.
+Symbol name cannot contain any special characters!;Symbolname darf keine Sonderzeichen enthalten!
+All data sources;Alle Datenquellen
+All data types;Alle Datentypen
+Reason to dismiss;Grund des Verwerfens
+Count;Anzahl
+% of all;% von allen
+Avg. time;Durchschn. Zeit
+Total time;Gesamtzeit
+Total tested;Insgesamt getestet
+Strategies generated;Generierte Strategien
+Ranking Criterium;Ranking-Kriterium
+Target;Ziel
+No items available.;Keine Elemente verfügbar.
+%s must be a number;%s muss eine Zahl sein
+Strategy Name;Strategiename
+Cannot get databank view;Kann Datenbankansicht nicht abrufen
+No results in databank.;Keine Ergebnisse in der Datenbank.
+Cannot delete records from databank when project is in loading/running state;Es können keine Einträge aus der Datenbank gelöscht werden, wenn das Projekt im ladenden/laufenden Zustand ist
+Error while removing reports.;Fehler beim Entfernen der Berichte.
+Strategy problems;Strategieprobleme
+New view saved.;Neue Ansicht gespeichert.
+View updated.;Ansicht aktualisiert.
+View deleted;Ansicht gelöscht
+Correlation matrix;Korelationsmatrix
+Overlapping trades;Überlappende Trades
+Computing portfolio correlation;Berechne Portfolio-Korelation
+No strategy selected.;Keine Strategie ausgewählt.
+Save source code;Quellcode speichern
+Copy to clipboard failed.;Kopieren in die Zwischenablage fehlgeschlagen.
+Code Editor;Code-Editor
+Data Manager;Dateimanager
+Grid Control;Grid-Control
+Grid test;Grid-Test
+Home;Home
+Neural Network Trainer;Neurales Netzwerk Trainer
+Custom Projects;Benutzerdefinierte Projekte
+Wizard;Assistent
+Monte Carlo retest;Monte Carlo-Retest
+Data are imported historical data into the program. Data manager allows you to import history from files, or to download it directly from online sources.<br/>Every data is linked with instrument that contains the definition of the imported symbol.;Import historischer Daten in das Programm. Der Dateimanager lässt dich Historiendaten aus Dateien importieren oder direkt aus Online-Quellen herunterladen.<br/>Jeder Datensatz ist mit dem instrument verbunden, das die Definition des importierten Symbols enthält.
+Instruments;Instrumente
+Instruments are symbol specifications. Here you specify what is their type, point value pip/tick size, etc.<br/>For example, you can have multiple EURUSD data imported from various sources, but they all share the same instrument - EURUSD.;Instrumente sins Symbolspezifikationen. Hier gibst du an, was ihr Typ, Punktwert, Pip-/Tickgröße usw. ist.<br/>Du kannst z.B. mehrere EURUSD-Datensätze aus verschiedenen Quellen importieren, doch sie  verwenden alle dasselbe Instrument - EURUSD.
+Sessions;Sessions
+Sessions are definitions of trading time, from market opening to market closing.<br/>Please note that they are not used and not supported in forex / MetaTrader, you can safely use Forex_247 session in MT4.;Sessions sind Definitionen der Tradingzeiten, von der Eröffnung bis zum Schließen des Marktes.<br/>Bitte beachte, dass sie nicht in Forex / MetaTrader verwendet oder unterstützt werden, du kannst problemlos die Forex_247-Session im MT4 verwenden.
+Dukascopy data;Dukascopy-Daten
+File import;Datei-Import
+Trades on chart;Trades auf dem Chart
+View;Ansicht
+Equity chart;Equitäts-Chart
+Overview;Übersicht
+Portfolio correlation;Portfolio-Korelation
+Monte Carlo tests;Monte Carlo Tests
+Source Code;Quellcode
+Strategy config;Strategiekonfiguration
+Trade analysis;Trade-Analyse
+List of trades;Liste der Trades
+Walk-Forward Results;Walk-Forward Ergebnisse
+Test indicators;Indikatoren testen
+Test indicator values between platforms;Indikatorenwerte zwischen Plattformen testen
+Here you can choose the building blocks that will be used to generate every strategy. You can affect the probability of choosing a block by increasing its weight.<br>Every block has also advanced parameter settings that allow you to modify how block parameters are generated or define some predefined parameter sets to choose from.;Hier kannst du die Blöcke auswählen, die zum Generieren der Strategien verwendet werden. Du kannst die Wahrscheinlichkeit für die Verwendung eines Blocks beeinflussen, indem du seine Gewichtung erhöhst.<br>Jede Block hat auch erweiterte Parameter-Einstellungen, mit denen du einstellen kannst, wie die Blockparameter generiert werden oder du kannst vordefinierte Parameter-Sets definieren.
+Cross checks (robustness);Cross-Checks (Robustheit)
+"Cross checks allow you to run a sequence of further tests (cross checks) once the strategy passes the basic filters.<br/>You can have strategy retested with higher precision or run a Monte Carlo simulation or Optimization on it.<br/><br/>If you define also filters, you can automatically dismiss strategies that will not pass the cross check filter - this allows you to create a ""strategy testing funnel"" where only the strategies that pass all the tests are saved (this applies only to Builder).";"Cross-Checks lassen dich eine Sequenz weiterer Tests ausführen (Cross-Checks), nachdem die Strategie die Basisfilter bestanden hat.<br/>Du kannst die Strategie erneut mit erhöhter Präzision testen lassen oder eine Monte Carlo Simulation oder Optimierung darauf ausführen.<br/><br/>Wenn du zusätzlich Filter definierst, kannst du automatisch Strategien verwerfen, die den Cross-Check-Filter nicht bestehen - so kannst du einen ""Strategietest-Trichter"" erstellen, in welchem nur die Strategien gespeichert werden, die alle Tests bestehen (dies trifft nur auf den Generator zu)."
+Configure trading engine, symbols and timeframes for the main backtest. You can configure also Out of sample (unseen) periods, and default spread, slippage, commissions.;Konfiguriere die Trading-Engine, Symbole und Timeframes für den Haupt-Backtest. Du kannst auch Out-of-sample (unbekannte) Perioden, und benutzerdefinierten Spread, Slippage, Kommissionen konfigurieren.
+Filter strategies;Strategien filtern
+Genetic options;Genetische Optionen
+Configure Genetic options;Genetische Optionen konfigurieren
+Configure initial capital and desired position sizing method.;Startkapital und gewünschte Positionsgrößen-Berechnungsmethode konfigurieren.
+Notes;Bemerkungen
+Save some notes about this configuration;Speichere Notizen über diese Konfiguration
+Notification / Pause;Benachrichtigung / Pause
+Choose strategy to optimize or alternatively optimize all strategies in source databank. You can also configure optimization type - simple or Walk-Forward.;Wähle die Strategie zum Optimieren aus oder optimiere alternativ alle Strategien in der Quelldatenbank. Du kannst auch den Optiierungstyp konfigurieren - einfach oder Walk-Forward.
+Trading options define behavior of the strategy and affect how and when strategy trades. You can limit trading time to a range, close the trade at the end of range or limit maximum trades per day.;Die Tradingoptionen definieren das Verhalten der Strategie und beeinflussen, wie und wann sie tradet. Du kannst die Tradingzeit begrenzen, die Trades am Ende eines Bereichs schließen oder die maximalen Trades pro Tag begrenzen.
+Choose which strategy parameters will be optimized. If you optimize all strategies in databank the parameters are configured in an automatic mode.<br/>You can choose which categoes of parameters will be optimized - periods, exit parameters (Stop Loss, Profit Target), numbers, nonstants..;Wähle die zu optimierenden Strategieparameter. Wenndu alle Strategien in der Datenbank optimierst, werden die Parameter im automatischen Modus konfiguriert.<br/>Du kannst auswählen, welche Kategorien vonParametern optimiert werden sollen - Perioden, Ausstiegsparameter (Stop Loss, Profit Target), Zahlen, Konstanten.
+Configure which parts of the strategy should be improved. You can further configure if you want to replace the whole part, or add new blocks to it.;Lege fest, welche Teile der Strategie verbessert werden sollen. Du kannst weiterhin einstellen, ob du den ganzen Teil ersetzen, oder neue Blöcke hinzufügen möchtest.
+Ranking;Ranking
+Define how strategy rank is computed and how many strategies to save to databank.<br/>If filtering is available you can configure filters the strategy has to pass before it is saved.;Lege fest, wie das Ranking der Strategien berechnet wird und wie viele Strategien in der Datenbank gespeichert werden.<br/>Falls verfügbar, kannst du Filter konfigurieren, die die Strategie bestehen muss, bevor sie gespeichert wird.
+Configure databank settings;Konfiguriere die Datenbank-Einstellungen
+Clone to timezone;Nach Zeitzone Klonen
+Mass delete;Massenlöschung
+Export to CSV;Nach CSV exportieren
+Export to MT4 (FXT & HST);Nach MT4 exportieren (FXT & HST)
+Export to MT5 data (99% test);Nach MT5 exportieren (99% test)
+View & Analyze;Anzeigen und analysieren
+Add new Dukascopy data symbol;Neues Dukascopy-Datensymbol hinzufügen
+Dukascopy Data Disclaimer;Dukascopy Daten Haftungsausschluss
+Download data for existing symbol;Daten für bestehendes Symbol herunterladen
+Import data from TickDownloader;Daten vom TickDownloader imprtieren
+Add symbol;Symbol hinzufügen
+Import file;Datei importieren
+3D Optimization Chart;3D Optimierungschart
+Add instrument;Instrument hinzufügen
+Add session;Session hinzufügen
+Build mode;Generierungs-Modus
+# of Conditions, Periods;Anzahl an Bedingungen, Perioden
+Profit Target;Profitziel
+Stop Loss;Stop Loss
+Strategy style;Strategie-Art
+Trading directions;Trading-Richtungen
+High;High
+Low;Low
+Volume;Volume
+Median;Median
+Typical;Typisch
+Weighted;Gewichtet
+Year Markers;Jahresmarkierungen
+Trend line;Trendlinie
+Choose Money Management method;Moneymanagement-Methode auswählen
+Choose Risk Management method;Riskomanagement-Methode auswählen
+Grid;Grid
+Number of simulations;Anzahl an Simulationen
+Additional backtest;Zusätzlicher Backtest
+Add backtest;Backtest hinzufügen
+Main test precision;Haupttest-Präzision
+Main test spread;Haupttest-Spread
+Cross check precision;Cross-Check-Präzision
+Cross check spread;Cross-Check-Spread
+Walk-Forward type:;Walk-Forward Typ:
+Floating;Fluss
+Fixed;Fest
+Optimize:;Optimieren:
+Maximum tests:;Maximale Tests:
+you can limit the number of tests WF optimization performs, and thus limit its duration;du kannst die Anzahl an Tests, die die WF-Optimierung durchführt, begrenzen, wodurch sich die Dauer reduziert
+Delete data;Daten löschen
+Clear data;Daten bereinigen
+Edit symbol;Symbol bearbeiten
+Data settings;Dateneinstellungen
+Data symbol name;Datensymbol-Name
+Bar type;Kerzentyp
+Strategy dismissal stats;Statistik verworfener Strategien
+Total test times per elements;Gesamttestdauer pro Element
+Total backtests performed (global);Backtests insgesamt ausgeführt (global)
+Auto scroll;Autoscroll
+Clear log;Log bereinigen
+Clear log on start;Log beim Start bereinigen
+Rejected;Verworfen
+Detailed;Details
+Accepted;Behalten
+Time per strategy;Zeit pro Strategie
+Time per accepted strategy;Zeit pro behaltener Strategie
+Accepted strategies per hour;Behaltene Strategien pro Stunde
+Running time so far;Laufzeit bisher
+In databank;In der Datenbank
+Total steps;Schritte insgesamt
+X Axis;X-Axe
+Trade;Trade
+Time;Zeit
+Drawdown;Drawdown
+Stagnation;Stagnation
+Equity;Equität
+Template;Vorlage
+Strategy is not a portfolio.;Strategie ist kein Portfolio.
+Correlation by;Korrelation mit
+Correlation of;Korrelation von
+Allow negative correlation;Negative Korrelation erlauben
+Add empty periods;Leere Perioden hinzufügen
+Compute;Berechnen
+Strategy doesn't have Monte Carlo tests stored.;Strategie hat keine Monte-Carlo-Tests gespeichert
+Test choice;Testauswahl
+Source code type;Quellcode-Typ
+Save to file;In Datei speichern
+Copy to clipboard;In Zwischenablage kopieren
+MM used;MM verwendet
+Put values to variables;Für Werte Variablen generieren
+Generate symmetric variables;Symmetrische Variablen generieren
+Strategy doesn't contain any setting.;Strategie enthält keine Einstellungen.
+Apply strategy config;Strategiekonfiguration anwenden
+Walk-Forward Optimization and Matrix Help;Walk-Forward-Optimierung und Matrix Hilfe
+Robustness score;Robustheits-Bewertung
+Number of Walk-Forward Optimization that passed;Anzahl an bestandenen Walk-Forward-Optimierungen
+Filter settings;Einstellungen filtern
+Robustness score is computed as a % of conditions that passed vs. all conditions;Die Robustheitsbewertung wird als Prozentsatz an Bedingungen berechnet, die bestanden wurden
+Default WF conditions;Standard WF-Bedingungen
+Display settings;Anzeigeeinstellungen
+Options;Optionen
+3D View;3D-Ansicht
+Top View;Draufsicht
+Results for;Ergebnisse für
+Display options;Anzeigeeinstellungen
+Value to display;Wert zum Anzeigen
+If you define any conditions here they will be evaluated after this cross check is computed.;Wenn du hier Bedingungen definierst, werden sie ausgewertet, nachdem dieser Cross-Check berechnet wurde.
+If strategy fails these conditions, it will be dismissed (thrown away) and no further cross check will be evaluated.;Wenn die Strategie diese Bedingungen nicht erfüllt, wird sie verworfen (gelöscht) und es wird kein weiterer Cross-Check ausgewertet.
+Robustness score must be >;Robustheitsbewertung muss > sein
+% to pass;% zum bestehen
+WF Matrix produces a table of X rows and Y columns, where each cell is a different WF optimization test.;WF-Matrix erzeugt eine Tabelle mit X Zeilen und Y Spalten, in welcher jede Zelle ein anderer WF-Optimierungstest ist.
+Filter passes when it finds an area of;Filter bestanden, wenn gefundener Bereich von
+rows and;Zeilen und
+columns;Spalten
+where at least;worunter mindestens
+results have robustness score >;Ergebnisse haben Robustheitsbewertungen >
+Cross check;Cross-Check
+Basic (fast);Grundlegend (schnell)
+Cross Check Settings;Cross-Check-Einstellungen
+Filters;Filter
+These cross checks require none or only one additional backtest, so they are fast.;Diese Cross-Checks erfordern keinen oder nur einen zusätzlichen Backtest, daher sind sie schnell.
+Standard (slow);Standard (langsam)
+Cross checks that require multiple additional backtests, thus multiplying the time of processing the whole strategy.;Cross-Checks, die mehrere zusätzliche Backtests erfordern, wodurch sich die Zeit zur Verarbeitung der gesamten Strategie vervielfältigt.
+Extensive (slowest);Ausgedehnt (am langsamsten)
+Walk-Forward process is very slow, it requires tens or even hundreds of repeated backtests of the strategy in different time ranges and settings.;Der Walk-Forward-Prozess ist sehr langsam, er erfordert zig oder gar hunderte wiederholter Backtests der Strategie unter verschiedenen Zeitrahmen und Einstellungen.
+Delete strategies in databank;Strategien in der Datenbank löschen
+Copy from one databank to another;Von einer Datenbank in eine andere kopieren
+Move from one databank to another;Von einer Datenbank in eine andere verschieben
+Databanks;Databanken
+Conditions;Bedingungen
+Apply to strategies that fit the conditions below;Auf Strategien anwenden, die die untenstehenden Bedingungen erfüllen
+Ignore strategies that fit the conditions below, apply to all others;Strategien ignorieren, die die untenstehenden Bedingungen erfüllen, auf alle übrigen anwenden
+Add new condition;Neue Bedingung hinzufügen
+Choose condition;Bedingung auswählen
+Condition parameters;Bedingungsparameter
+Databank:;Datenbank:
+Comparison:;Vergleich:
+Value:;Wert:
+No tasks defined.;Keine Aufgaben definiert.
+Task;Aufgabe
+When Conditions Below Are True;Wenn die untenstehenden Bedingungen zutreffen
+If no conditions exist then it is evaluated as true;"Wenn keine Bedingung existiert, wird es als ""wahr"" gewertet"
+Notification type;Benachrichtigungstyp
+Send email to;E-Mail senden an
+Notification allows you to be notified when project flow gets to a certain point.;Benachrichtigungen geben dir Bescheid, wenn der Projektfluss einen bestimmten Punkt erreicht.
+Pause project and wait for user action;Projekt pausieren und auf Benutzeraktion warten
+If checked the project will pause until you unpause it.;Falls ausgewählt, pausiert das Projekt, bis du es fortsetzt.
+This lets you do manual filtering of strategies or review of the project process.;So kannst du manuell filtern oder den Projektfortschritt begutachten.
+Retest all strategies from databank;Alle Strategien in der Datenbank erneut testen
+and store results in databank;und Ergebnisse in der Datenbank speichern
+If you choose a different databank to store the retested results, the strategies will be copied to the destination databank;Wenn du zum Speichern des neuen Testergebnisses eine andere Datenbank wählst, werden die Strategien in die Zieldatenbank kopiert
+Add new project;Neues Projekt hinzufügen
+Project name;Projektname
+Create;Erstellen
+Create new project;Neues Projekt erstellen
+Open existing project;Bestehendes Projekt öffnen
+Add new task;Neue Aufgabe hinzufügen
+Choose task type;Aufgabentyp wählen
+Confidence level;Verlässlichkeits-Niveau
+Clone to Timezone for;Nach Zeitzone klonen für
+Clone to Timezone creates a copy of the source data with all times recomputed in a different timezone.;"""Nach Zeitzone klonen"" erstellt eine Kopie der Quelldaten und rechnet alle Zeiten in eine andere Zeitzone um."
+"This way you can use one source data to create multiple ""clones"", each in its own timezone.";"So kannst du eine Quelldatei verwenden, um mehrere ""Klone"" zu erstellen, jeden in seiner eigene. Zeitzone."
+Source data symbol name;Name des Quelldaten-Symbold
+Source data timezone;Zeitzone der Quelldaten
+Cloned data symbol name;Name des geklonten Datensymbols
+Cloned data timezone;Zeitzone der geklonten Daten
+add fixed shift;Feste Verschiebung hinzufügen
+choose timezone;Zeitzone wählen
+Remove weekends;Wochenenden entfernen
+Proceed;Fortfahren
+Export data for;Daten exportieren für
+Choose data range to export;Datenbereich zum Exportieren wählen
+Select timeframe;Timeframe auswählen
+Select target;Ziel auswählen
+File prefix;Datei-Präfix
+Export;Exportieren
+Export to MetaTrader 4 FXT and HST for;Exportieren nach MetaTrader 4 FXT und HST für
+Please note that MT4 has file-size limit of maximum 4GB, it won't be able to process bigger data files.;Bitte beachte, dass der MT4 eine Dateigrößenbegrenzung von maximal 4GB hat, er kann keine größeren Dateien verarbeiten.
+Output folder;Augabeordner
+MT4 Installation;MT4-Installation
+MT4 Data Folder;MT4 Datenordner
+Server name;Servername
+Name in MT4;Name im MT4
+Load other MT4 data specification file;Datei mit anderer MT4-Datenspezifikation laden
+Start export;Export starten
+Export to MT5 data (99% history quality) for;Exportieren nach MT5-Daten (99% Historienqualität) für
+Select timeframe to export;Timeframe zum Exportieren wählen
+Tick data;Tickdaten
+M1 data;M1-Daten
+Use fixed spread;Festen Spread verwenden
+User real spread from Tick data;Echten Spread aus Tickdaten verwenden
+View data for;Daten anzeigen für
+Symbol name;Symbolname
+Instrument;Instrument
+Imported timeframe;Importierter Timeframe
+Imported records;Importierte Einträge
+View timeframe;Timeframe anzeigen
+session;Session
+Session End Means EOD;Session-Ende bedeutet EdT
+session template;Session-Vorlage
+Session name;Session-Name
+Add Mon-Fri;Mo-Fr hinzufügen
+Remove;Entfernen
+Note: Session times are based on exchange;Hinweis: Sessionzeiten unterliegen dem Austausch
+Add Dukascopy data;Dukascopy-Daten hinzufügen
+Choose from available data;Aus verfügbaren Daten auswählen
+Show types;Arten anzeigen
+Data postfix {Symbol};Daten-Postfix {Symbol}
+This postfix will be optionally added to the data names created;Dieses Postfix wird optional dem Namen der erstellten Daten hinzugefügt
+StrategyQuant CDN Data Disclaimer;StrategyQuant CDN Daten Haftungsausschluss
+Disclaimer;Haftungsausschluss
+In order to provide faster downloads for its clients StrategyQuant offers pre-packaged Dukascopy data for some of the symbols on its own CDN servers.;Um seinen Klienten schnellere Downloads zur Verfügung zu stellen, bietet StrategyQuant vorbereitete Dukascopy-Daten für einige Symbole auf seinen eigenen CDN-Servern an.
+The data availabe on SQ CDN were created from original Dukascopy data obtained from Dukascopy website. StrategyQuant does not guarantee that the data prepared on its CDN servers exactly match Dukascopy data.;Die auf SQ CDN verfügbaren Daten wurden aus original Dukascopy-Daten erstellt, bezogen von der Dukascopy Website. StrategyQuant garantiert nicht, dass die vorbereiteten Daten auf seinen CDN-Servern exakt den Dukascopy-Daten entsprechen.
+"The data are provided ""AS IS"", ""AS AVAILABLE"", ""WITH ALL ITS FAULTS"" and is offered without any covenants or any express, implied or statutory warranties including (without limitation and qualification) any warranties as to accuracy, functionality, performance, merchantability, quiet enjoyment, system integration, data accuracy or fitness for any particular purpose and any warranties arising from trade usage, course of dealing or course of performance.";"Die Daten werden ""WIE SIE SIND"", ""WIE VERFÜGBAR"", ""EINSCHLIßLICH JEGLICHER FEHLER"" und ohne Gewährleistung angeboten, es besteht keinerlei Garantie auf Akuratheit, Funktionalität, Leistung, Handelbarkeit oder ähnliches."
+Download Dukascopy data for;Dukascopy-Daten herunterladen für
+Choose data range to download;Datenbereich zum Herunterladen auswählen
+Redownload options;Optionen für erneutes Herunterladen
+Add only missing data;Nur fehlende Daten hinzufügen
+Overwrite existing data;Bestehende Daten überschreiben
+Fast Data Download;Schneller Datendownload
+Fast download from StrategyQuant CDN (10 x faster download);Schneller Download von StrategyQuant CDN (10 x schnellerer Download)
+If on, Dukascopy data will be downloaded from prepared packages on StrategyQuant CDN servers.;Wenn aktiv, werden die Dukascopy-Daten aus vorbereiteten Paketen von den StrategyQuant CDN-Servern heruntergeladen.
+Please not that pre-prepared packages are available only for part of the data.;Bitte beachte, dass vorbereitete Pakete nur für einen Teil der Daten zur Verfügung stehen.
+StrategyQuant CDN data disclaimer;StrategyQuant CDN-Daten Haftungsausschluss
+Start download;Download starten
+Import data from TickDownloader for;Daten aus TickDownloader importieren für
+If you have TickDownloader installation you can import the data directly from the TD downloaded data folders.;Wenn du den TickDownloader installiert hast, kannst du die heruntergeladenen Daten direkt aus den TD-Dateiordnern importieren.
+Please select your TickDownloader installation folder below.;Bitte wähle dein TickDownloader Installationsverzeichnis unten aus.
+TickDownloader Installation;TickDownloader-Installation
+Start import;Imprt starten
+Data import for;Datenimport für
+Choose file;Datei auswählen
+Data file;Datendatei
+Imported data timezone;Zeitzone der importierten Daten
+File format;Dateiformat
+Predefined file format;Vordefiniertes Dateiformat
+Skip;Überspringen
+rows;Zeilen
+Separator;Trennzeichen
+Date format;Datumsformat
+Start Import;Import starten
+Records;Einträge
+DATABANKS;DATENBANKEN
+STRATEGIES;STRATEGIEN
+#NAME?;#NAME?
+Strategy last test;Letzter Test der Strategie
+Project config;Projektkonfiguration
+Period by;Periode nach
+Open Time;Eröffnungszeit
+Close Time;Schlusszeit
+Text;Text
+Case sensitive;Groß-/Kleinschreibung
+Regular expression;Regulärer Ausdruck
+Whole word;Ganzes Wort
+Save as..;Speichern unter..
+Create new directory;Neues Verzeichnis erstellen
+Create new;Neu erstellen
+Rename file;Datei umbenennen
+Modify indicator parameters;Indikatorparameter ändern
+default:;Voreinstellung:
+Shift;Versatz
+Errors;Fehler
+Indicator tester;Indikatoren-Tester
+Bars to reserve;Zu reservierende Kerzen
+Test data folder;Testdaten-Ordner
+How to make an indicator test file;Wie man eine Indikator-Testdatei erstellt
+Download complete indicators tests;Vollständige Indikatoren-Tests herunterladen
+Number of bars to be ignored at the beginning of the file. This setting is necessary, because some indicators have a certain initialization period during which the values may not match.;Anzahl zu ignorierender Kerzen am Dateianfang. Diese Einstelung ist notwendig, weil einige Indikatoren eine bestimmte Initialisierungsperiode besitzen, während der die Werte möglicherweise nicht übereinstimmen.
+Add new test;Neuen Test hinzufügen
+New indicator test;Neuer Indikatorentest
+Select indicators to test;Indikatoren zum Testen auswählen
+Edit block;Block bearbeiten
+Randomly choose 100 blocks;Zufällig 100 Blöcke auswählen
+Add 10 random blocks;10 zufällige Blöcke hinzufügen
+Edit possible options;Mögliche Optionen bearbeiten
+Hide chart;Chart verbergen
+Show chart;Chart zeigen
+Add OOS;OOS hinzufügen
+Max # of Generations;Max. Anzahl an Generationen
+Population Size (per island);Populationsgröße (pro Insel)
+Crossover Probability;Keuzungswahrscheinichkeit
+Mutation Probability;Mutationswahrscheinlichkeit
+Islands options;Inseloptionen
+Islands (separate evolution);Inseln (Separate Evolution)
+Migrate every Xth generation, X =;Jede X-te Generation migrieren, X =
+Population migration rate;Populations-Migrations-Rate
+Initial population generation;Generierung der Ausgangspopulation
+Use strategies from Initial population databank as evolution start;Strategien aus der Ausgangspopulations-Datenbank zum Start der Evolution verwenden
+Required size;Erforderliche Größe
+if not used or not enough, rest will be generated;Wenn nicht verwendet oder nicht ausreichend, wird der Rest generiert
+Generated decimation coefficient;Generierter Dezimal-Koeffizient
+Filter generated initial population;Generierte Ausgangspopulation filtern
+Evolution management;Evolutions-Management
+Start again when finished (continuous repeating evolution);Nach Abschluss neustarten (fortlaufende, wiederholte Evolution)
+Restart evolution if fitness of;Evolution neustarten, wenn Eignung von
+stagnates for;stagniert für
+generation(s);Generation(en)
+Choose initial capital;Anfangskapital auswählen
+Initial capital;Anfangskapital
+Choose strategy to optimize;Strategie zum Optimieren auswählen
+Select strategy file;Strategiedatei auswählen
+All strategies in databank;Alle Strategien in der Datenbank
+Optimization settings;Optimierungseinstellungen
+Simple optimization;Einfache Optimierung
+Walk - Forward optimization;Walk - Forward Optimierung
+Store all optimizations into databank;Alle Optimierungen in der Datenbank speichern
+Store only best optimization;Nur die beste Optimierung speichern
+Build and Trading Options;Generierungs- und Tradingoptionen
+special parameter relation;Besondere Parameter-Relation
+Simple comparison;Einfacher Vergleich
+Comparison;Verlgeich
+Is between;Ist zwischen
+is between;ist zwischen
+and;und
+If - Then;Wenn - Dann
+If;Wenn
+Then;Dann
+Optimization method;Optimierungsmethode
+Parameter settings;Parameter-Einstellungen
+Manual;Manuell
+Automatic;Automatisch
+What to parametrize:;Was parametisieren:
+settings;Einstellungen
+Maximum optimizations:;Maximale Optimierungen:
+Total parameters combinations:;Parameter-Kombinationen insgesamt:
+Preset selected parameters with;Ausgewählte Parameter voreinstellen mit
+% distribution;% Verteilung
+Maximum steps:;Maximale Schritte:
+Special parameter relations;Besondere Parameter-Relationen
+Select/unselect all;Alle aus-/abwählen
+Choose parts to improve;Teile zum Verbessern auswählen
+Entry rules;Einstiegsregeln
+LONG;LONG
+SHORT;SHORT
+Exit rules;Ausstiegsregeln
+Note - If you want to change symmetry of entry or exit block, you can do it in What to build tab.;"Hinweis - wenn du die Symmetrie des Einstiegs- oder Ausstiegsblocks ändern möchtest, kannst du dies im Tab ""Was generieren"" tun."
+Strategy Quality ranking (fitness);Strategiequalitäts-Ranking (Eignung)
+Compute from;Berechnen von
+Configure automatic filter;Automatischen Filter konfigurieren
+Automatic filter should be used to dismiss strategies that are obviously wrong, for example don't;Der automatische Filter sollte verwendet werden, um Strategien zu verwerfen, die offensichtlich falsch sind, zum Beispiel nicht
+Dismiss strategies with these problems:;Strategien mit diesen Problemen verwerfen:
+Select all / Deselect all;Alle aus-/abwählen
+Maximum strategies to store in databank;Maximale Anzahl an Strategien in der Datenbank
+Stop generation when;Generierung stoppen wenn
+Never;Niemals
+Totally;Insgesamt
+strategies (that passed filters) were generated;Strategien (die die Filter bestehen) generiert wurden
+Databank is full (reached maximum capacity);die Datenbank voll ist (Maximalkapazität erreicht)
+Strategy filtering conditions;Strategiefilter-Bedingungen
+Configure which strategies will be saved into Results databank;Lege fest, welche Strategien in der Ergebnisdatenbank gespeichert werden
+Automatic filters;Automatische Filter
+Configure automatic dismissal;Automatisches Verwerfen konfigurieren
+Custom filters;Benutzerdefinierte Filter
+Cross check filters;Cross-Check Filter
+In addition to global filters you can filter out strategy also in cross checks.;Zusätzlich zu den globalen Filtern kannst du die Strategie auch in den Cross-Checks filtern.
+These filters are configured separately in every cross check method used.;Diese Filter werden separat in jeder verwendeten Cross-Check-Methode konfiguriert.
+Filter;Filter
+Output databank;Ausgabedatenbank
+Simple strategy [default];Einfache Strategie [Standard]
+Simple strategy running on one symbol and timeframe;Einfache Strategie, die auf einem Symbol und Timeframe läuft
+Multi-TF or multi-symbol strategy;Multi-TF oder Multi-Symbol-Strategie
+Strategy looking at main chart and;Strategie, die den Hauptchart betrachtet und
+additional charts. These can be just another timeframes of original chart or totally different symbols/TFs.;zusätzliche Chats. Dies können einfach andere Timeframes der Ausgangscharts sein oder völlig andere Symbole/TFs.
+It trades only on the main chart.;Tradet nur auf dem Hauptchart.
+Strategy from template;Strategie aus Vorlage
+Strategy created from the template;Strategie aus der Vorlage erstellt
+Improve some parts of existing strategy / strategies;Teile einer/mehrerer bestehender Strategie(n) verbessern
+Improve all strategies in databank;Alle Strategien in der Datenbank verbessern
+Additional build config;Zusätzliche Generierungskonfiguration
+Use predefined config or create your own in advanced settings;Verwende die vordefinierte Konfiguration oder erstelle in den erweiterten Einstellungen deine eigene
+Trend following;Trendfolge
+Mean reversal;Hauptrichtungs-Umkehr
+Fuzzy;Fuzzy
+Daily;Daily
+Custom config;Benutzerdefinierte Konfiguration
+Go to advanced settings;Gehe zu erweiterten Einstellungen
+What to do;Was tun
+Tasks;Aufgaben
+DATABANKS:;DATENBANKEN:
+STRATEGIES:;STRATEGIEN:
+Optimization type;Optimierungstyp
+Walk-forward;Walk-forward
+Walk-forward matrix;Walk-forward Matrix
+Out of sample %;Out-of-Sample %
+Walk Forward runs;Walk-Forward Durchläufe
+Strategy to optimize;Strategie zum Optimieren
+Chart is not available for tick data.;Chart ist nicht für Tickdaten verfügbar.
+Loading data...;Lade Daten...
+Summary;Zusammenfassung
+Issue;Fehler
+% of data;% der Daten
+Gaps;Lücken
+Spikes;Ausschläge
+Bad OHLC;Schlechtes OHLC
+Graphical view;Grafische Ansicht
+Detailed list;Detailliierte Liste
+Processing ...;Bearbeitung…
+Analyze data quality is not available for Tick and Intraday data.;Datenqualitäts-Analyse ist für Tick- und Intraday-Daten nicht verfügbar.
+Correlation based on;Korrelation basierend auf
+by;mit
+Correlation;Korrelation
+between;zwischen
+Number of overlapping trades;Anzahl überlappender Trades
+Manage;Verwalten
+StrategyQuant standard snippet - code locked;StrategyQuant Standard Snippet - Code gesperrt
+evolution of strategies from initial population using genetic programming;Evolution von Strategien aus Ausgangspopulation mittels genetischer Programmierung
+random generation of strategies without evolution;Zufällige Generierung von Strategien ohne Evolution
+Conditions to generate;Zu generierende Bedingungen
+Global Shift (lookback period);Globaler Versatz (Rückblickperiode)
+Global Indicators period;Globale Indikatorenperiode
+Min;Min
+Max;Max
+Use different settings for every chart;Für jeden Chart unterschiedliche Einstellungen verwenden
+Is it required?;Ist es erforderlich?
+Profit target is required;Profitziel ist erforderlich
+Profit target size;Profitziel-Größe
+Use same ranges as for Stop loss;Selben Bereich wie für Stop-Loss verwenden
+Min:;Min:
+Max:;Max:
+Fixed pips;Feste Pips
+ATR-based;ATR-basiert
+ATR Multiple;ATR-Vielfaches
+ATR Period;ATR-Periode
+Limit Risk-Reward (SL vs PT) ratio?;Risk-Reward (SL vs PT) Ratio begrenzen?
+Yes, Profit Target will be from;Ja, Profitziel von
+% to;% bis
+% of Stop loss size;% der Stop-Loss-Größe
+Stop loss is required;Stop-Loss ist erforderlich
+Stop loss size;Stop-Loss-Größe
+SQX Signals Style;Art der SQX-Signale
+SQX Signals Style with Fuzzy Logic;Art der SQX-Signale mit Fuzzy-Logik
+Minimum % of true conditions;Minimaler Prozentsatz erfüllter Bedingungen
+Old SQ3 Style;Alte SQ3-Art
+Strategy directions;Handelsrichtungen
+Both (Long and Short);Beide (Long und Short)
+Only Long;Nur Long
+Only Short;Nur Short
+Entry Symmetry;Einstiegssymmetrie
+Exit Symmetry;Ausstiegssymmetrie
+The UI is loading, please wait...;Das Benutzerinterface lädt, bitte warten…
+Projects;Projekte
+Data sources;Datenquellen
+Instrumets and Sessions;Instrumente und Sessions
+Welcome to StrategyQuant X;Willkommen zu StrategyQuant X
+StrategyQuant is a powerful strategy development platform that uses machine learning techniques and genetic programming to automatically generate new automated trading systems for any market or timeframe.;StrategyQuant ist eine kraftvolle Strategieentwicklungs-Plattform, die Maschinenlern-Techniken und genetische Programmierung verwendet, um neue, automatische Tradingsysteme für jeden Markt und Timeframe zu generieren.
+Start building new strategies by clicking on the button below.;Klicke auf den untenstehenden Button, um mit der Generierung neuer Strategien zu beginnen.
+Start Building Strategies;Beginne die Strategiegenerierung
+Getting started with StrategyQuant;Erste Schritte mit StrategyQuant
+Post-installation steps;Erste Schritte nach der Installation
+How StrategyQuant works;Wie StrategyQuant funktioniert
+Getting started with the program;Erste Schritte mit dem Programm
+Recommended workflow;Empfohlener Workflow
+User's Guide in PDF;Benutzerhandbuch als PDF
+What's New;Neuigkeiten
+StrategyQuant4 Release Candidate 4;StrategyQuant4 Release Kandidat 4
+Improved parallel processing and how orders are stored - it removed cause of Java crashes and made program run faster.;Verbesserung der parallelen Verarbeitung und Speicherung der Orders - dadurch werden Java-Abstürze verhindert und das Programm läuft schneller.
+Improved Walk-Forward optimization engine, now it should be faster and more reliable.;Verbesserte Walk-Forward Optimierungs-Engine, sie sollte jetzt schneller und verlässlicher arbeiten.
+Autoupdater in SQX should finally work correctly.;Der Autoupdater in SQX sollte nun endlich fehlerfrei arbeiten.
+Added support for other languages and translations.;Unterstützung für andere Sprachen und Übersetzungen hinzugefügt.
+Fixed numerous other reported issues.;Zahlreiche andere gemeldete Fehler beseitigt.
+Please check;Bitte überprüfen
+Roadmap;Roadmap
+for complete changelog of this release.;für vollständiges Changelog dieses Releases.
+Grid engine overview;Übersicht der Grid-Engine
+Auto-refresh every 3 seconds;Alle 3 Sekunden automatisch aktualisieren
+Jobs in progress;Laufende Aufgaben
+Waiting jobs;Wartende Aufgaben
+Last 100 finished jobs;Letzte 100 fertiggestellte Aufgaben
+Job ID;Aufgaben-ID
+Job group ID;Aufgabengruppen-ID
+Status;Status
+Created;Erstellt
+Started;Gestartet
+Run time;Laufzeit
+Progress;Fortschritt
+No jobs in progress.;Keine Aufgaben in Bearbeitung.
+No waiting jobs.;Keine wartenden Aufgaben.
+Duration;Dauer
+No finished jobs.;Keine fertiggestellten Aufgaben.
+Continuous;Fortlaufend
+One time;Einmalig
+Waiting;Wartend
+Running;Laufend
+Success;Erfolg
+Local grid;Lokales Grid
+Compilation;Kompilierung
+Compiling classes...;Kompiliere Klassen…
+Project '%s' has reached task '%s'.;Projekt '%s' hat Aufgabe '%s' erreicht.
+No results so far;Bisher keine Ergebnisse
+Best strategy so far;Beste Strategie bisher
+2nd Best strategy so far;Zweitbeste Strategie bisher
+3rd Best strategy so far;Drittbeste Strategie bisher
+Symbol '%s' doesn't contain any data;Symbol '%s' enthält keine Daten
+Preparing clone to timezone;Bereite Klonen nach Zeitzone vor
+multiple;mehrere
+Cancel export;Export abbrechen
+Do you want to keep the export file?;Möchtest du die Exportdatei behalten?
+Directory cannot be empty.;Verzeichnis darf nicht leer sein.
+Symbol '%s' doesn't have data in this range.;Symbol '%s' hat keine Daten in diesem Bereich.
+Preparing export to CSV;Bereite Export nach CSV vor
+Comma Separated File;Kommaseparierte Datei
+Select export file;Wähle die Exportdatei aus
+ExportData;ExportData
+You can choose only one symbol to export.;Du kannst nur ein Symbol zum Exportieren auswählen.
+Export to MT4 works only with TICK data.;Export nach MT4 funktioniert nur mit TICK-Daten.
+Select MT4 installation folder;MT4-Installationsverzeichnis auswählen
+Select MT4 Data folder;MT4-Datenverzeichnis auswählen
+Select MT4 data specification file;MT4-Datenspezifikationsdatei auswählen
+Preparing export to MT4;Bereite Export nach MT4 vor
+Export to MT5 works only with TICK and M1 data.;Export nach MT5 funktioniert nur mit TICK- und M1-Daten.
+Point value;Punktwert
+Pip/Tick size;Pip-/Tick-Größe
+Pip/Tick step;Pip-/Tick-Schritt
+Default spread;Standardspread
+Commissions;Kommissionen
+No instruments defined.;Keine Instrumente definiert.
+You have to select some record.;Du musst irgendeinen Eintrag auswählen.
+Are you sure you want to remove selected instruments (%d)?;Möchtest du die ausgewählten Instrumente (%d) wirklich entfernen?
+Are you sure you want to remove instrument '%s'?;Möchtest du das Instrument '%s' wirklich entfernen?
+Remove instruments;Instrumente entfernen
+Remove instrument;Instrument entfernen
+Session Name;Session-Name
+Start time;Startzeit
+End time;Endzeit
+SEOC;SEOC
+No session times defined.;Keine Sessionzeiten definiert.
+You must select at least one row;Du musst mindestens eine Zeile auswählen
+Yes;Ja
+No;Nein
+No session defined. Please define Monday session and try again;Keine Session definiert. Bitte definiere eine Montagssitzung und versuche es erneut
+No suitable Monday session found. Monday session must end on Monday or Tuesday;Keine passende Montagssitzung gefunden. Montagssitzung muss am Montag oder Dienstag enden
+You have to create Monday session element;Du musst ein Montagssitzungs-Element erstellen
+Changes not saved;Änderungen nicht gespeichert
+Do you really want to discard changes?;Möchtest du die Änderungen wirklich verwerfen?
+Session template name not filled;Name der Sessionvorlage nicht eingegeben
+No sessions defined;Keine Sessions definiert
+No session selected;Keine Session ausgewählt
+Removing session;Entferne Session
+Available data range;Verfügbarer Datenbereich
+No Dukascopy symbols available.;Keine Dukascopy-Symbole verfügbar.
+No symbols selected;Keine Symbole ausgewählt
+This option is available only for users with full licence, not for trial users.;Diese Option ist nur für Besitzer der Vollversion verfügbar, nicht in der Testversion.
+Preparing Dukascopy data import;Bereite Dukascopy-Datenimport vor
+You must select at least one Dukascopy record.;Du musst mindestens einen Dukascopy-Eintrag auswählen.
+Preparing TickDownloader data import;Bereite TickDownloader Datenimport vor
+Select TickDownloader data folder;Wähle das TickDownloader Datenverzeichnis aus
+You must select at least one File record.;Du musst mindestens einen Dateieintrag auswählen.
+Delete data format;Datenformat löschen
+New format error;Fehler in neuem Format
+Name cannot be empty;Name darf nicht leer sein
+Select file to import;Wähle die Datei zum Importieren aus
+ImportData;ImportData
+Select type for each column.;Wähle den Typ für jede Spalte aus
+Import error;Import-Fehler
+Preparing File data import;Import der Dateidaten wird vorbereitet
+Cancel import;Import abbrechen
+Do you really want to cancel the import?;Möchtest du den Import wirklich abbrechen?
+Cannot delete view.;Kann die Ansicht nicht löschen.
+No target chosen for applying settings.;Kein Ziel zur Anwendung der Einstellungen ausgewählt.
+Period;Periode
+Net Profit;Nettogewinn
+Profit Factor;Profit-Faktor
+# of trades;Anzahl an Trades
+% Wins;% Gewinne
+No annual stats available.;Keine Jahresstatistiken verfügbar.
+No trades data.;Keine Trades-Daten.
+Cannot delete view. %s;Kann die Ansicht %s nicht löschen.
+Tradelist view removed;Tradelisten-Ansicht entfernt
+Period IS;Periode IS
+Period OOS;Periode OOS
+Days IS;Tage IS
+Days OOS;Tage OOS
+# of trades IS;Anzahl an Trades IS
+# of trades OOS;Anzahl an Trades OOS
+Net Profit IS;Nettoprofit IS
+Net Profit OOS;Nettoprofit OOS
+Drawdown IS;Drawdown IS
+Drawdown OOS;Drawdown OOS
+Do you really want to set default conditions?<br>It will overwrite your current settings.;Möchtest du die Bedingungen wirklich auf die Voreinstellung zurücksetzen?<br>Dadurch werden deine aktuellen Einstellungen überschrieben.
+No data.;Keine Daten.
+No search results available.;Keine Suchergebnisse verfügbar.
+Searched '%s' - %d matches;Suchbegriff '%s' - %d Treffer
+File '%s' contains unsaved changes.<br>Do you really want to close it?;Die Datei '%s' enthält nicht gespeicherte Änderungen.<br>Möchtest du sie wirklich schließen?
+New file;Neue Datei
+New directory;Neues Verzeichnis
+Templates;Vorlagen
+Are you sure you want to remove this file?;Möchtest du diese Datei wirklich entfernem?
+Do you really want to refresh this file from disc? Unsaved changes will be lost.;Möchtest du diese Datei wirklich von der Festplatte aktualisieren? Nicht gespeicherte Änderungen gehen verloren.
+Indicator;Indikator
+Test file name;Name der Testdatei
+Exists?;Existiert?
+Decimals;Dezimalstellen
+Test result;Testergebnis
+No tests.;Keine Tests.
+Decimals count must be a number;Dezimalstellenwert muss eine Zahl sein
+SQ value;SQ-Wert
+Value from file;Wert aus Datei
+No errors.;Keine Fehler.
+Indicator '%s' not found;Indikator '%s' nicht gefunden
+Remove test;Test entfernen
+Do you want to remove test '%s'?;Möchtest du den Test '%s' wirklich entfernen?
+Remove tests;Tests entfernen
+Do you want to remove all tests?;Möchtest du alle Tests entfernen?
+Indicator tests successfully downloaded;Indikatorentests erfolgreich heruntergeladen
+Indicator tests download;Indikatorentests herunterladen
+Parameters settings;Parametereinstellungen
+Do you realy want to close parameters editation?<br>Your changes will be not saved;Möchtest du die Bearbeitung der Parameter wirklich schließen?<br>Deine Änderungen werden nicht gespeichert
+Cross check - %s settings cannot be displayed. Missing UI plugin.;Cross-Check - %s Einstellungen können nicht angezeigt werden. Fehlendes UI-Plugin.
+No Session;Keine Session
+Selected symbol ('%s') has no data.;Das ausgewählte Symbol ('%s') enthält keine Daten.
+Not enough space for new OOS period;Nicht genügend Platz für neue OOS-Periode
+Removing condition;Entferne Bedingung
+Are you sure you want to remove selected condition?;Möchtest du die ausgewählte Bedingung wirklich entfernen?
+Different parameter types used. Parameter '%s' is of type %s and '%s' is of type %s;Verschiedene Parametertypen verwendet. Parameter '%s' ist vom Typ %s und '%s' ist vom Typ %s
+Value cannot be empty;Wert darf nicht leer sein
+Incorrect value '%s'. Expected 'true' or 'false';Falscher Wert '%s'. Erwartet: 'true' oder 'false'
+Incorrect value '%s'. Expected integer value;Falscher Wert '%s'. Erwartet: Ganzzahl
+Incorrect value '%s'. Expected numeric value;Falscher Wert '%s'. Erwartet: numerischer Wert
+To use fitness '%s' you have to enable this cross check in Settings -> Cross checks.;Um Eignung '%s' zu verwenden, musst du diesen Cross-Check unter Einstellungen -> Cross-Checks aktivieren.
+ethod.na;ethod.na
+Records limit reached;Maximale Einträge erreicht
+Max records is set to a number lower than the current number of records in the databank. <br/><br/>Do you want to delete the overabundant records? If you click No, this change will be not applied.;Die maximalen Einträge werden durch eine Zahl definiert, die kleiner ist, als die aktuelle Anzahl an Einträgen in der Datenbank. <br/><br/>Möchtest du die überschüssigen Einträge löschen? Wenn du auf Nein klickst, wird diese Änderung nicht angewandt.
+Changing max records value...;Ändere Anzahl maximaler Einträge...
+Deleting overabundant results...;Lösche überschüssige Einträge...
+Ranking & Filtering;Ranking & Filterung
+SQX Template Files;SQX Vorlage-Dateien
+SQX Strategy Files;SQX Strategie-Dateien
+Settings reset;Einstellungen zurücksetzen
+Do you want to reset your settings to '%s' strategy type?;Möchtest du deine Einstellungen auf Strategietyp '%s' zurücksetzen?
+With %d condition(s);Mit %d Bedingung(en)
+Remove project;Projekt entfernen
+Are you sure you want to remove '%s' project?;Möchtest du das Projekt '%s' wirklich entfernen?
+SQX Project Files;SQX Projekt-Dateien
+Save project;Projekt speichern
+Cannot change tasks flow while the project is running;Kann Aufgabenfluss nicht ändern, während das Projekt gerade läuft
+Retest options;Retest-Optionen
+Condition that is always false.;Bedingung, die immer falsch ist.
+Always False;Immer falsch
+Condition that is always true.;Bedingung, die immer wahr ist.
+Always True;Immer wahr
+Date of bar (in broker time), comparable with GetDate() function;Datum der Kerze (zur Broker-Zeit), vergleichbar mit der GetDate()-Funktion
+Sunday=0,Monday=1,Tuesday=2,Wednesday=3,Thursday=4,Friday=5,Saturday=6;Sonntag=0,Montag=1,Dienstag=2,Mittwoch=3,Donnerstag=4,Freitag=5,Samstag=6
+DayOfWeek[#Shift#];DayOfWeek[#Shift#]
+Bar[#Shift#] day of week = #Day#;Kerze[#Shift#] Wochentag = #Day#
+Bar[#Shift#] day of week != #Day#;Kerze[#Shift#] Wochentag != #Day#
+Hour[#Shift#];Stunde[#Shift#]
+Bar[#Shift#] hour is #Hour#;Kerze[#Shift#] Stunde ist #Hour#
+Minute[#Shift#];Minute[#Shift#]
+Bar[#Shift#] minute is #Minute#;Kerze[#Shift#] Minute ist #Minute#
+Time of given bar;Zeit der jeweiligen Kerze
+Time[#Shift#];Zeit[#Shift#]
+Bar[#Shift#] time is #Hour#:#Minute#;Kerze[#Shift#] Zeit ist #Hour#:#Minute#
+Current date (in broker time), comparable with GetDate() function;Aktuelles Datum (zur Broker-Zeit), vergleichbar mitb der GetDate()-Funktion
+Current day of week (in broker time). Sunday=0,Monday=1,Tuesday=2,Wednesday=3,Thursday=4,Friday=5,Saturday=6;Aktueller Wochentag (zur Broker-Zeit). Sonntag=0,Montag=1,Dienstag=2,Mittwoch=3,Donnerstag=4,Freitag=5,Samstag=6
+Current day of week is #Day#;Aktueller Wochentag ist #Day#
+Current hour (in broker time);Aktuelle Stunde (zur Broker-Zeit)
+Current hour is #Hour#;Aktuelle Stunde ist #Hour#
+Current minute (in broker time);Aktuelle Minute (zur Broker-Zeit)
+Current minute is #Minute#;Aktuelle Minute ist #Minute#
+Current time (in broker time);Aktuelle Zeit (zur Broker-Zeit)
+Current time is #Hour#:#Minute#;Aktuelle Zeit ist #Hour#:#Minute#
+Is triggered on bar open. This happens only once during the bar, so you can use this condition for strategies that should open the trade only on bar opening.;Wird bei Kerzeneröffnung ausgelöst. Dies geschieht nur einmal pro Kerze, du kannst diese Bedingung daher für Strategien verwenden, die Trades nur bei Kerzenöffnung öffnen.
+Is Bar Open;Ist Kerzeneröffnung
+IsBarOpen;IsBarOpen
+Is triggered when BearishEngulfing pattern is formed;Wird ausgelöst, wenn BearishEngulfing-Muster sich gebildet hat
+BearishEngulfing pattern;BearishEngulfing-Muster
+BearishEngulfing pattern before #Shift# bars;BearishEngulfing-Muster vor #Shift# Kerzen
+Is triggered when BullishEngulfing pattern is formed;Wird ausgelöst, wenn BullishEngulfing-Muster sich gebildet hat
+BullishEngulfing pattern;BullishEngulfing-Muster
+BullishEngulfing pattern before #Shift# bars;BullishEngulfing-Muster vor #Shift# Kerzen
+Is triggered when DarkCloud pattern is formed;Wird ausgelöst, wenn DarkCloud-Muster sich gebildet hat
+DarkCloud pattern;DarkCloud-Muster
+DarkCloud pattern before #Shift# bars;DarkCloud-Muster vor #Shift# Kerzen
+Is triggered when Doji pattern is formed;Wird ausgelöst, wenn Doji-Muster sich gebildet hat
+Doji pattern;Doji-Muster
+Doji pattern before #Shift# bars;Doji-Muster vor #Shift# Kerzen
+Is triggered when Hammer pattern is formed;Wird ausgelöst, wenn Hammer-Muster sich gebildet hat
+Hammer pattern;Hammer-Muster
+Hammer pattern before #Shift# bars;Hammer-Muster vor #Shift# Kerzen
+Is triggered when PiercingLine pattern is formed;Wird ausgelöst, wenn PiercingLine-Muster sich gebildet hat
+PiercingLine pattern;PiercingLine-Muster
+PiercingLine pattern before #Shift# bars;PiercingLine-Muster vor #Shift# Kerzen
+Is triggered when ShootingStar pattern is formed;Wird ausgelöst, wenn ShootingStar-Muster sich gebildet hat
+ShootingStar pattern;ShootingStar-Muster
+ShootingStar pattern before #Shift# bars;ShootingStar-Muster vor #Shift# Kerzen
+Crosses Above;Kreuzt nach oben
+#Left# crosses above #Right#;#Left# kreuzt #Right# nach oben
+Crosses Below;Kreuzt nach unten
+#Left# crosses below #Right#;#Left# kreuzt #Right# nach unten
+(=) Equals;(=) Ist gleich
+#Left# = #Right#;#Left# = #Right#
+Number of bars the value has to be falling;Anzahl an Kerzen, die der Wert gefallen sein muss
+If set to true, then indicator doesn't have to be falling all the time, it can have some values that are equal (but it cannot be rising);Falls auf TRUE gesetzt, muss der Indikator nicht ununterbrochen gefallen sein, sondern kann einige gleiche Werte beinhalten (darf aber nicht gestiegen sein)
+Is falling;Fällt
+#Indicator# is falling;#Indicator# fällt
+Bars falling;Kerzen fallend
+Falling properties;Fallend: Eigenschaften
+Allow same values;Gleiche Werte zulassen
+(>) Is greater;(>) Ist größer
+#Left# > #Right#;#Left# > #Right#
+(>=) Is greater or equal;(>=) Ist größer oder gleich
+#Left# >= #Right#;#Left# >= #Right#
+(<) Is lower;(<) Ist kleiner
+#Left# < #Right#;#Left# < #Right#
+(<=) Is lower or equal;(<=) Ist kleiner oder gleich
+#Left# <= #Right#;#Left# <= #Right#
+Number of bars the value has to be rising;Anzahl an Kerzen, die der Wert gestiegen sein muss
+If set to true, then indicator doesn't have to be rising all the time, it can have some values that are equal (but it cannot be falling);Falls auf TRUE gesetzt, muss der Indikator nicht ununterbrochen gestiegen sein, sondern kann einige gleiche Werte beinhalten (darf aber nicht gefallen sein)
+Is rising;Steigt
+#Indicator# is rising;#Indicator# steigt
+Bars rising;Kerzen steigend
+Rising properties;Steigend: Eigenschaften
+Not;Nicht
+Not #Value#;Nicht #Value#
+(<>) Not equals;(<>) Ungleich
+#Left# <> #Right#;#Left# <> #Right#
+Absolute value of a number;Absoluter Wert einer Zahl
+(ABS) Absolute value;(ABS) Absoluter Wert
+Abs(#Value#);Abs(#Value#)
+Converts real pips value (for example 0.002) to pips that can be used in stop loss or profit target. Example: converts 0.002 to 20. This is an opposite function to ConvertToRealPips();Konvertiert echten Pip-Wert (z.B. 0.002) in Pips, die für Stop-Loss oder Profitziel verwendet werden können. Beispiel: Konvertiert 0.002 in 20. Dies ist die gegenteilige Funktion zu ConvertToRealPips()
+(2PIP) ConvertToPips;(2PIP) ConvertToPips
+ConvertToPips(#Value#);ConvertToPips(#Value#)
+Converts number to real pips that can be used as price level for price, stop loss or profit target. Example: converts 20 to 0.002. This is an opposite function to ConvertToPips();Konvertiert eine Zahl in echte Pips, die als Preislevel, für den Preis, Stop-Loss oder als Profitziel verwendte werden können. Beispiel: Konvertiert 20 in 0.002. Dies ist die gegenteilige Funktion zu ConvertToPips()
+(2RPIP) ConvertToRealPips;(2RPIP) ConvertToRealPips
+ConvertToRealPips(#Value#);ConvertToRealPips(#Value#)
+Call your own function. You can specify any MQL command here or call a function defined in /Code/CustomFunctions.mq4 file. You are responsible for using the function correctly;Rufe deine eigene Funktion auf. Du kannst hier jeden MQL-Befehl angeben oder eine Funktion aufrufen, die in der Datei /Code/CustomFunctions.mq4 definiert ist. Du bist dafür verantwortlich, die Funktion korrekt zu verwenden
+(CUST) Custom function;(CUST) Benutzerdefinierte Funktion
+#Function#;#Function#
+(/) Division;(/) Division
+(#Left# / #Right#);(#Left# / #Right#)
+Exponential value of a number;Exponenzieller Wert einer Zahl
+(EXP) Exponential;(EXP) Exponenziell
+Exponential(#Value#);Exponenziell(#Value#)
+Returns day as YYYYMMDD number, comparable with Bar Time or Current Time values;Gibt einen Tag als YYYYMMDD Zahl zurück, vergleichbar mit der Kerzenzeit oder dem aktuellen Zeitwert
+(DATE) GetDate;(DATE) GetDate
+GetDate(#Day#, #Month#, #Year#);GetDate(#Day#, #Month#, #Year#)
+Returns time as HHMMNN number, comparable with Bar Time or Current Time values;Gibt die Zeit als HHMMNN Zahl zurück, vergleichbar mit der Kerzenzeit oder dem aktuellen Zeitwert
+(TIME) GetTime;(TIME) GetTime
+GetTime(#Hour#, #Minute#, #Second#);GetTime(#Hour#, #Minute#, #Second#)
+Highest value of indicator in given period;Höchster Wert des Indikators in gegebener Periode
+Period (bars back) in which indicator highest value is checked;Periode (Kerzenrückblick) in welcher der höchste Indikatorenwert gemessen wird
+Nth highest value in given period. ) means highest value, 1 means second highest value, etc.;Nt-höchster Wert in gegebener Periode. ) bedeutet Höchstwert, 1 bedeutet zweithöchster usw.
+(IH) Indicator Highest Value;(IH) Indikator-Höchstwert
+Indicator Highest(#NthValue#, #Period#, #Indicator#);Indikator-Höchstwert(#NthValue#, #Period#, #Indicator#)
+Nth highest value;Nt-höchster Wert
+Lowest value of indicator in given period;Niedrigster Wert des Indikators in gegebener Periode
+Period (bars back) in which indicator lowest value is checked;Periode (Kerzenrückblick) in welcher der niedrigste Indikatorenwert gemessen wird
+Nth lowest value in given period. ) means lowest value, 1 means second lowest value, etc.;Nt-niedrigster Wert in gegebener Periode. ) bedeutet Minimalwert, 1 bedeutet zweitniedrigster usw.
+(IL) Indicator Lowest Value;(IL) Indikator-Minimalwert
+Indicator Lowest(#NthValue#, #Period#, #Indicator#);Indikator-Minimalwert(#NthValue#, #Period#, #Indicator#)
+Nth lowest value;Nt-niedrigster Wert
+(LOG) Log;(LOG) Log
+Log(#Value#);Log(#Value#)
+Maximum of two values;Maximum von zwei Werten
+(MAX) Maximum;(MAX) Maximum
+Max(#Value1#, #Value2#);Max(#Value1#, #Value2#)
+Minimum of two values;Minimum von zwei Werten
+(MIN) Minimum;(MIN) Minimum
+Min(#Value1#, #Value2#);Min(#Value1#, #Value2#)
+(-) Minus;(-) Minus
+(#Left# - #Right#);(#Left# - #Right#)
+(*) Multiplication;(*) Multiplikation
+(#Left# * #Right#);(#Left# * #Right#)
+(+) Plus;(+) Plus
+(#Left# + #Right#);(#Left# + #Right#)
+Returns the most recent value of indicator in the last X bars.;Gibt den aktuellsten Wert des Indikators in den letzten X Kerzen zurück.
+Number of bars back for which the indicator value is checked;Anzahl an vergangenen Kerzen, für die der Indikatorwert geprüft wird
+Recent(#Indicator#);Zuletzt(#Indicator#)
+Rounds value to given decimal places;Rundet den Wert auf gegebene Dezimalstellenanzahl
+(RND) Round;(RND) Runden
+Round(#Value#, #Decimals#);Runden(#Value#, #Decimals#)
+(SQRT) Sqrt;(SQRT) Quadratwurzel
+Sqrt(#Value#);Quadratwurzel(#Value#)
+(ADX) Average Directional Movement Index;(ADX) Average Directional Movement Index
+ADX(#Period#, #Line#)[#Shift#];ADX(#Period#, #Line#)[#Shift#]
+Input;Eingabe
+Is triggered if ADX changes direction downwards;Wird ausgelöst, wenn der ADX die Richtung nach unten ändert
+(ADX) ADX changes direction downwards;(ADX) ADX ändert die Richtung nach unten
+ADX(#Period#) changes direction downwards;ADX(#Period#) ändert die Richtung nach unten
+Is triggered if ADX changes direction upwards;Wird ausgelöst, wenn der ADX die Richtung nach oben ändert
+(ADX) ADX changes direction upwards;(ADX) ADX ändert die Richtung nach oben
+ADX(#Period#) changes direction upwards;ADX(#Period#) ändert die Richtung nach oben
+(ADX) ADX crosses below Level;(ADX) ADX kreuzt Ebene nach unten
+ADX(#Period#) crosses below #Level#;ADX(#Period#) kreuzt #Level# nach unten
+(ADX) ADX crosses above Level;(ADX) ADX kreuzt Ebene nach oben
+ADX(#Period#) crosses above #Level#;ADX(#Period#) kreuzt #Level# nach oben
+Is triggered if ADX is falling;Wird ausgelöst, wenn der ADX fällt
+(ADX) ADX is falling;(ADX) ADX fällt
+ADX(#Period#) is falling;ADX(#Period#) fällt
+(ADX) ADX is higher than Level;(ADX) ADX ist höher als die Ebene
+ADX(#Period#) > #Level#;ADX(#Period#) > #Level#
+(ADX) ADX is lower than Level;(ADX) ADX ist niedriger als die Ebene
+ADX(#Period#) < #Level#;ADX(#Period#) < #Level#
+Is triggered if ADX is rising;Wird ausgelöst, wenn der ADX steigt
+(ADX) ADX is rising;(ADX) ADX steigt
+ADX(#Period#) is rising;ADX(#Period#) steigt
+(AO) Aroon;(AO) Aroon
+Aroon(#Period#).#Line#[#Shift#];Aroon(#Period#).#Line#[#Shift#]
+Is triggered if Aroon Up crosses above Aroon Down;Wird ausgelöst, wenn Aroon Up Aroon Down nach oben kreuzt
+(AO) Aroon Up crosses above Aroon Down;(AO) Aroon Up kreuzt Aroon Down nach oben
+Aroon(#Period#).Up crosses above Aroon Down;Aroon(#Period#).Up kreuzt Aroon Down nach oben
+Is triggered if Aroon Up crosses below Aroon Down;Wird ausgelöst, wenn Aroon Up Aroon Down nach unten kreuzt
+(AO) Aroon Up crosses below Aroon Down;(AO) Aroon Up kreuzt Aroon Down nach unten
+Aroon(#Period#).Up crosses below Aroon Down;Aroon(#Period#).Up kreuzt Aroon Down nach unten
+Is triggered if Aroon Down falls from top and Aroon Up is around middle of the range;Wird ausgelöst, wenn Aroon Down vom Maximalwert abfällt und Aroon Up sich im mittleren Bereich befindet
+(AO) Aroon Down falls from top;(AO) Aroon Down fällt vom Maximalwert ab
+Aroon(#Period#).Down falls from top;Aroon(#Period#).Down fällt vom Maximalwert ab
+Is triggered if Aroon Up rises from bottom and Aroon Down is around middle of the range;Wird ausgelöst, wenn Aroon Up vom Minimmalwert aufsteigt und Aroon Down sich im mittleren Bereich befindet
+(AO) Aroon Up rises from bottom;(AO) Aroon Up steigt vom Minimalwert auf
+Aroon(#Period#).Up rises from bottom;Aroon(#Period#).Up steigt vom Minimalwert auf
+(ATR) Average True Range;(ATR) Average True Range
+ATR(#Period#)[#Shift#];ATR(#Period#)[#Shift#]
+Is triggered if ATR changes direction downwards;Wird ausgelöst, wenn der ATR die Richtung nach unten ändert
+(ATR) ATR changes direction downwards;(ATR) ATR ändert die Richtung nach unten
+ATR(#Period#) changes direction downwards;ATR(#Period#) ändert die Richtung nach unten
+Is triggered if ATR changes direction upwards;Wird ausgelöst, wenn der ATR die Richtung nach oben ändert
+(ATR) ATR changes direction upwards;(ATR) ATR ändert die Richtung nach oben
+ATR(#Period#) changes direction upwards;ATR(#Period#) ändert die Richtung nach oben
+(ATR) ATR crosses below Level;(ATR) ATR kreuzt die Ebene nach unten
+ATR(#Period#) crosses below #Level#;ATR(#Period#) kreuzt die Ebene #Level# nach unten
+(ATR) ATR crosses above Level;(ATR) ATR kreuzt die Ebene nach oben
+ATR(#Period#) crosses above #Level#;ATR(#Period#) kreuzt die Ebene #Level# nach oben
+Is triggered if ATR is falling;Wird ausgelöst, wenn der ATR fällt
+(ATR) ATR is falling;(ATR) ATR fällt
+ATR(#Period#) is falling;ATR(#Period#) fällt
+(ATR) ATR is higher than Level;(ATR) ATR ist höher als die Ebene
+ATR(#Period#) > #Level#;ATR(#Period#) > #Level#
+(ATR) ATR is lower than Level;(ATR) ATR ist niedriger als die Ebene
+ATR(#Period#) < #Level#;ATR(#Period#) < #Level#
+Is triggered if ATR is rising;Wird ausgelöst wenn der ATR steigt
+(ATR) ATR is rising;(ATR) ATR steigt
+ATR(#Period#) is rising;ATR(#Period#) steigt
+(AV) Average Volume;(AV) Average Volume
+AV(#Period#)[#Shift#];AV(#Period#)[#Shift#]
+(AV) Average Volume is falling;(AV) Average Volume fällt
+AV(#Period#)[#Shift#] is falling;AV(#Period#)[#Shift#] fällt
+(AV) Average Volume is rising;(AV) Average Volume steigt
+AV(#Period#)[#Shift#] is rising;AV(#Period#)[#Shift#] steigt
+Is triggered if Volume is falling;Wird ausgelöst, wenn Volume fällt
+(VOL) Volume is falling;(VOL) Volume  fällt
+Volume is falling;Volume fällt
+Is triggered if Volume is rising;Wird ausgelöst, wenn Volume steigt
+(VOL) Volume is rising;(VOL) Volume steigt
+Volume is rising;Volume steigt
+(AWO) Awesome Oscillator;(AWO) Awesome Oscillator
+AwesomeOscillator()[#Shift#];AwesomeOscillator()[#Shift#]
+Is triggered if AWO changes direction downwards;Wird ausgelöst, wenn AWO die Richtung nach unten ändert
+(AWO) Awesome Oscillator changes direction downwards;(AWO) Awesome Oscillator ändert die Richtung nach unten
+AwesomeOscillator() changes direction downwards;AwesomeOscillator() ändert die Richtung nach unten
+Is triggered if Awesome Oscillator changes direction upwards;Wird ausgelöst, wenn AWO die Richtung nach oben ändert
+(AWO) Awesome Oscillator changes direction upwards;(AWO) Awesome Oscillator ändert die Richtung nach oben
+AwesomeOscillator() changes direction upwards;AwesomeOscillator() ändert die Richtung nach oben
+(AWO) Awesome Oscillator crosses below Level;(AWO) Awesome Oscillator kreuzt die Ebene nach unten
+AwesomeOscillator() crosses below #Level#;AwesomeOscillator() kreuzt die Ebene #Level# nach unten
+(AWO) Awesome Oscillator crosses above Level;(AWO) Awesome Oscillator kreuzt die Ebene nach oben
+AwesomeOscillator() crosses above #Level#;AwesomeOscillator() kreuzt die Ebene #Level# nach oben
+Is triggered if Awesome Oscillator is falling;Wird ausgelöst, wenn Awesome Oscillator fällt
+(AWO) Awesome Oscillator is falling;(AWO) Awesome Oscillator fällt
+AwesomeOscillator() is falling;AwesomeOscillator() fällt
+(AWO) Awesome Oscillator is higher than Level;(AWO) Awesome Oscillator ist höher als die Ebene
+AwesomeOscillator() > #Level#;AwesomeOscillator() > #Level#
+(AWO) Awesome Oscillator is lower than Level;(AWO) Awesome Oscillator ist niedriger als die Ebene
+AwesomeOscillator() < #Level#;AwesomeOscillator() < #Level#
+Is triggered if Awesome Oscillator is rising;Wird ausgelöst, wenn der Awesome Oscillator steigt
+(AWO) Awesome Oscillator is rising;(AWO) Awesome Oscillator steigt
+AwesomeOscillator() is rising;AwesomeOscillator() steigt
+(BR) BarRange;(BR) BarRange
+BarRange[#Shift#];BarRange[#Shift#]
+returns value of biggest range (high - low of one candle) of candles in given period;Gibt den Wert des größten Bereichs (High - Low einer Kerze) für die Kerzen der gegebene Periode zurück
+(BRNG) Biggest Range;(BRNG) Größter Bereich
+BiggestRange(#Period#)[#Shift#];BiggestRange(#Period#)[#Shift#]
+returns highest high of candles in given time range;Gibt das höchste High der Kerzen im gegebenen Zeitbereich zurück
+(HRNG) Highest in range;(HRNG) Höchstes im Bereich
+HighestInRange(#TimeFrom#, #TimeTo#);HighestInRange(#TimeFrom#, #TimeTo#)
+returns lowest low of candles in given time range;Gibt das niedrigste Low der Kerzen im gegebenen Zeitbereich zurück
+(LRNG) Lowest in range;(LRNG) Niedrigstes im Bereich
+LowestInRange(#TimeFrom#, #TimeTo#);LowestInRange(#TimeFrom#, #TimeTo#)
+returns value of smallest range (high - low of one candle) of candles in given period;Gibt den Wert des kleinsten Bereichs (High - Low einer Kerze) für die Kerzen der gegebene Periode zurück
+(SRNG) Smallest Range;(SRNG) Kleinster Bereich
+SmallestRange(#Period#)[#Shift#];SmallestRange(#Period#)[#Shift#]
+(BP) Bears Power;(BP) Bears Power
+BearsPower(#Period#, #ComputedFrom#)[#Shift#];BearsPower(#Period#, #ComputedFrom#)[#Shift#]
+Is triggered if Bears Power changes direction downwards;Wird ausgelöst, wenn Bears Power die Richtung nach unten ändert
+(BEP) Bears Power changes direction downwards;(BEP) Bears Power ändert die Richtung nach unten
+BearsPower(#Period#) changes direction downwards;BearsPower(#Period#) ändert die Richtung nach unten
+Is triggered if Bears Power changes direction upwards;Wird ausgelöst, wenn Bears Power die Richtung nach oben ändert
+(BEP) Bears Power changes direction upwards;(BEP) Bears Power ändert die Richtung nach oben
+BearsPower(#Period#) changes direction upwards;BearsPower(#Period#) ändert die Richtung nach oben
+(BEP) Bears Power crosses below Level;(BEP) Bears Power kreuzt die Ebene nach unten
+BearsPower(#Period#) crosses below #Level#;BearsPower(#Period#) kreuzt die Ebene #Level# nach unten
+(BEP) Bears Power crosses above Level;(BEP) Bears Power kreuzt die Ebene nach oben
+BearsPower(#Period#) crosses above #Level#;BearsPower(#Period#) kreuzt die Ebene #Level# nach oben
+Is triggered if Bears Power is falling;Wird ausgelöst, wenn Bears Power fällt
+(BEP) Bears Power is falling;(BEP) Bears Power fällt
+BearsPower(#Period#) is falling;BearsPower(#Period#)fällt
+(BEP) Bears Power is higher than Level;(BEP) Bears Power ist höher als die Ebene
+BearsPower(#Period#) > #Level#;BearsPower(#Period#) > #Level#
+(BEP) Bears Power is lower than Level;(BEP) Bears Power ist niedriger als die Ebene
+BearsPower(#Period#) < #Level#;BearsPower(#Period#) < #Level#
+Is triggered if Bears Power is rising;Wird ausgelöst, wenn Bears Power steigt
+(BEP) Bears Power is rising;(BEP) Bears Power steigt
+BearsPower(#Period#) is rising;BearsPower(#Period#) steigt
+(BB) Bar closes above Lower band;(BB) Bar schließt über dem unteren Band
+Bar closes above BB(#Period#, #Deviation#).Lower;Kerze schließt über BB(#Period#, #Deviation#).Lower
+(BB) Bar closes above Upper band;(BB) Kerze schließt über dem oberen Band
+Bar closes above BB(#Period#, #Deviation#).Upper;Kerze schließt über BB(#Period#, #Deviation#).Upper
+(BB) Bar closes below Lower band;(BB) Kerze schließt unter dem unteren Band
+Bar closes below BB(#Period#, #Deviation#).Lower;Kerze schließt unter BB(#Period#, #Deviation#).Lower
+(BB) Bar closes below Upper band;(BB) Kerze schließt unter dem oberen Band
+Bar closes below BB(#Period#, #Deviation#).Upper;Kerze schließt unter BB(#Period#, #Deviation#).Upper
+(BB) Bar opens above Lower band;(BB) Kerze öffnet über dem unteren Band
+Bar opens above BB(#Period#, #Deviation#).Lower;Kerze öffnet über BB(#Period#, #Deviation#).Lower
+(BB) Bar opens above Lower band after opened below;(BB) Kerze öffnet über dem unteren Band, nachdem sie darunter öffnete
+Bar opens above BB(#Period#, #Deviation#).Lower after opened below;Kerze öffnet über BB(#Period#, #Deviation#).Lower nachdem sie darunter öffnete
+(BB) Bar opens above Upper band;(BB) Kerze öffnet über dem oberen Band
+Bar opens above BB(#Period#, #Deviation#).Upper;Kerze öffnet über BB(#Period#, #Deviation#).Upper
+(BB) Bar opens above Upper band after opened below;(BB) Kerze öffnet über dem oberen Band, nachdem sie darunter öffnete
+Bar opens above BB(#Period#, #Deviation#).Upper after opened below;Kerze öffnet über BB(#Period#, #Deviation#).Upper nachdem sie darunter öffnete
+(BB) Bar opens below Lower band;(BB) Kerze öffnet unter dem unteren Band
+Bar opens below BB(#Period#, #Deviation#).Lower;Kerze öffnet unter BB(#Period#, #Deviation#).Lower
+(BB) Bar opens below Lower band after opened above;(BB) Kerze öffnet unter dem unteren Band, nachdem sie darüber öffnete
+Bar opens below BB(#Period#, #Deviation#).Lower after opened above;Kerze öffnet unter BB(#Period#, #Deviation#).Lower nachdem sie darüber öffnete
+(BB) Bar opens below Upper band;(BB) Kerze öffnet unter dem oberen Band
+Bar opens below BB(#Period#, #Deviation#).Upper;Kerze öffnet unter BB(#Period#, #Deviation#).Upper
+(BB) Bar opens below Upper band after opened above;(BB) Kerze öffnet unter dem oberen Band, nachdem sie darüber öffnete
+Bar opens below BB(#Period#, #Deviation#).Upper after opened above;Kerze öffnet unter BB(#Period#, #Deviation#).Upper nachdem sie darüber öffnete
+Is triggered if BB is falling;Wird ausgelöst, wenn BB fällt
+(BB) Lower band is falling;(BB) Unteres Band fällt
+BB(#Period#, #Deviation#).Lower is falling;BB(#Period#, #Deviation#).Lower fällt
+Is triggered if BB is rising;Wird ausgelöst, wenn BB steigt
+(BB) Lower band is rising;(BB) Unteres Band steigt
+BB(#Period#, #Deviation#).Lower is rising;BB(#Period#, #Deviation#).Lower steigt
+(BBR) BB Range;(BBR) BB-Bereich
+BB Range(#Period#, #Deviation#)[#Shift#];BB-Bereich(#Period#, #Deviation#)[#Shift#]
+(BB) Upper band is falling;(BB) Oberes Band fällt
+BB(#Period#, #Deviation#).Upper is falling;BB(#Period#, #Deviation#).Upper fällt
+(BB) Upper band is rising;(BB) Oberes Band steigt
+BB(#Period#, #Deviation#).Upper is rising;BB(#Period#, #Deviation#).Upper steigt
+(BBWR) BB Width Ratio;(BBWR) BB-Abstands
+BB WR(#Period#, #Deviation#)[#Shift#];BB WR(#Period#, #Deviation#)[#Shift#]
+(BB) Bollinger Bands;(BB) Bollinger Bänder
+BollingerBands(#Period#, #Deviation#).#Line#[#Shift#];BollingerBands(#Period#, #Deviation#).#Line#[#Shift#]
+(BUP) Bulls Power;(BUP) Bulls Power
+BullsPower(#Period#, #ComputedFrom#)[#Shift#];BullsPower(#Period#, #ComputedFrom#)[#Shift#]
+Is triggered if Bulls Power changes direction downwards;Wird ausgelöst, wenn Bulls Power die Richtung nach unten ändert
+(BUP) Bulls Power changes direction downwards;(BUP) Bulls Power ändert die Richtung nach unten
+BullsPower(#Period#) changes direction downwards;BullsPower(#Period#) ändert die Richtung nach unten
+Is triggered if Bulls Power changes direction upwards;Wird ausgelöst, wenn Bulls Power die Richtung nach oben ändert
+(BUP) Bulls Power changes direction upwards;(BUP) Bulls Power ändert die Richtung nach oben
+BullsPower(#Period#) changes direction upwards;BullsPower(#Period#) ändert die Richtung nach oben
+(BUP) Bulls Power crosses below Level;(BUP) Bulls Power kreuzt die Ebene nach unten
+BullsPower(#Period#) crosses below #Level#;BullsPower(#Period#) kreuzt die Ebene #Level# nach unten
+(BUP) Bulls Power crosses above Level;(BUP) Bulls Power kreuzt die Ebene nach oben
+BullsPower(#Period#) crosses above #Level#;BullsPower(#Period#) kreuzt die Ebene #Level# nach oben
+Is triggered if Bulls Power is falling;Wird ausgelöst, wenn Bulls Power fällt
+(BUP) Bulls Power is falling;(BUP) Bulls Power fällt
+BullsPower(#Period#) is falling;BullsPower(#Period#)fällt
+(BUP) Bulls Power is higher than Level;(BUP) Bulls Power ist höher als die Ebene
+BullsPower(#Period#) > #Level#;BullsPower(#Period#) > #Level#
+(BUP) Bulls Power is lower than Level;(BUP) Bulls Power ist niedriger als die Ebene
+BullsPower(#Period#) < #Level#;BullsPower(#Period#) < #Level#
+Is triggered if Bulls Power is rising;Wird ausgelöst, wenn Bulls Power steigt
+(BUP) Bulls Power is rising;(BUP) Bulls Power steigt
+BullsPower(#Period#) is rising;BullsPower(#Period#) steigt
+Commodity channel index;Commodity channel index
+(CCI) Commodity Channel Index;(CCI) Commodity Channel Index
+CCI(#Period#)[#Shift#];CCI(#Period#)[#Shift#]
+Is triggered if CCI changes direction downwards;Wird ausgelöst, wenn CCI die Richtung nach unten ändert
+(CCI) CCI changes direction downwards;(CCI) CCI ändert die Richtung nach unten
+CCI(#Period#) changes direction downwards;CCI(#Period#) ändert die Richtung nach unten
+Is triggered if CCI changes direction upwards;Wird ausgelöst, wenn CCI die Richtung nach oben ändert
+(CCI) CCI changes direction upwards;(CCI) CCI ändert die Richtung nach oben
+CCI(#Period#) changes direction upwards;CCI(#Period#) ändert die Richtung nach oben
+(CCI) CCI crosses below Level;(CCI) CCI kreuzt die Ebene nach unten
+CCI(#Period#) crosses below #Level#;CCI(#Period#) kreuzt die Ebene #Level# nach unten
+(CCI) CCI crosses above Level;(CCI) CCI kreuzt die Ebene nach oben
+CCI(#Period#) crosses above #Level#;CCI(#Period#) kreuzt die Ebene #Level# nach oben
+Is triggered if CCI is falling;Wird ausgelöst, wenn CCI fällt
+(CCI) CCI is falling;(CCI) CCI fällt
+CCI(#Period#) is falling;CCI(#Period#) fällt
+(CCI) CCI is higher than Level;(CCI) CCI ist höher als die Ebene
+CCI(#Period#) > #Level#;CCI(#Period#) > #Level#
+(CCI) CCI is lower than Level;(CCI) CCI ist niedriger als die Ebene
+CCI(#Period#) < #Level#;CCI(#Period#) < #Level#
+Is triggered if CCI is rising;Wird ausgelöst, wenn CCI steigt
+(CCI) CCI is rising;(CCI) CCI steigt
+CCI(#Period#) is rising;CCI(#Period#) steigt
+DeMarker;DeMarker
+(DE) DeMarker;(DE) DeMarker
+DeMarker(#Period#)[#Shift#];DeMarker(#Period#)[#Shift#]
+Is triggered if DeMarker changes direction downwards;Wird ausgelöst, wenn DeMarker die Richtung nach unten ändert
+(DEM) DeMarker changes direction downwards;(DEM) DeMarker ändert die Richtung nach unten
+DeMarker(#Period#) changes direction downwards;DeMarker(#Period#) ändert die Richtung nach unten
+Is triggered if DeMarker changes direction upwards;Wird ausgelöst, wenn DeMarker die Richtung nach oben ändert
+(DEM) DeMarker changes direction upwards;(DEM) DeMarker ändert die Richtung nach oben
+DeMarker(#Period#) changes direction upwards;DeMarker(#Period#) ändert die Richtung nach oben
+(DEM) DeMarker crosses below Level;(DEM) DeMarker kreuzt die Ebene nach unten
+DeMarker(#Period#) crosses below #Level#;DeMarker(#Period#) kreuzt die Ebene #Level# nach unten
+(DEM) DeMarker crosses above Level;(DEM) DeMarker kreuzt die Ebene nach oben
+DeMarker(#Period#) crosses above #Level#;DeMarker(#Period#) kreuzt die Ebene #Level# nach oben
+Is triggered if DeMarker is falling;Wird ausgelöst, wenn DeMarker fällt
+(DEM) DeMarker is falling;(DEM) DeMarker fällt
+DeMarker(#Period#) is falling;DeMarker(#Period#) fällt
+(DEM) DeMarker is higher than Level;(DEM) DeMarker ist höher als die Ebene
+DeMarker(#Period#) > #Level#;DeMarker(#Period#) > #Level#
+(DEM) DeMarker is lower than Level;(DEM) DeMarker ist niedriger als die Ebene
+DeMarker(#Period#) < #Level#;DeMarker(#Period#) < #Level#
+Is triggered if DeMarker is rising;Wird ausgelöst, wenn DeMarker steigt
+(DEM) DeMarker is rising;(DEM) DeMarker steigt
+DeMarker(#Period#) is rising;DeMarker(#Period#) steigt
+(DI+) DI+ crosses below DI-;(DI+) DI+ kreuzt DI- nach unten
+DI+(#Period#) crosses below DI-(#Period#);DI+(#Period#) kreuzt DI-(#Period#) nach unten
+(DI+) DI+ crosses above DI-;(DI+) DI+ kreuzt DI- nach oben
+DI+(#Period#) crosses above DI-(#Period#);DI+(#Period#) kreut DI-(#Period#) nach oben
+Is triggered if DI- changes direction downwards;Wird ausgelöst, wenn DI- die Richtung nach unten ändert
+(DI-) DI- changes direction downwards;(DI-) DI- ändert die Richtung nach unten
+DI-(#Period#) changes direction downwards;DI-(#Period#) ändert die Richtung nach unten
+Is triggered if DI- changes direction upwards;Wird ausgelöst, wenn DI- die Richtung nach oben ändert
+(DI-) DI- changes direction upwards;(DI-) DI- ändert die Richtung nach oben
+DI-(#Period#) changes direction upwards;DI-(#Period#) ändert die Richtung nach oben
+Is triggered if DI- is falling;Wird ausgelöst, wenn DI- fällt
+(DI-) DI- is falling;(DI-) DI- fällt
+DI-(#Period#) is falling;DI-(#Period#) fällt
+Is triggered if DI- is rising;Wird ausgelöst, wenn DI- steigt
+(DI-) DI- is rising;(DI-) DI- steigt
+DI-(#Period#) is rising;DI-(#Period#) steigt
+Is triggered if DI+ changes direction downwards;Wird ausgelöst, wenn DI+ die Richtung nach unten ändert
+(DI+) DI+ changes direction downwards;(DI+) DI+ ändert die Richtung nach unten
+DI+(#Period#) changes direction downwards;DI+(#Period#) ändert die Richtung nach unten
+Is triggered if DI+ changes direction upwards;Wird ausgelöst, wenn DI+ die Richtung nach oben ändert
+(DI+) DI+ changes direction upwards;(DI+) DI+ ändert die Richtung nach oben
+DI+(#Period#) changes direction upwards;DI+(#Period#) ändert die Richtung nach oben
+Is triggered if DI+ is falling;Wird ausgelöst, wenn DI+ fällt
+(DI+) DI+ is falling;(DI+) DI+ fällt
+DI+(#Period#) is falling;DI+(#Period#) fällt
+(DI+) DI+ is higher than DI-;(DI+) DI+ ist höher als DI-
+DI+(#Period#) > DI-(#Period#);DI+(#Period#) > DI-(#Period#)
+(DI+) DI+ is lower than DI-;(DI+) DI+ ist niedriger als DI-
+DI+(#Period#) < DI-(#Period#);DI+(#Period#) < DI-(#Period#)
+Is triggered if DI+ is rising;Wird ausgelöst, wenn DI+ steigt
+(DI+) DI+ is rising;(DI+) DI+ steigt
+DI+(#Period#) is rising;DI+(#Period#) steigt
+Choose range of Fibo indicator;Reichweite des Fibo-Indikators wählen
+Only for some of Fibo ranges - select value of X here;Nur für einige der Fibo-Bereiche - wähle hier den Wert von X aus
+(FIB) Fibo;(FIB) Fibo
+Fibo;Fibo
+(H) Bar opens above Highest after opened below;(H) Kerze öffnet über dem Höchstwert, nachdem sie darunter öffnete
+Bar opens above Highest(#Period#) after opened below;Kerze öffnetüber dem Höchstwert(#Period#) nachdem sie darunter öffnete
+(L) Bar opens above Lowest after opened below;(L) Kerze öffnet über dem Tiefstwert, nachdem sie darunter öffnete
+Bar opens above Lowest(#Period#) after opened below;Kerze öffnet über dem Tiefstwert(#Period#) nachdem sie darunter öffnete
+(H) Bar opens below Highest band after opened above;(H) Kerze öffnet unter dem Höchstwert-Band, nachdem sie darüber öffnete
+Bar opens below Highest(#Period#) after opened above;Kerze öffnet unter dem Höchstwert(#Period#) nachdem sie darüber öffnete
+(L) Bar opens below Lowest after opened above;(L) Kerze öffnet unter dem Tiefstwert, nachdem sie darüber öffnete
+Bar opens below Lowest(#Period#) after opened above;Kerze öffnet unter dem Tiefstwert(#Period#) nachdem sie darüber öffnete
+Returns highest value of given period of bars;Gibt den höchsten Wert der gegebenen Kerzenperiode zurück
+Highest(#Period#)[#Shift#];Höchstwert(#Period#)[#Shift#]
+returns shift of the bar with highest value from the bars of given type;Gibt den Versatz der Kerze mit dem höchsten Wert der Kerzen des gegebenen Typs zurück
+(HI) Highest index;(HI) Höchstwert-Index
+HighestIndex(#Period#);HighestIndex(#Period#)
+Returns lowest value of given period of bars;Gibt den niedrigsten Wert der gegebenen Kerzenperiode zurück
+Lowest(#Period#)[#Shift#];Tiefstwert(#Period#)[#Shift#]
+returns shift of the bar with lowest value from the bars of given type;Gibt den Versatz der Kerze mit dem niedrigsten Wert der Kerzen des gegebenen Typs zurück
+(LI) Lowest index;(LI) Tiefstwert-Index
+LowestIndex(#Period#);LowestIndex(#Period#)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#)[#Shift#];Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#)[#Shift#]
+Tenkan;Tenkan
+Kijun;Kijun
+Senkou;Senkou
+(Ichimoku) Chikou Span cross bearish;(Ichimoku) Chikou Span Kreuzung (bearish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span cross bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span Kreuzung (bearish)
+Signal strength (at least);Signalstärke (mindestens)
+(Ichimoku) Chikou Span cross bullish;(Ichimoku) Chikou Span Kreuzung (bullish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span cross bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span Kreuzung (bullish)
+(Ichimoku) price crosses KijunSen bearish;(Ichimoku) Preis kreuzt KijunSen (bearish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) price crosses KijunSen bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Preis kreuzt KijunSen (bearish)
+(Ichimoku) price crosses KijunSen bullish;(Ichimoku) Preis kreuzt KijunSen (bullish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) price crosses KijunSen bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Preis kreuzt KijunSen (bullish)
+(Ichimoku) Kumo breakout bearish;(Ichimoku) Kumo-Breakout (bearish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo breakout bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo-Breakout (bearish)
+(Ichimoku) Kumo breakout bullish;(Ichimoku) Kumo-Breakout (bullish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo breakout bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo-Breakout (bullish)
+(Ichimoku) Senkou Span cross bearish;(Ichimoku) Senkou Span Kreuzung (bearish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span cross bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span Kreuzung (bearish)
+(Ichimoku) Senkou Span cross bullish;(Ichimoku) Senkou Span Kreuzung (bullish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span cross bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span Kreuzung (bullish)
+(Ichimoku) TenkanSen crosses KijunSen bearish ;(Ichimoku) TenkanSen kreuzt KijunSen (bearish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen crosses KijunSen bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen kreuzt KijunSen (bearish)
+(Ichimoku) TenkanSen crosses KijunSen bullish;(Ichimoku) TenkanSen kreuzt KijunSen (bullish)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen crosses KijunSen bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen kreuzt KijunSen (bullish)
+Signal strength;Signalstärke
+Is triggered if Bar closes above KC Lower band;Wird ausgelöst, wenn die Kerze über dem unteren KC-Band schließt
+(KC) Bar closes above Lower band;(KC) Kerze schließt über dem unteren Band
+Bar closes above Keltner Channel(#Period#, #Deviation#).Lower;Kerze schließt über Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar closes above KC Upper band;Wird ausgelöst, wenn die Kerze über dem oberen KC-Band schließt
+(KC) Bar closes above Upper band;(KC) Kerze schließt über dem oberen Band
+Bar closes above Keltner Channel(#Period#, #Deviation#).Upper;Kerze schließt über Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar closes below KC Lower band;Wird ausgelöst, wenn die Kerze unter dem unteren KC-Band schließt
+(KC) Bar closes below Lower band;(KC) Kerze schließt unter dem unteren Band
+Bar closes below Keltner Channel(#Period#, #Deviation#).Lower;Kerze schließt unter Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar closes below KC Upper band;Wird ausgelöst, wenn die Kerze unter dem oberen KC-Band schließt
+(KC) Bar closes below Upper band;(KC) Kerze schließt unter dem oberen Band
+Bar closes below Keltner Channel(#Period#, #Deviation#).Upper;Kerze schließt unter Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar opens above KC Lower band;Wird ausgelöst, wenn die Kerze über dem unteren KC-Band öffnet
+(KC) Bar opens above Lower band;(KC) Kerze öffnet über dem unteren Band
+Bar opens above Keltner Channel(#Period#, #Deviation#).Lower;Kerze öffnet über Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar opens above KC Lower band after opened below;Wird ausgelöst, wenn die Kerze über dem unteren KC-Band öffnet, nachdem sie darunter öffnete
+(KC) Bar opens above Lower band after opened below;(KC) Kerze öffnet über dem unteren Band, nachdem sie darunter öffnete
+Bar opens above Keltner Channel(#Period#, #Deviation#).Lower after opened below;Kerze öffnet über Keltner Channel(#Period#, #Deviation#).Lower nachdem sie darunter öffnete
+Is triggered if Bar opens above KC Upper band;Wird ausgelöst, wenn die Kerze über dem oberen KC-Band öffnet
+(KC) Bar opens above Upper band;(KC) Kerze öffnet über dem oberen Band
+Bar opens above Keltner Channel(#Period#, #Deviation#).Upper;Kerze öffnet über Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar opens above KC Upper band after opened below;Wird ausgelöst, wenn die Kerze über dem oberen KC-Band öffnet, nachdem sie darunter öffnete
+(KC) Bar opens above Upper band after opened below;(KC) Kerze öffnet über dem oberen Band, nachdem sie darunter öffnete
+Bar opens above Keltner Channel(#Period#, #Deviation#).Upper after opened below;Kerze öffnet über Keltner Channel(#Period#, #Deviation#).Upper nachdem sie darunter öffnete
+Is triggered if Bar opens below KC Lower band;Wird ausgelöst, wenn die Kerze unter dem unteren KC-Band öffnet
+(KC) Bar opens below Lower band;(KC) Kerze öffnet unter dem unteren Band
+Bar opens below Keltner Channel(#Period#, #Deviation#).Lower;Kerze öffnet unter Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar opens below KC Lower band after opened above;Wird ausgelöst, wenn die Kerze unter dem unteren KC-Band öffnet, nachdem sie darüber öffnete
+(KC) Bar opens below Lower band after opened above;(KC) Kerze öffnet unter dem unteren Band, nachdem sie darüber öffnete
+Bar opens below Keltner Channel(#Period#, #Deviation#).Lower after opened above;Kerze öffnet unter Keltner Channel(#Period#, #Deviation#).Lower nachdem sie darüber öffnete
+Is triggered if Bar opens below KC Upper band;Wird ausgelöst, wenn die Kerze unter dem oberen KC-Band öffnet
+(KC) Bar opens below Upper band;(KC) Kerze öffnet unter dem oberen Band
+Bar opens below Keltner Channel(#Period#, #Deviation#).Upper;Kerze öffnet unter Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar opens below KC Upper band after opened above;Wird ausgelöst, wenn die Kerze unter dem oberen KC-Band öffnet, nachdem sie darüber öffnete
+(KC) Bar opens below Upper band after opened above;(KC) Kerzeöffnet unter dem oberen Band, nachdem sie darüber öffnete
+Bar opens below Keltner Channel(#Period#, #Deviation#).Upper after opened above;Kerze öffnet unter Keltner Channel(#Period#, #Deviation#).Upper nachdem sie darüber öffnete
+Is triggered if KC Lower band is falling;Wird ausgelöst, wenn das untere KC-Band fällt
+(KC) Lower band is falling;(KC) Unteres Band fällt
+Keltner Channel(#Period#, #Deviation#).Lower is falling;Keltner Channel(#Period#, #Deviation#).Lower fällt
+Is triggered if KC Lower band is rising;Wird ausgelöst, wenn das untere KC-Band steigt
+(KC) Lower band is rising;(KC) Unteres Band steigt
+Keltner Channel(#Period#, #Deviation#).Lower is rising;Keltner Channel(#Period#, #Deviation#).Lower steigt
+Is triggered if KC Upper band is falling;Wird ausgelöst, wenn das obere KC-Band fällt
+(KC) Upper band is falling;(KC) Oberes Band fällt
+Keltner Channel(#Period#, #Deviation#).Upper is falling;Keltner Channel(#Period#, #Deviation#).Upper fällt
+Is triggered if KC Upper band is rising;Wird ausgelöst, wenn das obere KC-Band steigt
+(KC) Upper band is rising;(KC) Oberes Band steigt
+Keltner Channel(#Period#, #Deviation#).Upper is rising;Keltner Channel(#Period#, #Deviation#).Upper steigt
+(KC) Keltner Channel;(KC) Keltner Channel
+Keltner Channel(#Period#, #Deviation#).#Line#[#Shift#];Keltner Channel(#Period#, #Deviation#).#Line#[#Shift#]
+(LinReg) Linear Regression;(LinReg) Lineare Regression
+LinReg(#Period#)[#Shift#];LinReg(#Period#)[#Shift#]
+(LinReg) Bar closes above LinReg;(LinReg) Kerze schließt über LinReg
+Bar closes above LinReg(#Period#);Kerze schließt über LinReg(#Period#)
+(LinReg) Bar closes below LinReg;(LinReg) Kerze schließt unter LinReg
+Bar closes below LinReg(#Period#);Kerze schließt unter LinReg(#Period#)
+(LinReg) Bar opens above LinReg;(LinReg) Kerze öffnet über LinReg
+Bar opens above LinReg(#Period#);Kerze öffnet über LinReg(#Period#)
+(LinReg) Bar opens above LinReg after opened below;(LinReg) Kerze öffnet über LinReg, nachdem sie darunter öffnete
+Bar opens above LinReg(#Period#) after opened below;Kerze öffnet über LinReg(#Period#) nachdem sie darunter öffnete
+(LinReg) Bar opens below LinReg;(LinReg) Kerze öffnet unter LinReg
+Bar opens below LinReg(#Period#);Kerze öffnet unter LinReg(#Period#)
+(LinReg) Bar opens below LinReg after opened above;(LinReg) Kerze öffnet unter LinReg nachdem sie darüber öffnete
+Bar opens below LinReg(#Period#) after opened above;Kerze öffnet unter LinReg(#Period#) nachdem sie darüber öffnete
+Is triggered if LinReg is falling;Wird ausgelöst, wenn LinReg fällt
+(LinReg) LinReg is falling;(LinReg) LinReg fällt
+LinReg(#Period#) is falling;LinReg(#Period#) fällt
+Is triggered if LinReg is rising;Wird ausgelöst, wenn LinReg steigt
+(LinReg) LinReg is rising;(LinReg) LinReg steigt
+LinReg(#Period#) is rising;LinReg(#Period#) steigt
+(MACD) MACD;(MACD) MACD
+MACD(#Fast#, #Slow#, #Smooth#).#Line#[#Shift#];MACD(#Fast#, #Slow#, #Smooth#).#Line#[#Shift#]
+Is triggered if MACD Main changes direction downwards;Wird ausgelöst, wenn die MACD-Hauptlinie die Richtung nach unten ändert
+(MACD) MACD Main line changes direction downwards;(MACD) MACD Hauptlinie ändert die Richtung nach unten
+MACD(#Fast#, #Slow#, #Smooth#).Main changes direction downwards;MACD(#Fast#, #Slow#, #Smooth#).Main ändert die Richtung nach unten
+Is triggered if MACD Main changes direction upwards;Wird ausgelöst, wenn die MACD-Hauptlinie die Richtung nach oben ändert
+(MACD) MACD Main line changes direction upwards;(MACD) MACD-Hauptlinie ändert die Richtung nach oben
+MACD(#Fast#, #Slow#, #Smooth#).Main changes direction upwards;MACD(#Fast#, #Slow#, #Smooth#).Main ändert die Richtung nach oben
+(MACD) MACD Main line crosses above Level;(MACD) MACD Hauptlinie kreuzt die Ebene nach oben
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses above #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main kreuzt die Ebene #Level# nach oben
+(MACD) MACD Main line crosses above Signal;(MACD) MACD Hauptlinie kreuzt das Signal nach oben
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses above MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main kreuzt MACD.Signal nach oben
+(MACD) MACD Main line crosses above 0;(MACD) MACD Hauptlinie kreuzt über 0
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses above 0;MACD(#Fast#, #Slow#, #Smooth#).Main kreuzt über 0
+(MACD) MACD Main line crosses below Level;(MACD) MACD Hauptlinie kreuzt die Ebene nach unten
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses below #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main kreuzt die Ebene #Level# nach unten
+(MACD) MACD Main line crosses below Signal;(MACD) MACD Hauptlinie kreuzt das Signal nach unten
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses below MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main kreuzt MACD.Signal nach unten
+(MACD) MACD Main line crosses below 0;(MACD) MACD Hauptlinie kreuzt unter 0
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses below 0;MACD(#Fast#, #Slow#, #Smooth#).Main kreuzt unter 0
+Is triggered if MACD Main is falling;Wird ausgelöst, wenn MACD-Hauptlinie fällt
+(MACD) MACD Main line is falling;(MACD) MACD-Hauptlinie fällt
+MACD(#Fast#, #Slow#, #Smooth#).Main is falling;MACD(#Fast#, #Slow#, #Smooth#).Main fällt
+(MACD) MACD Main line is higher than Level;(MACD) MACD-Hauptlinie ist höher als die Ebene
+MACD(#Fast#, #Slow#, #Smooth#).Main > #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main > #Level#
+(MACD) MACD Main line is higher than Signal;(MACD) MACD-Hauptlinie ist höher als das Signal
+MACD(#Fast#, #Slow#, #Smooth#).Main > MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main > MACD.Signal
+(MACD) MACD Main line is higher than 0;(MACD) MACD-Hauptlinie ist höher als 0
+MACD(#Fast#, #Slow#, #Smooth#).Main > 0;MACD(#Fast#, #Slow#, #Smooth#).Main > 0
+(MACD) MACD Main line is lower than Level;(MACD) MACD-Hauptlinie ist niedriger als die Ebene
+MACD(#Fast#, #Slow#, #Smooth#).Main < #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main < #Level#
+(MACD) MACD Main line is lower than Signal;(MACD) MACD-Hauptlinie ist niedriger als das Signal
+MACD(#Fast#, #Slow#, #Smooth#).Main < MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main < MACD.Signal
+(MACD) MACD Main line is lower than 0;(MACD) MACD-Hauptlinie ist niedriger als 0
+MACD(#Fast#, #Slow#, #Smooth#).Main < 0;MACD(#Fast#, #Slow#, #Smooth#).Main < 0
+Is triggered if MACD Main is rising;Wird ausgelöst, wenn die MACD-Hauptlinie steigt
+(MACD) MACD Main line is rising;(MACD) MACD-Hauptlinie steigt
+MACD(#Fast#, #Slow#, #Smooth#).Main is rising;MACD(#Fast#, #Slow#, #Smooth#).Main steigt
+Is triggered if MACD Signal is falling;Wird ausgelöst, wenn das MACD-Signal fällt
+(MACD) MACD Signal line is falling;(MACD) MACD-Signallinie fällt
+MACD(#Fast#, #Slow#, #Smooth#).Signal is falling;MACD(#Fast#, #Slow#, #Smooth#).Signal fällt
+Is triggered if MACD Signal is rising;Wird ausgelöst, wenn das MACD-Signal steigt
+(MACD) MACD Signal line is rising;(MACD) MACD-Signallinie steigt
+MACD(#Fast#, #Slow#, #Smooth#).Signal is rising;MACD(#Fast#, #Slow#, #Smooth#).Signal steigt
+(MOM) Momentum changes direction downwards;(MOM) Momentum ändert die Richtung nach unten
+Momentum(#Period#) changes direction downwards;Momentum(#Period#) ändert die Richtung nach unten
+(MOM) Momentum changes direction upwards;(MOM) Momentum ändert die Richtung nach oben
+Momentum(#Period#) changes direction upwards;Momentum(#Period#) ändert die Richtung nach oben
+(MOM) Momentum crosses below Level;(MOM) Momentum kreuzt die Ebene nach unten
+Momentum(#Period#) crosses below #Level#;Momentum(#Period#) kreuzt #Level# nach unten
+(MOM) Momentum crosses above Level;(MOM) Momentum kreuzt die Ebene nach oben
+Momentum(#Period#) crosses above #Level#;Momentum(#Period#) kreuzt #Level# nach oben
+(MO) Momentum;(MO) Momentum
+Momentum(#Period#)[#Shift#];Momentum(#Period#)[#Shift#]
+Is triggered if Momentum is falling;Wird ausgelöst, wenn Momentum fällt
+(MOM) Momentum is falling;(MOM) Momentum fällt
+Momentum(#Period#) is falling;Momentum(#Period#) fällt
+(MOM) Momentum is higher than Level;(MOM) Momentum ist höher als die Ebene
+Momentum(#Period#) > #Level#;Momentum(#Period#) > #Level#
+(MOM) Momentum is lower than Level;(MOM) Momentum ist niedriger als die Ebene
+Momentum(#Period#) < #Level#;Momentum(#Period#) < #Level#
+Is triggered if Momentum is rising;Wird ausgelöst, wenn Momentum steigt
+(MOM) Momentum is rising;(MOM) Momentum steigt
+Momentum(#Period#) is rising;Momentum(#Period#) steigt
+Exponential Moving Average;Exponenzieller gleitender Durchschnitt
+(EMA) Exponential Moving Average;(EMA) Exponenzieller gleitender Durchschnitt
+EMA(#Period#)[#Shift#];EMA(#Period#)[#Shift#]
+Linear Weighted Moving Average;Linear gewichteter gleitender Durchschnitt
+(LWMA) Linear Weighted Moving Average;(LWMA) Linear gewichteter gleitender Durchschnitt
+LWMA(#Period#)[#Shift#];LWMA(#Period#)[#Shift#]
+(MA) Bar closes above Moving Average;(MA) Kerze schließt über gleitendem Durchschnitt
+Bar closes above #Type# Moving Average(#Period#);Kerze schließt über #Type# Gleitender Durchschnitt(#Period#)
+Method;Methode
+(MA) Bar closes below Moving Average;(MA) Kerze schließt unter gleitendem Durchschnitt
+Bar closes below #Type# Moving Average(#Period#);Kerze schließt unter #Type# Gleitender Durchschnitt(#Period#)
+(MA) Bar opens above Moving Average;(MA) Kerze öffnet über gleitendem Durchschnitt
+Bar opens above #Type# Moving Average(#Period#);Kerze öffnet über #Type# Gleitender Durchschnitt(#Period#)
+(MA) Bar opens above Moving Average after opened below;(MA) Kerze öffnet über gleitendem Durchschnitt, nachdem sie darunter öffnete
+Bar opens above #Type# Moving Average(#Period#) after opened below;Kerze öffnet über #Type# Gleitender Durchschnitt(#Period#) nachdem sie darunter öffnete
+(MA) Bar opens below Moving Average;(MA) Kerze öffnet unter gleitendem Durchschnitt
+Bar opens below #Type# Moving Average(#Period#);Kerze öffnet unter #Type# Gleitender Durchschnitt(#Period#)
+(MA) Bar opens below Moving Average after opened above;(MA) Kerze öffnet unter gleitendem Durchschnitt, nachdem sie darüber öffnete
+Bar opens below #Type# Moving Average(#Period#) after opened above;Kerze öffnet unter #Type# Gleitender Durchschnitt(#Period#) nachdem sie darüber öffnete
+Is triggered if MA is falling;Wird ausgelöst, wenn MA fällt
+(MA) Moving Average is falling;(MA) Gleitender Durchschnitt fällt
+#Type# Moving Average(#Period#) is falling;#Type# Gleitender Durchschnitt(#Period#) fällt
+Is triggered if MA is rising;Wird ausgelöst, wenn MA steigt
+(MA) Moving Average is rising;(MA) Gleitender Durchschnitt steigt
+#Type# Moving Average(#Period#) is rising;#Type# Gleitender Durchschnitt(#Period#) steigt
+Simple Moving Average;Einfacher Gleitender Durchschnitt
+(SMA) Simple Moving Average;(SMA) Einfacher Gleitender Durchschnitt
+SMA(#Period#)[#Shift#];SMA(#Period#)[#Shift#]
+Smoothed Moving Average;Geglätteter gleitender Durchschnitt
+(SMMA) Smoothed Moving Average;(SMMA) Geglätteter gleitender Durchschnitt
+SMMA(#Period#)[#Shift#];SMMA(#Period#)[#Shift#]
+Triple Exponential Moving Average;Dreifacher exponenzieller gleitender Durchschnitt
+(TEMA) Triple Exponential Moving Average;(TEMA) Dreifacher exponenzieller gleitender Durchschnitt
+TEMA(#Period#)[#Shift#];TEMA(#Period#)[#Shift#]
+(MTATR) Average True Range;(MTATR) Average True Range
+MTATR(#Period#)[#Shift#];MTATR(#Period#)[#Shift#]
+(OSMA) Moving Average Of Oscillator;(OSMA) Gleitender Durchschnitt vom Oszillator
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#)[#Shift#];OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#)[#Shift#]
+Fast EMA;Schneller EMA
+Slow EMA;Langsamer EMA
+Is triggered if OSMA changes direction downwards;Wird ausgelöst, wenn OSMA die Richtung nach unten ändert
+(OSMA) OSMA changes direction downwards;(OSMA) OSMA ändert die Richtung nach unten
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) changes direction downwards;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) ändert die Richtung nach unten
+Is triggered if OSMA changes direction upwards;Wird ausgelöst, wenn OSMA die Richtung nach oben ändert
+(OSMA) OSMA changes direction upwards;(OSMA) OSMA ändert die Richtung nach oben
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) changes direction upwards;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) ändert die Richtung nach oben
+(OSMA) OSMA crosses below 0;(OSMA) OSMA kreuzt unter 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) crosses below 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) kreuzt unter 0
+(OSMA) OSMA crosses above 0;(OSMA) OSMA kreuzt über 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) crosses above 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) kreuzt über 0
+Is triggered if OSMA is falling;Wird ausgelöst, wenn OSMA fällt
+(OSMA) OSMA is falling;(OSMA) OSMA fällt
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) is falling;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) fällt
+(OSMA) OSMA is higher than 0;(OSMA) OSMA ist höher als 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) > 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) > 0
+(OSMA) OSMA is lower than 0;(OSMA) OSMA ist niedriger als 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) < 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) < 0
+Is triggered if OSMA is rising;Wird ausgelöst, wenn OSMA steigt
+(OSMA) OSMA is rising;(OSMA) OSMA steigt
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) is rising;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) steigt
+(PSAR) Parabolic SAR;(PSAR) Parabolic SAR
+ParabolicSAR(#Step#, #Maximum#)[#Shift#];ParabolicSAR(#Step#, #Maximum#)[#Shift#]
+(PSAR) Price is above Parabolic SAR;(PSAR) Preis ist oberhalb vom Parabolic SAR
+(PSAR) Price is below Parabolic SAR;(PSAR) Preis ist unterhalb vom Parabolic SAR
+Pivots;Pivot-Punkte
+(Pivots) Pivots;(Pivots) Pivots
+Pivots(#StartHour#:#StartMinute#)[#Shift#];Pivots(#StartHour#:#StartMinute#)[#Shift#]
+(QQE) Quantitative Qualitative Estimation;(QQE) Quantitative Qualitative Schätzung
+QQE(#RSIPeriod#)[#Shift#];QQE(#RSIPeriod#)[#Shift#]
+RSIPeriod;RSIPeriod
+sF;sF
+wF;wF
+Is triggered if QQE Value1 changes direction downwards;Wird ausgelöst, wenn QQE Wert1 die Richtung nach unten ändert
+(QQE) QQE Value1 line changes direction downwards;(QQE) QQE Wert1-Linie ändert die Richtung nach unten
+QQE(#RSIPeriod#).Value1 changes direction downwards;QQE(#RSIPeriod#).Value1ändert die Richtung nach unten
+Is triggered if QQE Value1 changes direction upwards;Wird ausgelöst, wenn QQE Wert1 die Richtung nach oben ändert
+(QQE) QQE Value1 line changes direction upwards;(QQE) QQE Wert1-Linie ändert die Richtung nach oben
+QQE(#RSIPeriod#).Value1 changes direction upwards;QQE(#RSIPeriod#).Value1 ändert die Richtung nach oben
+(QQE) QQE Value1 line crosses above Level;(QQE) QQE Wert1-Linie kreuzt die Ebene nach oben
+QQE(#RSIPeriod#).Value1 crosses above #Level#;QQE(#RSIPeriod#).Value1 kreuzt die Ebene #Level# nach oben
+(QQE) QQE Value1 line crosses above Value2;(QQE) QQE Wert1-Linie kreuzt Wert2 nach oben
+QQE(#RSIPeriod#).Value1 crosses above QQE.Value2;QQE(#RSIPeriod#).Value1 kreuzt QQE.Value2 nach oben
+(QQE) QQE Value1 line crosses below Level;(QQE) QQE Wert1-Linie kreuzt die Ebene nach unten
+QQE(#RSIPeriod#).Value1 crosses below #Level#;QQE(#RSIPeriod#).Value1 kreuzt #Level# nach unten
+(QQE) QQE Value1 line crosses below Value2;(QQE) QQE Wert1-Linie kreuzt Wert2 nach unten
+QQE(#RSIPeriod#).Value1 crosses below QQE.Value2;QQE(#RSIPeriod#).Value1 kreuzt QQE.Value2 nach unten
+Is triggered if QQE Value1 is falling;Wird ausgelöst, wenn QQE Wert1 fällt
+(QQE) QQE Value1 line is falling;(QQE) QQE Wert1-Linie fällt
+QQE(#RSIPeriod#).Value1 is falling;QQE(#RSIPeriod#).Value1 fällt
+(QQE) QQE Value1 line is higher than Level;(QQE) QQE Wert1-Linie ist höher als die Ebene
+QQE(#RSIPeriod#).Value1 > #Level#;QQE(#RSIPeriod#).Value1 > #Level#
+(QQE) QQE Value1 line is higher than Value2;(QQE) QQE Wert1-Linie ist höher als Wert2
+QQE(#RSIPeriod#).Value1 > QQE.Value2;QQE(#RSIPeriod#).Value1 > QQE.Value2
+(QQE) QQE Value1 line is lower than Level;(QQE) QQE Wert1-Linie ist niedriger als die Ebene
+QQE(#RSIPeriod#).Value1 < #Level#;QQE(#RSIPeriod#).Value1 < #Level#
+(QQE) QQE Value1 line is lower than Value2;(QQE) QQE Wert1-Linie ist niedriger als Wert2
+QQE(#RSIPeriod#).Value1 < QQE.Value2;QQE(#RSIPeriod#).Value1 < QQE.Value2
+Is triggered if QQE Value1 is rising;Wird ausgelöst, wenn QQE Wert1 steigt
+(QQE) QQE Value1 line is rising;(QQE) QQE Wert1-Linie steigt
+QQE(#RSIPeriod#).Value1 is rising;QQE(#RSIPeriod#).Value1 steigt
+Is triggered if QQE Value2 is falling;Wird ausgelöst, wenn QQE Wert2 fällt
+(QQE) QQE Value2 line is falling;(QQE) QQE Wert2-Linie fällt
+QQE(#RSIPeriod#).Value2 is falling;QQE(#RSIPeriod#).Value2 fällt
+Is triggered if QQE Value2 is rising;Wird ausgelöst, wenn QQE Wert2 steigt
+(QQE) QQE Value2 line is rising;(QQE) QQE Wert2-Linie steigt
+QQE(#RSIPeriod#).Value2 is rising;QQE(#RSIPeriod#).Value2 steigt
+(RSI) Relative Strength Index;(RSI) Relative Stärke Index
+RSI(#Period#)[#Shift#];RSI(#Period#)[#Shift#]
+Is triggered if RSI changes direction downwards;Wird ausgelöst, wenn RSI die Richtung nach unten ändert
+(RSI) RSI changes direction downwards;(RSI) RSI ändert die Richtung nach unten
+RSI(#Period#) changes direction downwards;RSI(#Period#) ändert die Richtung nach unten
+Is triggered if RSI changes direction upwards;Wird ausgelöst, wenn RSI die Richtung nach oben ändert
+(RSI) RSI changes direction upwards;(RSI) RSI ändert die Richtung nach oben
+RSI(#Period#) changes direction upwards;RSI(#Period#) ändert die Richtung nach oben
+(RSI) RSI crosses below Level;(RSI) RSI kreuzt die Ebene nach unten
+RSI(#Period#) crosses below #Level#;RSI(#Period#) kreuzt #Level# nach unten
+(RSI) RSI crosses above Level;(RSI) RSI kreuzt die Ebene nach oben
+RSI(#Period#) crosses above #Level#;RSI(#Period#) kreuzt #Level# nach oben
+Is triggered if RSI is falling;Wird ausgelöst, wenn RSI fällt
+(RSI) RSI is falling;(RSI) RSI fällt
+RSI(#Period#) is falling;RSI(#Period#) fällt
+(RSI) RSI is higher than Level;(RSI) RSI ist höher als die Ebene
+RSI(#Period#) > #Level#;RSI(#Period#) > #Level#
+(RSI) RSI is lower than Level;(RSI) RSI ist niedriger als die Ebene
+RSI(#Period#) < #Level#;RSI(#Period#) < #Level#
+Is triggered if RSI is rising;Wird ausgelöst, wenn RSI steigt
+(RSI) RSI is rising;(RSI) RSI steigt
+RSI(#Period#) is rising;RSI(#Period#) steigt
+(STDDEV) Standard Deviation;(STDDEV) Standardabweichung
+StdDev(#Period#)[#Shift#];StdDev(#Period#)[#Shift#]
+Is triggered if StdDev changes direction downwards;Wird ausgelöst, wenn Standardabweichung die Richtung nach unten ändert
+(StdDev) StdDev changes direction downwards;(StdDev) StdDev ändert die Richtung nach unten
+StdDev(#Period#) changes direction downwards;StdDev(#Period#) ändert die Richtung nach unten
+Is triggered if StdDev changes direction upwards;Wird ausgelöst, wenn Standardabweichung die Richtung nach oben ändert
+(StdDev) StdDev changes direction upwards;(StdDev) StdDev ändert die Richtung nach oben
+StdDev(#Period#) changes direction upwards;StdDev(#Period#) ändert die Richtung nach oben
+(StdDev) StdDev crosses below Level;(StdDev) StdDev kreuzt die Ebene nach unten
+StdDev(#Period#) crosses below #Level#;StdDev(#Period#) kreuzt #Level# nach unten
+(StdDev) StdDev crosses above Level;(StdDev) StdDev kreuzt die Ebene nach oben
+StdDev(#Period#) crosses above #Level#;StdDev(#Period#) kreuzt #Level# nach oben
+Is triggered if StdDev is falling;Wird ausgelöst, wenn Standardabweichung fällt
+(StdDev) StdDev is falling;(StdDev) StdDev fällt
+StdDev(#Period#) is falling;StdDev(#Period#) fällt
+(StdDev) StdDev is higher than Level;(StdDev) StdDev ist höher als die Ebene
+StdDev(#Period#) > #Level#;StdDev(#Period#) > #Level#
+(StdDev) StdDev is lower than Level;(StdDev) StdDev ist niedriger als die Ebene
+StdDev(#Period#) < #Level#;StdDev(#Period#) < #Level#
+Is triggered if StdDev is rising;Wird ausgelöst, wenn Standardabweichung steigt
+(StdDev) StdDev is rising;(StdDev) StdDev steigt
+StdDev(#Period#) is rising;StdDev(#Period#) steigt
+(STOCH) Stochastic;(STOCH) Stochastischer Oszillator
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).#Line#[#Shift#];Stoch(#KPeriod#, #DPeriod#, #Slowing#).#Line#[#Shift#]
+%K Period;%K Period
+%D Period;%D Period
+MA Method;MA Methode
+(STOCH) Fast %K crosses below Level;(STOCH) Schnell %K kreuzt die Ebene nach unten
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K crosses below #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K kreuzt #Level# nach unten
+(STOCH) Fast %K crosses above Level;(STOCH) Schnell %K kreuzt die Ebene nach oben
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K crosses above #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K kreuzt #Level# nach oben
+(STOCH) Fast %K is lower than Slow %D;(STOCH) Schnell %K ist niedriger als Langsam %D
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K is lower than Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K ist niedriger als Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D
+(STOCH) Fast %K is higher than Slow %D;(STOCH) Schnell %K ist höher als Langsam %D
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K is higher than Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K ist höher als Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D
+Is triggered if Stochastic changes direction downwards;Wird ausgelöst, wenn Stochastischer Oszillator die Richtung nach unten ändert
+(STOCH) Slow %D changes direction downwards;(STOCH) Langsam %D ändert die Richtung nach unten
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D changes direction downwards;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D ändert die Richtung nach unten
+Is triggered if Stochastic changes direction upwards;Wird ausgelöst, wenn Stochastischer Oszillator die Richtung nach oben ändert
+(STOCH) Slow %D changes direction upwards;(STOCH) Langasm %D ändert die Richtung nach oben
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D changes direction upwards;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D ändert die Richtung nach oben
+(STOCH) Slow %D crosses below Level;(STOCH) Langsam %D kreuzt die Ebene nach unten
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D crosses below #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D kreuzt #Level# nach unten
+(STOCH) Slow %D crosses above Level;(STOCH) Langsam %D kreuzt die Ebene nach oben
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D crosses above #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D kreuzt #Level# nach oben
+Is triggered if Stochastic is falling;Wird ausgelöst, wenn Stochastischer Oszillator fällt
+(STOCH) Slow %D is falling;(STOCH) Langsam %D fällt
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D is falling;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D fällt
+(STOCH) Slow %D is higher than Level;(STOCH) Langsam %D ist höher als die Ebene
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D > #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D > #Level#
+(STOCH) Slow %D is lower than Level;(STOCH) Langsam %D ist niedriger als die Ebene
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D < #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D < #Level#
+Is triggered if Stochastic is rising;Wird ausgelöst, wenn Stochastischer Oszillator steigt
+(STOCH) Slow %D is rising;(STOCH) Langsam %D steigt
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D is rising;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D steigt
+The Williams Percent Range is a momentum indicator that is designed to identify overbought and oversold areas in a nontrending market.;Der 'Williams Percent Range' ist ein Momentum-Indikator, der dazu entworfen wurde, über(ver)kaufte Zonen in einem nicht trendenden Markt zu identifizieren.
+(WILL%R) Williams Percent Range;(WILL%R) Williams Percent Range
+Williams %R(#Period#)[#Shift#];Williams %R(#Period#)[#Shift#]
+Is triggered if Williams%R changes direction downwards;Wird ausgelöst, wenn Williams%R die Richtung nach unten ändert
+(WPR) Williams%R changes direction downwards;(WPR) Williams%R ändert die Richtung nach unten
+Williams%R(#Period#) changes direction downwards;Williams%R(#Period#) ändert die Richtung nach unten
+Is triggered if Williams%R changes direction upwards;Wird ausgelöst, wenn Williams%R die Richtung nach oben ändert
+(WPR) Williams%R changes direction upwards;(WPR) Williams%R ändert die Richtung nach oben
+Williams%R(#Period#) changes direction upwards;Williams%R(#Period#) ändert die Richtung nach oben
+(WPR) Williams%R crosses below Level;(WPR) Williams%R kreuzt die Ebene nach unten
+Williams%R(#Period#) crosses below #Level#;Williams%R(#Period#) kreuzt #Level# nach unten
+(WPR) Williams%R crosses above Level;(WPR) Williams%R kreuzt die Ebene nach oben
+Williams%R(#Period#) crosses above #Level#;Williams%R(#Period#) kreuzt #Level# nach oben
+Is triggered if Williams%R is falling;Wird ausgelöst, wenn Williams%R fällt
+(WPR) Williams%R is falling;(WPR) Williams%R fällt
+Williams%R(#Period#) is falling;Williams%R(#Period#) fällt
+(WPR) Williams%R is higher than Level;(WPR) Williams%R ist höher als die Ebene
+Williams%R(#Period#) > #Level#;Williams%R(#Period#) > #Level#
+(WPR) Williams%R is lower than Level;(WPR) Williams%R ist niedriger als die Ebene
+Williams%R(#Period#) < #Level#;Williams%R(#Period#) < #Level#
+Is triggered if Williams%R is rising;Wird ausgelöst, wenn Williams%R steigt
+(WPR) Williams%R is rising;(WPR) Williams%R steigt
+Williams%R(#Period#) is rising;Williams%R(#Period#) steigt
+Close all positions that fit the criteria;Alle Positionen schließen, die die Kriterien erfüllen
+Magic number that can identify the order.;Magic number, die den Trade identifizieren kann.
+Comment can be also used to identify the order. In case of Comment, order matches if the order comments contains the text specified here.;Kommentar kann ebenfalls zum Identifizieren des Trades verwendet werden. Im Fall eines Kommentars stimmt der Trade überein, wenn das Kommentar den Text enthält, der hier eingegeben wurde.
+Order identification;Order-Identifikation
+Close most profitable position that fits the criteria;Die profitabelste Position schließen, die die Kriterien erfüllt
+Close most profitable position;Die profitabelste Position schließen
+Close specified position or its part;Angegebene Position ganz oder teilweise schließen
+Order size;Tradegröße
+Close least profitable position that fits the criteria;Die am wenigsten profitable Position schließen, die die Kriterien erfüllt
+Close least profitable position;Die am wenigsten profitable Position schließen
+Sets Profit Target to a specified level. If PT already exists it will be moved.;Legt das Profitziel auf eine angegebene Ebene fest. Falls es bereits existiert, wird es verschoben.
+(PT) Set Profit Target;(PT) Profitziel festlegen
+Set Profit Target;Profitziel festlegen
+Sets Stop Loss to a specified level. If SL already exists it will be moved.;Legt den Stop-Loss auf eine angegebene Ebene fest. Falls er bereits existiert, wird er verschoben.
+(SL) Set Stop Loss;(SL) Stop-Loss festlegen
+Set Stop Loss;Stop-Loss festlegen
+Opens limit order at given price;Öffnet eine Limit-Order zum gegebenen Preis
+(LMT) Enter at limit;(LMT) Einstieg (Limit-Order)
+EnterAtLimit;EnterAtLimit
+Opens order at current market price;Öffnet eine Order zum aktuellen Marktpreis
+Magic number is used to identify this trade, it should be unique for every trade you open.;Die Magic number wird verwendet, um diesen Trade zu identifizieren, sie sollte für jeden eröffneten Trade einzigartig sein.
+If set to true, it will allow to place multiple trades with the same Magic Number;Falls auf TRUE gesetzt, können mehrere Trades mit derselben Magic number platziert werden
+(MKT) Enter at market;(MKT) Einstieg zum Marktpreis
+EnterAtMarket;EnterAtMarket
+Basic;Grundlegend
+Opens stop order at given price;Öffnet eine Stop-Order zum gegebenen Preis
+Number of bars this pending order will be valid, after then it expires. 0 means it never expires.;Anzahl an Kerzen, die diese Pending-Order gültig sein wird, danach läuft sie ab. 0 bedeutet, sie läuft niemals ab.
+If existing stop order with the same identification exist, should it be replaced?;Wenn bereits eine Stop-Order mit derselben Identifikation existiert, soll sie ersetzt werden?
+(STOP) Enter at stop;(STOP) Einstieg (Stop-Order)
+EnterAtStop;EnterAtStop
+Advanced;Erweitert
+Replace Existing Order;Bestehende Order ersetzen
+Opens order at current market price<br/> If there already is existing order to an opposite direction, it closes it first.;Öffnet einen Trade zum gegenwärtigen Marktpreis<br/> Falls bereits eine Order in die andere Richtung offen ist, wird diese zuerst geschlossen.
+(MKT) Enter/reverse at market;(MKT) Einstieg/Umkehr zum Marktpreis
+Enter/ReverseAtMarket;Enter/ReverseAtMarket
+Number constant;Zahlenkonstante
+(BOOL) Boolean;(BOOL) Bool'scher Ausdruck
+#Value#;#Value#
+Boolean Variable;Bool'sche Variable
+(BVAR) Boolean Variable;(BVAR) Bool'sche Variable
+#Variable#;#Variable#
+Double Variable;Double-Variable
+(DVAR) Double Variable;(DVAR) Double-Variable
+Integer Variable;Integer-Variable
+(IVAR) Int Variable;(IVAR) Int-Variable
+(NUM) Number;(NUM) Zahl
+#Number#;#Number#
+Assigns a value to the variable;Weist der Variable einen Wert zu
+Choose variable to which you want to assign some value;Wähle die Variable aus, der du einen Wert zuweisen möchtest
+(VAR) Assign variable;(VAR) Variable zuweisen
+Assign variable;Variable zuweisen
+Define your own action. You can specify any valid MQL command here, or call a custom MQL function defined in /code/CustomFunctions.mq4 file (only desktop version);Definiere deine eigene Aktion. Du kannst hier jeden gültigen MQL-Befehl angeben oder eine benutzerdefinierte MQL-Function aufrufen, die in der Datei /code/CustomFunctions.mq4 definiert ist (nur Desktop-Version)
+Custom action;Benutzerdefinierte Aktion
+Draws Down Arrow;Zeichnet einen Pfeil nach unten
+(v) Draw Down Arrow;(v) Pfeil nach unten zeichnen
+Draw Down Arrow;Pfeil nach unten zeichnen
+Draws Up Arrow;Zeichnet einen Pfeil nach oben
+(^) Draw Up Arrow;(^) Pfeil nach oben zeichnen
+Draw Up Arrow;Pfeil nach oben zeichnen
+Log message to a given file. The file will be placed in {MT4}/tester/files (for backtest) or in {MT4}/experts/files (for real trading);Nachricht in einer gegebenen Datei loggen. Die Datei wird unter {MT4}/tester/files (für Backtests) oder unter {MT4}/experts/files (für Realtrading) platziert
+Logs the specified text to a journal. The text is written to Strategy Tester : Journal during backtest, and to Terminal : Experts during live trading.;Loggt den angegebenen Text in ein Journal. Der Text wird während Backtests nach Strategy Tester : Journal geschrieben und nach Terminal : Experts während de Live-Tradings.
+Sends email with specified text. It relies on correct SMTP settings in MT4 in Tools : Options : Email;Sendet eine E-Mail mit angegebenem Text. Korrekte SMTP-Einstellungen im MT4 unter Tools : Optionen : Email erfrderlich!
+(ASK) Ask;(ASK) Ask
+Ask;Ask
+(BID) Bid;(BID) Bid
+Bid;Bid
+(C) Close;(C) Close
+Close[#Shift#];Close[#Shift#]
+(DC) Daily Close;(DC) Daily Close
+CloseD[#Shift#];CloseD[#Shift#]
+(HA C) Heiken Ashi Close;(HA C) Heiken Ashi Close
+Heiken Ashi Close[#Shift#];Heiken Ashi Close[#Shift#]
+(HA H) Heiken Ashi High;(HA H) Heiken Ashi High
+Heiken Ashi High[#Shift#];Heiken Ashi High[#Shift#]
+(HA L) Heiken Ashi Low;(HA L) Heiken Ashi Low
+Heiken Ashi Low[#Shift#];Heiken Ashi Low[#Shift#]
+(HA O) Heiken Ashi Open;(HA O) Heiken Ashi Open
+Heiken Ashi Open[#Shift#];Heiken Ashi Open[#Shift#]
+(H) High;(H) High
+High[#Shift#];High[#Shift#]
+(DH) Daily High;(DH) Daily High
+HighD[#Shift#];HighD[#Shift#]
+(L) Low;(L) Low
+Low[#Shift#];Low[#Shift#]
+(DL) Daily Low;(DL) Daily Low
+LowD[#Shift#];LowD[#Shift#]
+(O) Open;(O) Open
+Open[#Shift#];Open[#Shift#]
+(DO) Daily Open;(DO) Daily Open
+OpenD[#Shift#];OpenD[#Shift#]
+Spread in pips;Spread in Pips
+(V) Volume;(V) Volume
+Volume[#Shift#];Volume[#Shift#]
+Returns account balance in account currency.;Gibt den Kontostand in der Kontowährung zurück.
+(ACB) AccountBalance;(ACB) AccountBalance
+AccountBalance();AccountBalance()
+Returns account equity in account currency.;Gibt die Konto-Equität in der Kontowährung zurück.
+(ACC) AccountEquity;(ACC) AccountEquity
+AccountEquity();AccountEquity()
+Returns number of bars since the specified order was opened.;Gibt die Anzahl an Kerzen seit Eröffnung der angegebenen Order zurück.
+"BarsSinceOrderClosed(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"BarsSinceOrderClosed(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+"BarsSinceOrderOpen(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"BarsSinceOrderOpen(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns last closed P/L in money for order with given Magic Number. It will return 0 if the order hasn't closed yet. If Magic Number is 0, it will return closed P/L of last order.;Gibt den letzten geschlossenen P/L in Geld für die Order mit der gegebenen Magic Number zurück. Falls die Order noch nicht geschlossen ist, wird 0 zurückgegeben. Wenn die Magic Number 0 ist, wird der geschlossene P/L der letzten Order zurückgegeben.
+Leave at 0 for very last trade. 1 means trade befor ethe last one, 2 means trade before that, etc.;Auf 0 belassen für den allerletzten Trade. 1 bedeutet vorletzter, 2 bedeutet drittletzter usw.
+Closed P/L (in money);Geschlossener P/L (in Geld)
+"Closed P/L in money(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"Geschlossener P/L in Geld(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Other;Andere
+Returns last closed P/L in pips for order with given Magic Number. It will return 0 if the order hasn't closed yet. If Magic Number is 0, it will return closed P/L of last order.;Gibt den letzten geschlossenen P/L in Pips für die Order mit der gegebenen Magic Number zurück. Falls die Order noch nicht geschlossen ist, wird 0 zurückgegeben. Wenn die Magic Number 0 ist, wird der geschlossene P/L der letzten Order zurückgegeben.
+Closed P/L (in pips);Geschlossener P/L (in Pips)
+"Closed P/L in pips(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"Geschlossener P/L in Pips(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns true if direction of last order matches. Considers only executed orders, not pending orders that were closed.;Gibt TRUE zurück, wenn die Richtung der letzten Order übereinstimmt. Es werden nur ausgeführte Orders betrachtet, keine geschlossenen Pending Orders.
+"Last order(#Symbol#, #MagicNumber#, \""#Comment#\"") was #Direction#";"Letzte Order(#Symbol#, #MagicNumber#, \""#Comment#\"") war #Direction#"
+Returns true is direction of last order doesn't match the specified direction. Considers only executed orders, not pending orders that were closed.;Gibt TRUE zurück, wenn die Richtung der letzten Order nicht übereinstimmt. Es werden nur ausgeführte Orders betrachtet, keine geschlossenen Pending Orders.
+"Last order(#Symbol#, #MagicNumber#, \""#Comment#\"") was not #Direction#";"Letzte Order(#Symbol#, #MagicNumber#, \""#Comment#\"") war nicht #Direction#"
+Returns current market position, it will search for all orders that fit the criteria. If there are orders to both long and short, it will return direction of first order found.;Gibt aktuelle Marktposition zurück, alle Orders, die das Kriterium erfüllen, werden gesucht. Wenn es sowohl Long- als auch Short-Orders gibt, wird die Richtung der ersten gefundenen Order zurückgegeben.
+(MKT) MarketPosition;(MKT) MarketPosition
+"MarketPosition(#Symbol#, #MagicNumber#, \""#Comment#\"")";"MarketPosition(#Symbol#, #MagicNumber#, \""#Comment#\"")"
+Market Position Is Flat;Marktposition ist flach
+Is triggered if the first identified live order that fits the criteria is Long. It doesn't consider pending orders.;Wird ausgelöst, wenn die erste identifizierte Live-Order, die das Kriterium erfüllt, LONG ist. Es werden keine Pending Orders betrachtet.
+"Market Position(#Symbol#, #MagicNumber#, \""#Comment#\"") is Long";"Marktposition(#Symbol#, #MagicNumber#, \""#Comment#\"") ist Long"
+Is triggered if the first identified live order that fits the criteria is Short. It doesn't consider pending orders.;Wird ausgelöst, wenn die erste identifizierte Live-Order, die das Kriterium erfüllt, SHORT ist. Es werden keine Pending Orders betrachtet.
+"Market Position(#Symbol#, #MagicNumber#, \""#Comment#\"") is Short";"Marktposition(#Symbol#, #MagicNumber#, \""#Comment#\"") ist Short"
+Returns number of market positions that fit the criteria.;Gibt die Anzahl der Marktpositionen zurück, die die Bedingungen erfüllen.
+"MarketPositionsCount(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"MarketPositionsCount(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns the sum of all open positions that fit the criteria.;Gibt die Summe aller offenen Positionen zurück, die die Bedingungen erfüllen.
+"MarketPositionSize(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"MarketPositionSize(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns true if there wasn't active trade that was closed recently - which means at the same bar or even the same minute. This block can be used to filter too frequent trading and improve backtesting accuracy.;Gibt TRUE zurück, wenn kein aktiver Trade kürzlich geschlossen wurde - d.h. in der selben Kerze oder sogar zur selben Minute. Dieser Block kann verwendet werden, um zu häufiges Trading herauszufiltern und die Backtesting-Qualität zu verbessern.
+NoTradeRecentlyClosed(#Symbol#, #MagicNumber#);NoTradeRecentlyClosed(#Symbol#, #MagicNumber#)
+Returns open P/L for specified order in money. If you'll not specify any order, it will return sum of open P/L for all active orders.;Gibt den offenen P/L für die angegebene Order in Geld zurück. Wenn du keine Order angibst, wird die Summe des offenen P/L für alle aktiven Orders zurückgegeben.
+Open P/L (in money);Offener P/L (in Geld)
+"Open P/L in money(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"Offener P/L in Geld(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns open P/L for specified order in pips. If you'll not specify any order, it will return sum of open P/L for all active orders.;Gibt den offenen P/L für die angegebene Order in Pips zurück. Wenn du keine Order angibst, wird die Summe des offenen P/L für alle aktiven Orders zurückgegeben.
+Open P/L (in pips);Offener P/L (in Pips)
+"Open P/L in pips(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"Offener P/L in Pips(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns open price level for specified order;Gibt das Eröffnungspreis-Niveau für die angegebene Order zurück
+Order Open Price;Order Eröffnungspreis
+"OrderOpenPrice(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"OrderOpenPrice(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns Profit Target level for specified order;Gibt das Profitziel-Niveau für die angegebene Order zurück
+Order Profit Target;Order Profitziel
+"OrderProfitTarget(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"OrderProfitTarget(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Returns Stop Loss level for specified order;Gibt das Stop-Loss-Niveau für die angegebene Order zurück
+Order Stop Loss;Order Stop-Loss
+"OrderStopLoss(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")";"OrderStopLoss(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"")"
+Is triggered when there doesn't exist specified pending order;Wird ausgelöst, wenn die angegebene Pending Order nicht existiert
+Pending order doesn't exist;Pending Order existiert nicht
+"Pending order(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"") doesn't exist";"Pending Order(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"") existiert nicht"
+Is triggered when there exists specified pending order;Wird ausgelöst, wenn die angegebene Pending Order existiert
+"Pending order(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"") exists";"Pending Order(#Symbol#, #MagicNumber#, #Direction#, \""#Comment#\"") existiert"
+Returns true if there was active trade that was closed recently - which means at the same bar or even the same minute.;Gibt TRUE zurück, wenn ein aktiver Trade kürzlich geschlossen wurde - d.h. in der selben Kerze oder sogar zur selben Minute.
+Check if trade closed this bar.;Prüfen, ob der Trade in dieser Kerze geschlossen wurde.
+Check if trade closed in the last minute.;Prüfen, ob der Trade in der letzten Minute geschlossen wurde.
+TradeRecentlyClosed(#Symbol#, #MagicNumber#);TradeRecentlyClosed(#Symbol#, #MagicNumber#)
+Close Condition;Schließbedingung
+AHPR;AHPR
+Arithmetic Holding Period Return;Arithmetic Holding Period Return
+Ambiguous Trades;Mehrdeutige Trades
+Ambiguous Trades - trades that start and end at the same bar;Mehrdeutige Trades - Trades, die innerhalb der selben Kerze starten und enden
+Ambiguous Trades %;Mehrdeutige Trades %
+Ambiguous Trades Percentage - trades that start and end at the same bar;Mehrdeutige Trades in Prozent - Trades, die innerhalb der selben Kerze starten und enden
+Annual % Return;Jahresgewinn %
+Annual Percentage Return;Jahresgewinn in Prozent
+Annual % Return/Max DD %;Jahresgewinn %/Max DD %
+Annual Percentage Return vs Drawdown ratio;Jahresgewinn in Prozent / Drawdown-Verhältnis
+Avg. Abs Trade;Durchschn. Abs Trade
+Average Absolute Trade (including losing trades);Durchschnittliche Gesamttrades (einschließlich Verlusttradess)
+Avg. Bars in Trade;Durchschn. Kerzen im Trade
+Average Bars In Trade;Durchschnittliche Kerzen in einem Trade
+Avg. Bars Loss;Durchschn. Kerzen Verlust
+Average Bars In Trade for Loser;Durchschnittliche Kerzen in einem Verlusttrade
+Avg. Bars Win;Durchschn. Kerzen Gewinn
+Average Bars In Trade for Winner;Durchschnittliche Kerzen in einem Gewinntrade
+Avg Consec. Losses;Durchschn. Folgeverluste
+Average Consecutive Losses;Durchschnittliche Verluste in Folge
+Avg Consec. Wins;Durchschn. Folgegewinne
+Average Consecutive Wins;Durchschnittliche Gewinne in Folge
+Avg. Loss;Durchschn. Verlust
+Average Losing Trade;Durchschnittlicher Verlusttrade
+Avg. Profit Per Day;Durchschn. Profit pro Tag
+Avg. Profit Per Month;Durchschn. Profit pro Monat
+Avg. Profit Per Year;Durchschn. Profit pro Jahr
+Avg. Trade;Durchschn. Trade
+Average Trade;Durchschnittlicher Trade
+Avg. Trades Per Day;Durchschn. Trades pro Tag
+Avg. Trades Per Month;Durchschn. Trades pro Monat
+Avg. Trades Per Year;Durchschn. Trades pro Jahr
+Avg. Win;Durchschn. Gewinn
+Average Winning Trade;Durchschnittlicher Gewinntrade
+Backtest Duration (s);Backtest-Dauer (s)
+Backtest duration in seconds;Backtest-Dauer in Sekunden
+CAGR;CAGR
+Compound Annual Growth Rate;Akkumulierte jährliche Wachstumsrate
+CalmarRatio;CalmarRatio
+Commission;Kommission
+Degrees of freedom;Freiheitsgrade
+Max DD %;Max DD %
+Max Drawdown in %;Max. Drawdown in %
+Max DD pips;Max. DD Pips
+Max Drawdown in pips;Max. Drawdown in Pips
+Expectancy;Erwartungswert
+Exposure;Enthüllung
+Exposure = # bars in all positions / total # bars in the sample;Enthüllung = Kerzen in allen Positionen / Kerzen insgesamt im Sample
+Fitness;Eignung
+Fitness rank;Eignungs-Rang
+Gross profit;Bruttogewinn
+Initial deposit;Ursprüngliche Einzahlung
+Max Consec. Losses;Max. Folgeverluste
+Maximum Consecutive Losses;Maximale Folgeverluste
+Max Consec. Wins;Max. Folgegewinne
+Maximum Consecutive Wins;Maximale Folgegewinne
+Max Profit;Max. Profit
+Mini equity chart;Mini Equitäts-Chart
+Net profit;Reingewinn
+# of canceled;Anz. Abgebrochener
+Number of canceled trades;Anzahl abgebrochener Trades
+# of losses;Anz. Verluste
+Number of losses;Anzahl an Verlusten
+# of profits;Anz. Gewinne
+Number of profits;Anzahl an Gewinnen
+Number of trades;Anzahl an Tardes
+Payout ratio;Auszahlungsrate
+Profit factor;Profitfaktor
+Results Name;Name des Ergebnisses
+Ret/DD Ratio;Gew.-/DD-Verhältnis
+Return / Drawdown Ratio;Gewinn-/Drawdown-Verhältnis
+R Expectancy;G Erwartung
+RSquared;RSquared
+RSquared - how straight is the equity curve;RSquared - wie gerade ist die Equitätskurve
+Sharpe Ratio;Sharpe Ratio
+Sharpe Ratio (annualized);Sharpe Ratio (jährlich)
+Strategy Quality Number;Strategy Quality Number
+SQN Score;SQN Score
+Strategy Quality Number Score;Strategy Quality Number Score
+Stability;Stabilität
+Stability - how straight and steep is the equity curve;Stability - wie gerade und steil ist die Equitätskurve
+Stagnation in Days;Stagnation in Tagen
+% Stagnation;% Stagnation
+Stagnation in % from total days;Stagnation in % von Gesamttagen
+Standard Deviation of Trades;Standardabweichung der Trades
+Symbol on which the test was made;Symbol, auf welchem der Test ausgeführt wurde
+Symmetry;Symmetrie
+How symmetrical is profit between Long and Short side?;Wie symmetrisch ist der Profit zwischen Long- und Short-Trades?
+TimeFrame;TimeFrame
+Timeframe on which the test was made;Timeframe auf welchem der Test ausgeführt wurde
+Total Trading Days;Tradingtage insgesamt
+Total Trading Months;Tradingmonate insgesamt
+Total Trading Years;Tradingjahre insgesamt
+Trades Symmetry;Symmetrie der Trades
+How symmetrical is number oftrades between Long and Short side?;Wie symmetrisch ist die Anzahl an Long- und Short-Trades?
+Winning Percent;Prozent Gewinntrades
+Worst Year Profit;Profit schlechtestes Jahr
+ZProbability;Z-Wahrscheinlichkeit
+ZScore;Z-Score
+Balance;Kontostand
+BarsInTrade;BarsInTrade
+Close price;Schlusspreis
+Close time;Schlusszeit
+Close type;Schlusstyp
+Comment;Kommentar
+Comm/Swap;Komm/Swap
+MAE ($);MAE ($)
+MAE (pips);MAE (Pips)
+MFE ($);MFE ($)
+MFE (pips);MFE (Pips)
+Open price;Eröffnungspreis
+Open time;Eröffnungszeit
+Orig. Open time;Urspr. Eröffnungszeit
+% Drawdown;% Drawdown
+Profit/Loss;Profit/Verlust
+Profit/Loss Pct;Profit/Verlust Prozent
+Profit/Loss Pips;Profit/Verlust Pips
+Result name;Name des Ergebnisses
+Size;Größe
+Ticket;Ticket
+Time in trade;Zeit im Trade
+Max Drawdown in one run;Max. Drawdown in einem Durchlauf
+Max % Drawdown in one run;Max. % Drawdown in einem Durchlauf
+Max profit in one run;Max. Profit in einem Durchlauf
+Max profit in one run as % of total;Max. Profit in einem Durchlauf in % vom Gesamtprofit
+Max Stagnation in %;Max. Stagnation in %
+Min trades in one run;Min. Trades in einem Durchlauf
+Percentage of profitable runs;Prozentsatz profitabler Durchläufe
+Number of closed positions;Anzahl geschlossener Positionen
+Number of closed trades;Anzahl geschlossener Trades
+Number of open positions;Anzahl offener Positionen
+Number of open trades;Anzahl offener Trades
+Average strategies per hour;Durchschnittliche Strategien pro Stunde
+Strategies;Strategien
+Avg. strategies per hour;Durchschn. Strategien pro Stunde
+Top Strategy;Spitzenstrategie
+Top 3 Strategies Avg;Durchschn. beste 3 Strategien
+All Strategies Avg;Durchschn. alle Strategien
+Heap memory chart;Heap-Arbeitsspeicher-Chart
+Memory;Arbeitsspeicher
+Memory Usage;RAM Verwendung
+Heap Size;Heap-Größe
+Off-heap memory chart;Off-Heap-Arbeitsspeicher-Chart
+Off-Heap Size;Off-Heap-Größe
+Off-heap memory info;Off-Heap-Arbeitsspeicher Infos
+Allocated objects;Zugewiesene Objekte
+Allocated memory;Zugewiesener Arbeitsspeicher
+Number of bars after which this trade will automatically be closed;Anzahl an Kerzen, nach denen dieser Trade automatisch geschlossen wird
+Exit After Bars;Ausstieg nach Kerzen
+Move StopLoss to Break Even;Stop-Loss nach Break-Even bewegen
+Move SL to BE;SL nach BE bewegen
+SL to BE - Add pips;SL nach BE - Pips addieren
+Trailing Stop;Trailing-Stop
+TS Activation Level;TS Aktivierungslevel
+<b>Strategy will risk given amount of money for every trade</b><br/>This is basic money management without compounding. It can be used to test real performance of strategies whose Stop Loss is based on ATR.;<b>Die Strategie riskiert den angegebenen Geldbetrag für jeden Trade</b><br/>Dies ist grundlegendes Money-Management ohne Akkumulierung. Es kann verwendet werden, um die echte Performance von Strategien zu testen, deren Stop Loss auf ATR basiert.
+Risk in $;Risiko in $
+Order size will be rounded to the selected number of decimal places. Use 2 for microlots, 1 for mini lots and 0 for stocks and futures.;Ordergröße wird auf die ausgewählte Dezimalstellenanzahl gerundet. Verwende 2 für Microlots, 1 für Minilots und 0 für Aktien und Futures.
+How many lots should be traded if we disable or cannot use Money Management - for example when computed trade size is 0;Wie vile Lots getradet werden, wenn Money Management deaktiviert ist oder nicht verwendet werden kann - z.B. wenn die berechnete Tradegröße 0 ist
+The biggest lot size allowed;Die größte erlaubte Lotgröße
+Fixed amount;Fester Betrag
+Fixed amount: #RiskedMoney# $;Fester Betrag: #RiskedMoney# $
+RiskedMoney;RiskedMoney
+Size Decimals;Größe Dezimalstellen
+Size if no MM;Größe wenn kein MM
+Lots;Lots
+Maximum lots;Maximale Lots
+Fixed amount, #RiskedMoney# $;Fester Betrag, #RiskedMoney# $
+<b>No money management</b><br/>Strategy will trade with fixed number of lots.;<b>Kein Money Management</b><br/>Strategie handelt mit fester Lotgröße.
+Order size (number of lots for forex);Ordergröße (Anzahl an Lots für Forex)
+Fixed size;Feste Größe
+Fixed size: #Lots# lots;Feste Größe: #Lots# Lots
+Fixed size, #Size# lots;Feste Größe, #Size# Lots
+<b>Risk fixed percentage of balance</b>;<b>Festen Prozentsatz des Kontostandes verwenden</b>
+How big percentage of your account will be risked in every trade?;Wieviel Prozent deines Kontos sollen bei jedem Trade riskiert werden?
+Risk fixed % balance;Festen Prozentsatz vom Kontostand
+Risk fixed % balance: #Risk#%;Festen Prozentsatz des Kontostands verwenden: #Risk#%
+Risk in %;Risiko in %
+Risk #Risk#% of balance;#Risk#% des Kontostandes riskieren
+<b>Risk fixed percentage of account size</b><br/>Strategy will risk a given % of equity for every trade.<br/><br/>This is a simple but very effective money management that will allow the strategy to increase the number of lots as your account grows.<br/><br/>It is recommended to risk around 2-5% of the account per trade.;<b>Festen Prozentsatz der Kontogröße riskieren</b><br/>Die Strategie riskiert einen gegebenen Prozentsatz der Equität für jeden Trade.<br/><br/>Dies ist eine einfache, doch sehr effektive Methode, die eine Erhöhung der Lotgröße im Verhältnis des wachsenden Kontos ermöglicht.<br/><br/>Es wird empfohlen, etwa 2-5% des Kontostandes pro Trade zu riskieren.
+If order doesn't have SL then this predefined StopLoss will be used to compute the correct trade size according to money management;Wenn die Order keinen SL hat, wird diese vordefinierte Stop-Loss-Größe verwendet, um die korrekte Tradegröße entsprechend des Money Managements zu berechnen
+Risk fixed % of account;Festen Prozentsatz des Kontostands verwenden
+Risk fixed % of account: #Risk#%, #Lots# lots, #MaxLots# max. lots;Festen Prozentsatz des Kontos riskieren: #Risk#%, #Lots# Lots, #MaxLots# max. Lots
+Risk;Risiko
+StopLoss in pips;Stop-Loss in Pips
+Risk #Risk#% of account;#Risk#% des Kontostandes riskieren
+<b>Size computed as Balance / StockSize.</b> Position sizing method specifically for stocks.;<b>Größe berechnet als Kontostand / Aktiengröße.</b> Positionsgrößen-Berechnungsmethode speziell für Aktien.
+If set to true, it will use current account balance. Otherwise it will use initial capital.;Falls auf TRUE gesetzt, wird der aktuelle Kontostand verwendet. Andernfalls wird das Startkapital verwendet.
+The biggest size allowed;Die maximal erlaubte Größe
+Stocks size by price;Aktiengröße nach Preis
+Use account balance;Kontostand verwenden
+Maximum size;Maximalgröße
+Stocks size by price, max #MaxSize# lots;Aktiengröße nach Preis, max. #MaxSize# Lots
+Randomize trades order;Reihenfolge der Trades mischen
+Randomize trades order, with method #Method#;Tradereihenfolge zufällig mischen, Methode: #Method#
+Randomly skip trades;Zufällig Trades überspringen
+Randomly skip trades, with probability #Probability# %;Zufällig Trades überspringen, Wahrscheinlichkeit: #Probability# %
+Probability;Wahrscheinlichkeit
+<b>Note!</b>If you choose this option then robustness tests will be tested with Selected Timeframe precision, while original strategy will be tested with configured precision.<br/>This might cause difference in results between original strategy and simulations because of different precision.<br/>To avoid this, use Selected Timeframe precision in Setings : Data.;<b>Hinweis!</b>Wenn du diese Option auswählst, werden die Robustness-Tests mit Timeframe-Präzision ausgeführt, während die Originalstrategie mit der konfigurierten Präzision getestet wird.<br/>Dies kann durch die unterschiedliche Präzision zu abweichenden Ergebnissen bei der Originalstrategie und den Simulationen führen.<br/>Um dies zu vermeiden, verwende unter Einstellungen : Daten die Präzision 'ausgewählter Timeframe'.
+Randomize history data;Historiendaten zufällig mischen
+Randomize history data, with probability #Probability# % and max price change #MaxChange# % of ATR;Histriendaten zufällig mischen, Wahrscheinlichkeit: #Probability# %, max. Preisänderung: #MaxChange# % ATR
+Max change;Max. Änderung
+Randomize min distance;Mindestabstand zufällig ändern
+Randomize min distance from price from #Min# to #Max#;Mindestabstand zufällig ändern von #Min# bis #Max#
+Randomize slippage;Slippage zufällig ändern
+Randomize slippage from #Min# to #Max#;Slippage zufällig ändern von #Min# bis #Max#
+Randomize spread;Spread zufällig ändern
+Randomize spread from #Min# to #Max#;Spread zufällig ändern von #Min# bis #Max#
+Randomize starting bar;Startkerze zufällig ändern
+Randomize starting bar, with max change #MaxChange#;Startkerze zufällig ändern, max. Änderung: #MaxChange#
+If true, it uses symmetric parameters - the parameters will be shared for long and short side. Otherwise, the parameters for long and short side will be independent.;Wenn TRUE, werden symmetrische Parameter verwendet - die Parameter werden sowohl für Long als auch für short verwendet. Andernfalls sind die Parameter für Long und Short voneinander unabhängig.
+Randomize strategy parameters;Strategieparameter zufällig ändern
+Randomize strategy parameters, with probability #Probability# % and max change #MaxChange# %;Strategieparameter zufällig ändern, Wahrscheinlichkeit: #Probability# %, max. Änderung: #MaxChange# %
+Symmetric parameters;Symmetrische Parameter
+Every trade will be allowed.;Jeder Trade ist erlaubt
+Allow all trades;Alle Trades erlauben
+SQ Default;SQ Voreinstellung
+SQ with Portfolio;SQ mit Portfolio
+TS Overview;TS Überblick
+Long vs Short P/L;Long / Short P/L
+Long P/L;Long P/L
+Short P/L;Short P/L
+Long vs Short trades;Long / Short Trades
+Long trades;Long Trades
+Short trades;Short Trades
+P/L by day;P/L nach Tag
+P/L;P/L
+P/L by hour;P/L nach Stunde
+P/L by month;P/L nach Monat
+P/L by trade duration;P/L nach Tradedauer
+P/L by weekday;P/L nach Wochentag
+P/L by year;P/L nach Jahr
+PL by Year;PL nach Jahr
+PL in money by Year;PL in Geld nach Jahr
+PL in pips by Year;PL in Pips nach Jahr
+PL in % by Year;PL in % nach Jahr
+Profit;Profit
+Loss;Verlust
+P/L Growth by duration;P/L Wachstum nach Dauer
+P/L Growth / Time;P/L Wachstum / Zeit
+Long Profit/Loss;Long Profit/Verlust
+Short Profit/Loss;Short Profit/Verlust
+Trades by day;Trades nach Tag
+Trades;Trades
+Trades by duration;Trades nach Dauer
+Trades by hour;Trades nach Stunde
+Trades by month;Trades nach Monat
+Trades by weekday;Trades nach Wochentag
+Trades by year;Trades nach Jahr
+Wins/Losses by day;Gewinne/Verluste nach Tag
+Wins/Losses by hour;Gewinne/Verluste nach Stunde
+Wins/Losses by month;Gewinne/Verluste nach Monat
+Wins/Losses by weekday;Gewinne/Verluse nach Wochentag
+Wins/Losses Profit by day;Gewinne/Verluste Profit nach Tag
+Wins/Losses Profit by hour;Gewinne/Verluste Profit nach Stunde
+Wins/Losses Profit by month;Gewinne/Verluste Profit nach Monat
+Wins/Losses Profit by weekday;Gewinne/Verluste Profit nach Wochentag
+None;Keine
+No commissions;Keine Kommissionen
+<b>Percentage based commissions</b><br/>Used mainly for stocks, it computes commission as % of actual price of purchased asset.;<b>Prozentbasierte Kommissionen</b><br/>Hauptsächlich für Aktien verwendet, die Kommission wird als % vom aktuellen Preis des erworbenen Assets berechnet.
+Commission in % of price per full lot (5 means 5%);Kommission in % vom Preis pro ganzes Lot (5 bedeutet 5%)
+Percentage based;Prozentbasiert
+Commission #Commission# % price;Kommission #Commission# % Preis
+<b>Simple size-based commissions</b><br/>Simple method of commissions computation - it uses commissions in $ per lot and multiplies it by actual trade size.;<b>Einfache größenbasierte Kommissionen</b><br/>Einfache Methode der Kommissionsberechnung - Kommissionen werden in $ pro Lot berechnet und mit der aktuellen Tradegröße multipliziert.
+Commission in $ per complete lot;Kommission in $ pro ganzem Lot
+Size based;Größenbasiert
+Commission per lot: #Commission# $;Kommission pro Lot: #Commission# $
+<b>No scaling</b>;<b>Keine Skalierung</b>
+No scaling;Keine Skalierung
+Close all positions at end of day?;Alle Positionen am Tagesende schließen?
+End Of Day Timewhen to close all positions. If set to 0, it will close all positions from previous day at midnight.;Tagesendzeit, zu der alle Positionen geschlossen werden. Falls auf 0 gesetzt, werden alle Positionen des vergangenen Tages um Mitternacht geschlossen.
+Exit At End Of Day;Ausstieg am Tagesende
+End Of Day Exit Time;Tagesende Ausstiegszeit
+Close all positions at end of the week (Friday)?;Alle Positionen am Ende der Woche (Freitag) schließen?
+Time on Friday when to close all positions;Zeitpunkt am Freitag, zu dem alle Positionen geschlossen werden
+Exit On Friday;Ausstieg am Freitag
+Friday Exit Time;Freitag Ausstiegszeit
+Limit trading to given time range?;Trading auf bestimmten Zeitbereich begrenzen?
+Time range for taking signal - from time;Zeitbereich, in dem Signale gelten - von
+Time range for taking signal - to time;Zeitbereich, in dem Signale gelten - bis
+Close all positions at end of range?;Alle Positionen am Ende des Bereichs schließen?
+Limit Time Range;Zeitbereich begrenzen
+Time Range From;Zeitbereich von
+Time Range To;Zeitbereich bis
+Exit At End Of Range;Ausstieg am Ende des Bereichs
+Maximum allowed number of trades per day, 0 means there is no limit.;Maximal erlaubte Anzahl an Trades pro Tag, 0 bedeutet unbegrenzt.
+Maximum Trades Per Day;Maximale Trades pro Tag

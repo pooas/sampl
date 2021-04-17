@@ -1,0 +1,107 @@
+(EST+07) New York Trading hours, US DST;EETUS 
+(UTC+02) European DST;EET
+(UTC) Coordinated Universal Time;Etc/UCT
+(UTC) Dublin, Edinburgh, Lisbon, London;Europe/London
+(UTC-05) New York, US & Canada, EST;America/New_York
+(UTC-12) International Date Line West;Etc/GMT+12
+(UTC-11) Coordinated Universal Time-11;Etc/GMT+11
+(UTC-10) Hawaii;Pacific/Honolulu
+(UTC-09) Alaska;America/Anchorage
+(UTC-08) Baja California;America/Los_Angeles
+(UTC-08) Pacific Time (US & Canada);America/Vancouver
+(UTC-07) Arizona;America/Phoenix
+(UTC-07) Chihuahua, La Paz, Mazatlan;America/Chihuahua
+(UTC-07) Mountain Time (US & Canada);America/Denver
+(UTC-06) Central America;America/Chicago
+(UTC-06) Central Time (US & Canada);America/Winnipeg
+(UTC-06) Guadalajara, Mexico City, Monterrey;America/Mexico_City
+(UTC-06) Saskatchewan;America/Regina
+(UTC-05) Bogota, Lima, Quito, Rio Branco;America/Bogota
+(UTC-05) Eastern Time (US & Canada);America/New_York
+(UTC-05) Indiana (East);America/Indiana/Indianapolis
+(UTC-04:30) Caracas;America/Caracas
+(UTC-04) Asuncion;America/Asuncion
+(UTC-04) Atlantic Time (Canada);America/Halifax
+(UTC-04) Cuiaba;America/Cuiaba
+(UTC-04) Georgetown, La Paz, Manaus, San Juan;America/Manaus
+(UTC-04) Santiago;America/Santiago
+(UTC-03:30) Newfoundland;America/St_Johns
+(UTC-03) Brasilia;America/Sao_Paulo
+(UTC-03) Buenos Aires;America/Argentina/Buenos_Aires
+(UTC-03) Cayenne, Fortaleza;America/Cayenne
+(UTC-03) Greenland;America/Cayenne
+(UTC-03) Montevideo;America/Montevideo 
+(UTC-03) Salvador;America/Montevideo 
+(UTC-02) Coordinated Universal Time-02;Etc/GMT+2
+(UTC-01) Azores;Atlantic/Azores
+(UTC-01) Cabo Verde Is.;Atlantic/Cape_Verde
+(UTC) Casablanca;Africa/Casablanca
+(UTC) Monrovia, Reykjavik;Atlantic/Reykjavik
+(UTC+01) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna;Europe/Vienna
+(UTC+01) Belgrade, Bratislava, Budapest, Ljubljana, Prague;Europe/Prague
+(UTC+01) Brussels, Copenhagen, Madrid, Paris;Europe/Paris
+(UTC+01) Sarajevo, Skopje, Warsaw, Zagreb;Europe/Warsaw
+(UTC+01) West Central Africa;Africa/Brazzaville
+(UTC+01) Windhoek;Africa/Windhoek
+(UTC+02) Amman;Asia/Amman
+(UTC+02) Athens, Bucharest;Europe/Athens
+(UTC+02) Beirut;Asia/Beirut
+(UTC+02) Cairo;Africa/Cairo
+(UTC+02) Damascus;Asia/Damascus
+(UTC+02) Harare, Pretoria;Africa/Harare
+(UTC+02) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius;Europe/Helsinki
+(UTC+02) Istanbul;Europe/Istanbul
+(UTC+02) Jerusalem;Asia/Jerusalem
+(UTC+02) Kaliningrad (RTZ 1);Europe/Kaliningrad
+(UTC+02) Tripoli;Africa/Tripoli
+(UTC+03) Baghdad;Asia/Baghdad
+(UTC+03) Kuwait, Riyadh;Asia/Kuwait
+(UTC+03) Minsk;Europe/Minsk
+(UTC+03) Moscow, St. Petersburg, Volgograd (RTZ 2);Europe/Moscow
+(UTC+03) Nairobi;Africa/Nairobi
+(UTC+03:30) Tehran;Asia/Tehran
+(UTC+04) Abu Dhabi, Muscat;Asia/Muscat
+(UTC+04) Baku;Asia/Baku
+(UTC+04) Izhevsk, Samara (RTZ 3);Europe/Samara
+(UTC+04) Port Louis;Asia/Tbilisi
+(UTC+04) Tbilisi;Asia/Tbilisi
+(UTC+04) Yerevan;Asia/Yerevan
+(UTC+04:30) Kabul;Asia/Kabul
+(UTC+05) Ashgabat, Tashkent;Asia/Tashkent
+(UTC+05) Ekaterinburg (RTZ 4);Asia/Yekaterinburg
+(UTC+05) Islamabad, Karachi;Asia/Karachi
+(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi;Asia/Kolkata
+(UTC+05:30) Sri Jayawardenepura;Asia/Kolkata
+(UTC+05:45) Kathmandu;Asia/Kathmandu
+(UTC+06) Astana;Asia/Dhaka
+(UTC+06) Dhaka;Asia/Dhaka
+(UTC+06) Novosibirsk (RTZ 5);Asia/Novosibirsk
+(UTC+06:30) Yangon (Rangoon);Asia/Rangoon
+(UTC+07) Bangkok, Hanoi, Jakarta;Asia/Bangkok
+(UTC+07) Krasnoyarsk (RTZ 6);Asia/Krasnoyarsk
+(UTC+08) Beijing, Chongqing, Hong Kong, Urumqi;Asia/Urumqi
+(UTC+08) Irkutsk (RTZ 7);Asia/Irkutsk
+(UTC+08) Kuala Lumpur, Singapore;Asia/Kuala_Lumpur
+(UTC+08) Perth;Australia/Perth
+(UTC+08) Taipei;Asia/Taipei
+(UTC+08) Ulaanbaatar;Asia/Ulaanbaatar
+(UTC+09) Osaka, Sapporo, Tokyo;Asia/Tokyo
+(UTC+09) Seoul;Asia/Seoul
+(UTC+09) Yakutsk (RTZ 8);Asia/Yakutsk
+(UTC+09:30) Adelaide;Australia/Adelaide
+(UTC+09:30) Darwin;Australia/Darwin
+(UTC+10) Brisbane;Australia/Brisbane
+(UTC+10) Canberra, Melbourne, Sydney;Australia/Sydney
+(UTC+10) Guam, Port Moresby;Pacific/Guam
+(UTC+10) Hobart;Australia/Hobart
+(UTC+10) Magadan;Asia/Magadan
+(UTC+10) Vladivostok, Magadan (RTZ 9);Asia/Vladivostok
+(UTC+11) Chokurdakh (RTZ 10);Asia/Vladivostok
+(UTC+11) Solomon Is., New Caledonia;Pacific/Noumea
+(UTC+12) Anadyr, Petropavlovsk-Kamchatsky (RTZ 11);Asia/Anadyr
+(UTC+12) Auckland, Wellington;Pacific/Auckland
+(UTC+12) Coordinated Universal Time+12;Etc/GMT-12
+(UTC+12) Fiji;Pacific/Fiji
+(UTC+13) Nuku'alofa;Pacific/Tongatapu
+(UTC+13) Samoa;Etc/GMT-13
+(UTC+14) Kiritimati Island;Pacific/Kiritimati

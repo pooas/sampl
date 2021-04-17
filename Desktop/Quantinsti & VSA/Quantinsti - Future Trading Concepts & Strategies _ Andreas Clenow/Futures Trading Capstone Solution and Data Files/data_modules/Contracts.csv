@@ -1,0 +1,51 @@
+Asset,Name,Ticker
+GC,Gold June 2020 Futures,GCM20
+GC,Gold July 2020 Futures,GCN20
+GC,Gold August 2020 Futures,GCQ20
+GC,Gold September 2020 Futures,GCU20
+GC,Gold October 2020 Futures,GCV20
+GC,Gold November 2020 Futures,GCX20
+GC,Gold December 2020 Futures,GCZ20
+GC,Gold January 2021 Futures,GCF21
+GC,Gold February 2021 Futures,GCG21
+CL,Crude Oil WTI July 2020 Futures,CLN20
+CL,Crude Oil WTI August 2020 Futures,CLQ20
+CL,Crude Oil WTI September 2020 Futures,CLU20
+CL,Crude Oil WTI October 2020 Futures,CLV20
+CL,Crude Oil WTI November 2020 Futures,CLX20
+CL,Crude Oil WTI December 2020 Futures,CLZ20
+CL,Crude Oil WTI January 2021 Futures,CLF21
+CL,Crude Oil WTI February 2021 Futures,CLG21
+CL,Crude Oil WTI March 2021 Futures,CLH21
+LE,Live Cattle June 2020 Futures,LEM20
+LE,Live Cattle August 2020 Futures,LEQ20
+LE,Live Cattle October 2020 Futures,LEV20
+LE,Live Cattle December 2020 Futures,LEZ20
+LE,Live Cattle February 2021 Futures,LEG21
+HE,Lean Hogs June 2020 Futures,HEM20
+HE,Lean Hogs July 2020 Futures,HEN20
+HE,Lean Hogs August 2020 Futures,HEQ20
+HE,Lean Hogs October 2020 Futures,HEV20
+HE,Lean Hogs December 2020 Futures,HEZ20
+HE,Lean Hogs February 2021 Futures,HEG21
+HE,Lean Hogs April 2021 Futures,HEJ21
+ZL,Soybean Oil July 2020 Futures,ZLN20
+ZL,Soybean Oil August 2020 Futures,ZLQ20
+ZL,Soybean Oil September 2020 Futures,ZLU20
+ZL,Soybean Oil October 2020 Futures,ZLV20
+ZL,Soybean Oil December 2020 Futures,ZLZ20
+ZL,Soybean Oil January 2021 Futures,ZLF21
+ZL,Soybean Oil March 2021 Futures,ZLH21
+NG,Natural Gas June 2020 Futures,NGM20
+NG,Natural Gas July 2020 Futures,NGN20
+NG,Natural Gas August 2020 Futures,NGQ20
+NG,Natural Gas September 2020 Futures,NGU20
+NG,Natural Gas October 2020 Futures,NGV20
+NG,Natural Gas November 2020 Futures,NGX20
+NG,Natural Gas December 2020 Futures,NGZ20
+NG,Natural Gas January 2021 Futures,NGF21
+NG,Natural Gas February 2021 Futures,NGG21
+NG,Natural Gas March 2021 Futures,NGH21
+SB,Sugar #11 July 2020 Futures,SBN20
+SB,Sugar #11 October 2020 Futures,SBV20
+SB,Sugar #11 March 2021 Futures,SBH21

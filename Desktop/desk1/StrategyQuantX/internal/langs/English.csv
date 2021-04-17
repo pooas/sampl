@@ -1,0 +1,2693 @@
+Error during initialization.;Error during initialization.
+Error;Error
+Error parsing on line %d. Incorrect file format?\nLine contents: %s;Error parsing on line %d. Incorrect file format?\nLine contents: %s
+Cannot close file :%s;Cannot close file :%s
+The program installation directory '%s' is read-only!;The program installation directory '%s' is read-only!
+Quant Analyzer will not work correctly, because it wouldn't be able to write changes to settings or database.;Quant Analyzer will not work correctly, because it wouldn't be able to write changes to settings or database.
+Please reinstall Quant Analyzer to a normal directory, for example C:\\Trading or C:\\QuantAnalyzer.;Please reinstall Quant Analyzer to a normal directory, for example C:\\Trading or C:\\QuantAnalyzer.
+Installation Error?;Installation Error?
+OK;OK
+Cancel;Cancel
+Close;Close
+Equity (%s);Equity (%s)
+Cannot perform cross-over with different length parents.;Cannot perform cross-over with different length parents.
+Session;Session
+Store chart data in the backtest result?;Store chart data in the backtest result?
+Store Chart Data;Store Chart Data
+Build options;Build options
+Cannot start project.;Cannot start project.
+abe;abe
+days;days
+hours;hours
+mins;mins
+Others;Others
+StrategyQuant Test Email;StrategyQuant Test Email
+This is a test email.;This is a test email.
+Test Email was sent to your email address.;Test Email was sent to your email address.
+Test Email could not be sent. Please check your SMTP settings.;Test Email could not be sent. Please check your SMTP settings.
+Monte Carlo trades manipulation;Monte Carlo trades manipulation
+This cross check uses Monte Carlo method to perform various simulations of resulting equity curve by manipulating the order of the trades.<br/>It allows you to quickly assess how much the good results are dependent on order of the trades.;This cross check uses Monte Carlo method to perform various simulations of resulting equity curve by manipulating the order of the trades.<br/>It allows you to quickly assess how much the good results are dependent on order of the trades.
+Monte Carlo retest methods;Monte Carlo retest methods
+This cross check uses Monte Carlo methods that perform simulations that require retesting the strategy - using different spread, parameters or history data.<br/>Note that it is slow, strategy will have to be retested multiple times, depending on your number of simulations.;This cross check uses Monte Carlo methods that perform simulations that require retesting the strategy - using different spread, parameters or history data.<br/>Note that it is slow, strategy will have to be retested multiple times, depending on your number of simulations.
+Retest on additional markets;Retest on additional markets
+This cross check retest the strategy on multiple additional markets (symbols).<br/>It allows you to compare the performance on multiple symbols, ideally you want to find the strategy that will work on multiple markets.;This cross check retest the strategy on multiple additional markets (symbols).<br/>It allows you to compare the performance on multiple symbols, ideally you want to find the strategy that will work on multiple markets.
+Retest with higher precision;Retest with higher precision
+This cross checks retests the strategy with higher precision.<br/>It can be used if you are using the lowest 'Selected timeframe' precision in the main backtest to quickly find and evaluate the valid strategies. You can then use this cross check to retest the strategy with higher precision to see if it performs in a same way with higher precision backtesting.;This cross checks retests the strategy with higher precision.<br/>It can be used if you are using the lowest 'Selected timeframe' precision in the main backtest to quickly find and evaluate the valid strategies. You can then use this cross check to retest the strategy with higher precision to see if it performs in a same way with higher precision backtesting.
+Walk-Forward Matrix;Walk-Forward Matrix
+This cross check performs Walk-Forward Matrix evaluation of the strategy using the settings below.<br/>Be aware that WF Matrix is extremely slow, it consists of running a number of WF optimizations, which themselves are very slow.<br/>The number of backtests required can easily grow to thousands or even tens of thousands for one WF optimization,<br/>so it is a good idea to limit the maximum tests for one WF optimization to some realistic number. ;This cross check performs Walk-Forward Matrix evaluation of the strategy using the settings below.<br/>Be aware that WF Matrix is extremely slow, it consists of running a number of WF optimizations, which themselves are very slow.<br/>The number of backtests required can easily grow to thousands or even tens of thousands for one WF optimization,<br/>so it is a good idea to limit the maximum tests for one WF optimization to some realistic number. 
+Walk-Forward Optimization;Walk-Forward Optimization
+This cross check performs Walk-Forward Optimization of the strategy using the settings below.<br/>Be aware that WF optimization is very slow, it requires repeated backtests of the strategy in different time ranges and using different parameter values.<br/>The number of backtests required can easily grow to thousands or even tens of thousands for one WF optimization, so it is a good idea to limit the maximum tests to some realistic number. ;This cross check performs Walk-Forward Optimization of the strategy using the settings below.<br/>Be aware that WF optimization is very slow, it requires repeated backtests of the strategy in different time ranges and using different parameter values.<br/>The number of backtests required can easily grow to thousands or even tens of thousands for one WF optimization, so it is a good idea to limit the maximum tests to some realistic number. 
+Cannot find MT4 data folder in default location '%s'.;Cannot find MT4 data folder in default location '%s'.
+Data folder doesn't contain MT4 history files.;Data folder doesn't contain MT4 history files.
+Main data backtest;Main data backtest
+Net Profit (Return);Net Profit (Return)
+Return / Drawdown ratio;Return / Drawdown ratio
+R Expectancy (Van Tharp);R Expectancy (Van Tharp)
+Annual Return % / Max DD %;Annual Return % / Max DD %
+Weighted Fitness (multiple goals);Weighted Fitness (multiple goals)
+Hour;Hour
+Day;Day
+Week;Week
+Month;Month
+no;no
+N/A;N/A
+Strategy '%s' doesn't exist.;Strategy '%s' doesn't exist.
+%d entry blocks, %d exit types;%d entry blocks, %d exit types
+Building blocks;Building blocks
+yes;yes
+Cross checks;Cross checks
+Data;Data
+Filtering;Filtering
+Go To Task;Go To Task
+Money Management method;Money Management method
+Risk Management method;Risk Management method
+Money management;Money management
+Note;Note
+SMTP server is not configured.;SMTP server is not configured.
+Email is not valid.;Email is not valid.
+Notification;Notification
+Optimization;Optimization
+Options settings not found in XML config;Options settings not found in XML config
+Trading options;Trading options
+No parameters selected;No parameters selected
+Cannot get distribution value;Cannot get distribution value
+Cannot get maxSteps value;Cannot get maxSteps value
+Parameters;Parameters
+Parts to improve;Parts to improve
+Cannot find XML Task element ;Cannot find XML Task element 
+Cannot recognize task type;Cannot recognize task type
+Max strategies count not set or invalid;Max strategies count not set or invalid
+Passed strategies count not set or has invalid value;Passed strategies count not set or has invalid value
+Stop condition type not set;Stop condition type not set
+Cannot load custom filters.;Cannot load custom filters.
+Cannot load automatic filters.;Cannot load automatic filters.
+Cannot load fitness function;Cannot load fitness function
+Maximum top strategies to store;Maximum top strategies to store
+Fitness computation;Fitness computation
+Rankings;Rankings
+Islands number must be between 1 and 100;Islands number must be between 1 and 100
+Improve type not set;Improve type not set
+Improve strategy file not set;Improve strategy file not set
+Improve databank not set;Improve databank not set
+Additional charts number not set or invalid;Additional charts number not set or invalid
+Simple strategies;Simple strategies
+Multi-symbol/Multi-TF strategies;Multi-symbol/Multi-TF strategies
+Strategies using template;Strategies using template
+Improve existing strategy;Improve existing strategy
+Strategy type;Strategy type
+What to build;What to build
+What to retest;What to retest
+Restarting genetic evolution;Restarting genetic evolution
+GRID: Stopping build, job failures (exceptions) exceeded 70%!;GRID: Stopping build, job failures (exceptions) exceeded 70%!
+Loading data and starting test run...;Loading data and starting test run...
+Test run finished ok;Test run finished ok
+Starting strategies generation...;Starting strategies generation...
+Build finished because databank is full;Build finished because databank is full
+Build finished because totally %d strategies were generated, excluding dismissed;Build finished because totally %d strategies were generated, excluding dismissed
+Created new batch of strategies, evaluating them...;Created new batch of strategies, evaluating them...
+Starting strategies filtering...;Starting strategies filtering...
+%s, deleted: %s;%s, deleted: %s
+%s, copied: %s;%s, copied: %s
+%s, moved: %s;%s, moved: %s
+No conditions;No conditions
+fit %s;fit %s
+not fit %s;not fit %s
+Going to task: %s, %s;Going to task: %s, %s
+Task notification for project %s;Task notification for project %s
+Note - Project is paused, waiting for your action.;Note - Project is paused, waiting for your action.
+Please don't reply to this email, it is not watched!;Please don't reply to this email, it is not watched!
+SQ Task notification for project %s;SQ Task notification for project %s
+Task notification was successfully sent.;Task notification was successfully sent.
+Task notification could not be sent. Please check your SMTP settings.;Task notification could not be sent. Please check your SMTP settings.
+Project is paused, waiting for your action.;Project is paused, waiting for your action.
+Starting optimization...;Starting optimization...
+Starting strategies retesting...;Starting strategies retesting...
+No strategies in databank, nothing to retest!;No strategies in databank, nothing to retest!
+Result '%s' doesn't contain strategy, skipping!;Result '%s' doesn't contain strategy, skipping!
+GRID: Stopping retest, job failures (exceptions) exceeded 70%!;GRID: Stopping retest, job failures (exceptions) exceeded 70%!
+GRID: Error while processing strategy result - %s;GRID: Error while processing strategy result - %s
+GRID: Error while creating batch of jobs - %s;GRID: Error while creating batch of jobs - %s
+File;File
+New...;New...
+Save;Save
+Save As;Save As
+Edit;Edit
+Undo;Undo
+Redo;Redo
+Find (Ctrl + F);Find (Ctrl + F)
+Find next (F3);Find next (F3)
+Replace (Ctrl + H);Replace (Ctrl + H)
+Find in files;Find in files
+Tools;Tools
+Compile;Compile
+Recompile all;Recompile all
+Fix imports;Fix imports
+Help;Help
+About QuantEditor;About QuantEditor
+Are you sure you want to exit?;Are you sure you want to exit?
+User Confirmation;User Confirmation
+Description;Description
+Line;Line
+Column;Column
+Ready;Ready
+Monitor;Monitor
+Heap;Heap
+Used: %.2f MB;Used: %.2f MB
+Enter name of cloned file;Enter name of cloned file
+Class name cannot be blank.;Class name cannot be blank.
+File name cannot contain spaces or special characters.;File name cannot contain spaces or special characters.
+Please choose a different name.;Please choose a different name.
+A file with this name already exists.;A file with this name already exists.
+An error has occurred while cloning the file.;An error has occurred while cloning the file.
+Please see the Log for more details.;Please see the Log for more details.
+An error has occurred while creating the new file.;An error has occurred while creating the new file.
+Name your file;Name your file
+(Special characters or spaces are not allowed);(Special characters or spaces are not allowed)
+Choose template;Choose template
+Create New;Create New
+An error occurred while saving the file.;An error occurred while saving the file.
+The file with given name already exists, do you want to overwrite it?;The file with given name already exists, do you want to overwrite it?
+Confirm file overwrite;Confirm file overwrite
+Log;Log
+Search;Search
+Navigator;Navigator
+Live;Live
+Original;Original
+New;New
+Save As..;Save As..
+Recompile All;Recompile All
+File '%s' contains unsaved changes.\nDo you really want to close it?;File '%s' contains unsaved changes.\nDo you really want to close it?
+Warning;Warning
+Close Others;Close Others
+Close All;Close All
+Collapse All;Collapse All
+Expand All;Expand All
+Type here to filter.;Type here to filter.
+Original version;Original version
+This is the original, non-editable version of this Snippet from StrategyQuant. You can use it as reference point when you are editing the Live version of this snippet, and you can always revert to this original version.;This is the original, non-editable version of this Snippet from StrategyQuant. You can use it as reference point when you are editing the Live version of this snippet, and you can always revert to this original version.
+- compiled file;- compiled file
+- uncompiled yet;- uncompiled yet
+- error in file;- error in file
+New Directory;New Directory
+Refresh;Refresh
+Open;Open
+Delete;Delete
+Rename;Rename
+Reload from Disk;Reload from Disk
+Revert to original;Revert to original
+New File;New File
+Clone;Clone
+Do you really want to replace the file with original version?;Do you really want to replace the file with original version?
+Are you sure you want to remove '%s';Are you sure you want to remove '%s'
+Do you really want to refresh '%s' from disc? Unsaved changes will be lost.;Do you really want to refresh '%s' from disc? Unsaved changes will be lost.
+Are you sure you want to rename?;Are you sure you want to rename?
+Cannot rename file.;Cannot rename file.
+Please check  if this file is open in another program.;Please check  if this file is open in another program.
+An error has occurred while renaming the file.;An error has occurred while renaming the file.
+Enter a new name;Enter a new name
+Find what;Find what
+Find;Find
+No files found.;No files found.
+No search results available. Start a search from Edit > Find in files;No search results available. Start a search from Edit > Find in files
+Initializing database & settings...;Initializing database & settings...
+Checking updates...;Checking updates...
+Compiling snippets...;Compiling snippets...
+Loading performance settings...;Loading performance settings...
+Initializing building blocks...;Initializing building blocks...
+Loading plugins...;Loading plugins...
+Initializing stats computer...;Initializing stats computer...
+Initializing look & feel...;Initializing look & feel...
+Initializing engines...;Initializing engines...
+Initializing communication channels...;Initializing communication channels...
+Checking data...;Checking data...
+You cannot disable random placeholders, because your strategy already contains them. Delete your random placeholders from this strategy first.;You cannot disable random placeholders, because your strategy already contains them. Delete your random placeholders from this strategy first.
+Are you sure you want to remove the rule?;Are you sure you want to remove the rule?
+Non-existing action;Non-existing action
+Simple Wizard is disabled for now.;Simple Wizard is disabled for now.
+Empty;Empty
+You cannot delete this chart, because it is used in one or more conditions. Change your conditions properties first.;You cannot delete this chart, because it is used in one or more conditions. Change your conditions properties first.
+The MainChart can not be deleted.;The MainChart can not be deleted.
+Choose save directory before saving.;Choose save directory before saving.
+Market;Market
+Stop;Stop
+Limit;Limit
+Buy;Buy
+Sell;Sell
+Sell Short;Sell Short
+Buy to cover;Buy to cover
+none;none
+reload;reload
+Load;Load
+Load from file...;Load from file...
+Recent;Recent
+Save as...;Save as...
+Examples;Examples
+Get source code;Get source code
+Strategy;Strategy
+Backtest;Backtest
+Result;Result
+Back To Strategy Editor;Back To Strategy Editor
+Benchmark StrategyQuant speed;Benchmark StrategyQuant speed
+estimate strategy testing time we have to run some initial benchmarks of StrategyQuant speed on this computer.;estimate strategy testing time we have to run some initial benchmarks of StrategyQuant speed on this computer.
+This benchmark will use your actual performance settings, which is:;This benchmark will use your actual performance settings, which is:
+Please be patient, benchmark shouldn't take more than a couple of minutes.;Please be patient, benchmark shouldn't take more than a couple of minutes.
+Start benchmark;Start benchmark
+Benchmark results;Benchmark results
+Total duration (data preparation / test);Total duration (data preparation / test)
+Strategy avg. time (parallel);Strategy avg. time (parallel)
+Time per tick;Time per tick
+Total ticks;Total ticks
+Strategies per hour;Strategies per hour
+You can repeat this benchmark by choosing Benchmark... action in the global menu on the top right corner.;You can repeat this benchmark by choosing Benchmark... action in the global menu on the top right corner.
+Please note that benchmark runs using standardized artifical strategy and data, so its result can be compared with other installations of SQ on another computers.;Please note that benchmark runs using standardized artifical strategy and data, so its result can be compared with other installations of SQ on another computers.
+It is only an estimation, real backtest time depends a lot on the complexity of the strategy, timeframe and data range and precision.;It is only an estimation, real backtest time depends a lot on the complexity of the strategy, timeframe and data range and precision.
+beforeStart;beforeStart
+Single threaded.;Single threaded.
+Reserve 1 core for UI, compute tasks in parallel on all remaining cores.;Reserve 1 core for UI, compute tasks in parallel on all remaining cores.
+Custom number of cores - %d.;Custom number of cores - %d.
+Max performance - running multiple tasks in parallel, using all processor cores.;Max performance - running multiple tasks in parallel, using all processor cores.
+running;running
+showResults;showResults
+Predefined parameter sets;Predefined parameter sets
+Parameters of this building block. They can be generated randomly or have fixed value - you can configure it for every parameter by double-clicking on it in the grid below.;Parameters of this building block. They can be generated randomly or have fixed value - you can configure it for every parameter by double-clicking on it in the grid below.
+Parameters are either generated all randomly as defined in tab;Parameters are either generated all randomly as defined in tab
+Parameter name;Parameter name
+Type;Type
+Generation;Generation
+Possible values;Possible values
+No parameters defined.;No parameters defined.
+Set name;Set name
+Add new set;Add new set
+Delete parameter set;Delete parameter set
+Do you want to delete selected parameter set?;Do you want to delete selected parameter set?
+Name;Name
+Parameters of type 'value' cannot be modified.;Parameters of type 'value' cannot be modified.
+Symbol parameter cannot be modified;Symbol parameter cannot be modified
+You must check at least one option;You must check at least one option
+Fixed value must be set;Fixed value must be set
+Parameter set '%s' already exists. Please choose another name;Parameter set '%s' already exists. Please choose another name
+All charts;All charts
+shift;shift
+period;period
+SL Value;SL Value
+SL ATR Multiple;SL ATR Multiple
+SL ATR Period;SL ATR Period
+PT Value;PT Value
+PT ATR Multiple;PT ATR Multiple
+PT ATR Period;PT ATR Period
+value;value
+Edit parameter;Edit parameter
+Parameter;Parameter
+Randomly generated;Randomly generated
+Fixed value;Fixed value
+Minimum;Minimum
+Global;Global
+Custom;Custom
+Maximum;Maximum
+Global Minimum and Maximum can be configured in;Global Minimum and Maximum can be configured in
+What to build -> Additional build config;What to build -> Additional build config
+Step;Step
+All available charts;All available charts
+or pick only specific charts below:;or pick only specific charts below:
+Value;Value
+Edit parameter set;Edit parameter set
+Block:;Block:
+Parameter set options;Parameter set options
+Delete set;Delete set
+Parameters configuration;Parameters configuration
+Double click on a parameter row to edit it;Double click on a parameter row to edit it
+Date from must be before date to;Date from must be before date to
+Main chart;Main chart
+Symbol;Symbol
+Start day;Start day
+End day;End day
+Trading engine;Trading engine
+Engine;Engine
+Additional charts;Additional charts
+these are additional charts that strategy has access to;these are additional charts that strategy has access to
+Backtest data settings;Backtest data settings
+Timeframe;Timeframe
+Reset dates;Reset dates
+Available from;Available from
+to;to
+Subcharts;Subcharts
+Test parameters;Test parameters
+Precision;Precision
+Commision;Commision
+Spread;Spread
+Slippage;Slippage
+Min. distance;Min. distance
+Commission settings;Commission settings
+Commission is in $ per full lot. It is computed according to the size of order.;Commission is in $ per full lot. It is computed according to the size of order.
+Subchart;Subchart
+From backtest;From backtest
+At confidence level;At confidence level
+Subresult;Subresult
+Sample type;Sample type
+Full sample;Full sample
+In sample;In sample
+Out of sample;Out of sample
+Direction;Direction
+Both;Both
+Long;Long
+Short;Short
+Result in;Result in
+Money;Money
+Percent;Percent
+Pips;Pips
+Every market;Every market
+Market %s;Market %s
+IS;IS
+OOS;OOS
+Ticks;Ticks
+Add conditions;Add conditions
+Choose conditions to add;Choose conditions to add
+Constants;Constants
+Use;Use
+Left value;Left value
+Right value;Right value
+No conditions defined.;No conditions defined.
+this;this
+Value '%s' has invalid number format.;Value '%s' has invalid number format.
+Search for condition;Search for condition
+No results matching;No results matching
+Edit condition;Edit condition
+Apply percentage ratio;Apply percentage ratio
+Percentage ratio allows you to compare one value;Percentage ratio allows you to compare one value
+Settings;Settings
+Choose config;Choose config
+No config files found;No config files found
+Reset to default settings;Reset to default settings
+Tasks Flow;Tasks Flow
+Results;Results
+XML Config Files;XML Config Files
+Reset task settings;Reset task settings
+Do you want to reset task settings? <br>Any unsaved changes will be lost.;Do you want to reset task settings? <br>Any unsaved changes will be lost.
+Load xml config;Load xml config
+Do you want to load config from selected file? <br>Any unsaved changes will be lost.;Do you want to load config from selected file? <br>Any unsaved changes will be lost.
+Save template config;Save template config
+Do you want to save this config into the template? <br>Original template config will be overwritten.;Do you want to save this config into the template? <br>Original template config will be overwritten.
+Save config;Save config
+Select config file to load;Select config file to load
+Retester;Retester
+Builder;Builder
+Optimizer;Optimizer
+Custom Project;Custom Project
+Date is out of range;Date is out of range
+Date;Date
+Since last date;Since last date
+Last 6 months;Last 6 months
+Last year;Last year
+Last 5 years;Last 5 years
+Last 10 years;Last 10 years
+All time;All time
+Loading directory picker root folders failed.;Loading directory picker root folders failed.
+Path:;Path:
+Select;Select
+instrument;instrument
+Choose instrument;Choose instrument
+Instrument is a specification of this symbol - it contains tick size, point value etc.;Instrument is a specification of this symbol - it contains tick size, point value etc.
+You can have mutiple data imported - for example EURUSD_1, EURUSD_2, EURUSD_3, but they share the same instrument specification for EURUSD.;You can have mutiple data imported - for example EURUSD_1, EURUSD_2, EURUSD_3, but they share the same instrument specification for EURUSD.
+Instrument *;Instrument *
+Add new instrument;Add new instrument
+Instrument added;Instrument added
+Instrument modified;Instrument modified
+Data type *;Data type *
+Point value in $ *;Point value in $ *
+Pip/Tick size *;Pip/Tick size *
+Pip/Tick step *;Pip/Tick step *
+Default spread *;Default spread *
+Optional fields;Optional fields
+Select conditions;Select conditions
+Or choose from frequently used;Or choose from frequently used
+Add;Add
+Item '%s' not found;Item '%s' not found
+Select items;Select items
+Add items;Add items
+Choose items to add;Choose items to add
+Manage views;Manage views
+Select view;Select view
+Add new;Add new
+Default view cannot be modified. Please choose another view or clone the default view to edit it;Default view cannot be modified. Please choose another view or clone the default view to edit it
+Edit selected view;Edit selected view
+View name;View name
+Columns in view;Columns in view
+Use drag and drop to change columns order;Use drag and drop to change columns order
+Add columns;Add columns
+Save view changes;Save view changes
+Cannot remove the default view;Cannot remove the default view
+Deleting view;Deleting view
+Do you really want to delete selected view?;Do you really want to delete selected view?
+New view;New view
+Cannot change the default view;Cannot change the default view
+Changes not saved. Do you want to save them?;Changes not saved. Do you want to save them?
+Start;Start
+End;End
+ID;ID
+No Parameters available.;No Parameters available.
+Cannot get variable on row;Cannot get variable on row
+Invalid input for type '%s';Invalid input for type '%s'
+Zero step used at row %d. Please correct the step value or leave the parameter unchecked.;Zero step used at row %d. Please correct the step value or leave the parameter unchecked.
+Invalid values logic at row %d. Please correct the start/stop/step values.;Invalid values logic at row %d. Please correct the start/stop/step values.
+Periods;Periods
+Shifts;Shifts
+Exits / Protection;Exits / Protection
+Exits / Unused;Exits / Unused
+Default;Default
+Cannot find ManualSettings object in task config. XML config seems to be corrupted;Cannot find ManualSettings object in task config. XML config seems to be corrupted
+Cannot find ManualSettings object in selected file. Have you selected the right config file?;Cannot find ManualSettings object in selected file. Have you selected the right config file?
+Cannot save settings. Parameters element not found in xml config.;Cannot save settings. Parameters element not found in xml config.
+Cannot save settings. ManualSettings element not found in xml config.;Cannot save settings. ManualSettings element not found in xml config.
+Save variables settings;Save variables settings
+Pause;Pause
+Resume;Resume
+Saving strategies;Saving strategies
+Removing strategies;Removing strategies
+Changing databank type;Changing databank type
+Updating databank;Updating databank
+Moving strategies to retester;Moving strategies to retester
+Action - %s;Action - %s
+Expected integer value;Expected integer value
+Expected numeric value;Expected numeric value
+Property grid error. No properties found;Property grid error. No properties found
+Property grid error. No categories found;Property grid error. No categories found
+Properties error. Cannot get options for property '%s';Properties error. Cannot get options for property '%s'
+Properties error. Unknown data type '%s';Properties error. Unknown data type '%s'
+Error saving settings. Cannot get parameter type of dataType '%s';Error saving settings. Cannot get parameter type of dataType '%s'
+L+S;L+S
+Lng;Lng
+Shr;Shr
+Sample;Sample
+Full;Full
+Target file path;Target file path
+Directory;Directory
+Browse;Browse
+File name;File name
+Select target folder;Select target folder
+Filter items;Filter items
+Advanced settings;Advanced settings
+for;for
+Create some tasks first;Create some tasks first
+{{tab.translatedTitle}};{{tab.translatedTitle}}
+cope.in;cope.in
+Cross checks (strategy robustness tests);Cross checks (strategy robustness tests)
+Cross checks perform additional backtests on the generated strategy;Cross checks perform additional backtests on the generated strategy
+Learn more;Learn more
+Disable all cross checks;Disable all cross checks
+Est. time per strategy;Est. time per strategy
+of;of
+checks;checks
+FAST;FAST
+SLOW;SLOW
+VERY SLOW;VERY SLOW
+CUSTOM;CUSTOM
+Out of sample:;Out of sample:
+ranges;ranges
+Symbol '%s' doesn't exist;Symbol '%s' doesn't exist
+Instrument '%s' doesn't exist;Instrument '%s' doesn't exist
+Minimum value is;Minimum value is
+Maximum value is;Maximum value is
+Calling unknown action '%s';Calling unknown action '%s'
+Regeneration failed.;Regeneration failed.
+Cannot apply config to task '%s'. Invalid source task.;Cannot apply config to task '%s'. Invalid source task.
+Cannot apply config to task '%s'. Source task doesn't contain any settings;Cannot apply config to task '%s'. Source task doesn't contain any settings
+Cannot apply config to task '%s'. Cannot find task with this name;Cannot apply config to task '%s'. Cannot find task with this name
+Remote Access settings saved.;Remote Access settings saved.
+SMTP settings saved.;SMTP settings saved.
+Please specify your email address.;Please specify your email address.
+Add new timeframe;Add new timeframe
+Seconds;Seconds
+Minutes;Minutes
+Hours;Hours
+Days;Days
+Unknown timeframe prefix '%s';Unknown timeframe prefix '%s'
+What to parametrize;What to parametrize
+Specify which of the available parameters should be put into variables;Specify which of the available parameters should be put into variables
+Exit params (SL, PT,...) only used;Exit params (SL, PT,...) only used
+Boolean params;Boolean params
+Other params;Other params
+Exit params (SL, PT,...) also unused;Exit params (SL, PT,...) also unused
+Custom Project Notification;Custom Project Notification
+Project continues with the next task.;Project continues with the next task.
+Project was paused and it is waiting for user action - you have to resume it to continue.;Project was paused and it is waiting for user action - you have to resume it to continue.
+Go to project;Go to project
+Turn off notification sounds;Turn off notification sounds
+Global...;Global...
+Performance...;Performance...
+Benchmark...;Benchmark...
+Remote access...;Remote access...
+SMTP server...;SMTP server...
+Language;Language
+Zoom;Zoom
+SQX beta version page;SQX beta version page
+Help center;Help center
+Articles;Articles
+Support;Support
+About;About
+Exit;Exit
+Performance;Performance
+Performance - total cores available;Performance - total cores available
+Single threaded - program runs tasks sequentially, one after another.;Single threaded - program runs tasks sequentially, one after another.
+This is slower, but consumes less memory.;This is slower, but consumes less memory.
+Custom number of cores;Custom number of cores
+Use thread affinity;Use thread affinity
+Thread affinity means that every computing threads is bound to a fixed CPU core.;Thread affinity means that every computing threads is bound to a fixed CPU core.
+This should prevent thread context switching and improve the performance.;This should prevent thread context switching and improve the performance.
+The real results may wary depending on your configuration.;The real results may wary depending on your configuration.
+Memory and disk space;Memory and disk space
+Maximum memory used;Maximum memory used
+GB;GB
+Don't store unfilled pending orders (Recommended);Don't store unfilled pending orders (Recommended)
+It is usually not necessary to keep unfilled pending orders(orders that expired;It is usually not necessary to keep unfilled pending orders(orders that expired
+Use offheap memory;Use offheap memory
+Off-heap memory bypasses Java memory management for some allocated objects.;Off-heap memory bypasses Java memory management for some allocated objects.
+It results in less frequent use of Java garbage collector, which might make program faster.;It results in less frequent use of Java garbage collector, which might make program faster.
+Actual results may vary, it depends a lot on your configuration.;Actual results may vary, it depends a lot on your configuration.
+Using offheap memory could sometimes cause Java crashes - if you experience crashes turn it off.;Using offheap memory could sometimes cause Java crashes - if you experience crashes turn it off.
+Display;Display
+Accelerate internal browser using GPU;Accelerate internal browser using GPU
+You have to restart the program to apply the settings.;You have to restart the program to apply the settings.
+Remote access;Remote access
+Allow remote access;Allow remote access
+By checking this you'll allow access to your StrategyQuant remotely from browser on a given URL address and port.;By checking this you'll allow access to your StrategyQuant remotely from browser on a given URL address and port.
+Of course, StrategyQuant must be running in order to access it.;Of course, StrategyQuant must be running in order to access it.
+URL to access the system;URL to access the system
+Require password;Require password
+Password;Password
+Secure connection;Secure connection
+Certificate not installed;Certificate not installed
+Install;Install
+SMTP;SMTP
+SMTP Server;SMTP Server
+Port;Port
+Use secure (SSL) connection;Use secure (SSL) connection
+Username;Username
+Email from;Email from
+Send test email;Send test email
+Email;Email
+Send;Send
+Snippets error;Snippets error
+Compilation of Snippets during program start failed. Program uses the old version of snippets, which may not be relevant.;Compilation of Snippets during program start failed. Program uses the old version of snippets, which may not be relevant.
+Please check what is wrong in Code Editor and recompile the Snippets.;Please check what is wrong in Code Editor and recompile the Snippets.
+Go to Code Editor;Go to Code Editor
+Start build;Start build
+Build configuration was successfully loaded.;Build configuration was successfully loaded.
+Do you want to start build?;Do you want to start build?
+StrategyQuant;StrategyQuant
+Problem with license? Click here.;Problem with license? Click here.
+Enter license number:;Enter license number:
+Verify license;Verify license
+or;or
+Purchase license;Purchase license
+SQ Home page;SQ Home page
+Copyright StrategyQuant 2017. All rights reserved.;Copyright StrategyQuant 2017. All rights reserved.
+Hardware ID:;Hardware ID:
+Enter the remote access password;Enter the remote access password
+Enter your password;Enter your password
+Submit;Submit
+Unauthorized access. Remote access is disabled.;Unauthorized access. Remote access is disabled.
+ex;ex
+No result chosen - Double-click on result on databank to see the details;No result chosen - Double-click on result on databank to see the details
+entry blocks;entry blocks
+exit types;exit types
+Cross checks disabled;Cross checks disabled
+No Cross checks configured;No Cross checks configured
+No data defined;No data defined
+Delete from %s;Delete from %s
+Copy from %s to %s;Copy from %s to %s
+Move from %s to %s;Move from %s to %s
+with %d conditions;with %d conditions
+Go to %s with %d conditions;Go to %s with %d conditions
+Send email to %s;Send email to %s
+Show popup;Show popup
+Wait for User Action;Wait for User Action
+Simple;Simple
+Walk - Forward;Walk - Forward
+Walk - Forward matrix;Walk - Forward matrix
+Exit at end of day<br/>;Exit at end of day<br/>
+Exit on Friday<br/>;Exit on Friday<br/>
+Limit time from %s to %s<br/>;Limit time from %s to %s<br/>
+Max trades per day: %d<br/>;Max trades per day: %d<br/>
+No trading limits;No trading limits
+Fitness: %s;Fitness: %s
+Cross check - Retest on additional markets;Cross check - Retest on additional markets
+Cross check - Monte Carlo retest;Cross check - Monte Carlo retest
+Cross check - Monte Carlo manipulation;Cross check - Monte Carlo manipulation
+Save best %d strategies;Save best %d strategies
+Unknown settings;Unknown settings
+SL/PT not required;SL/PT not required
+SL;SL
+PT required;PT required
+ATR;ATR
+or fixed pips;or fixed pips
+fixed pips;fixed pips
+Backtest options;Backtest options
+Money Management;Money Management
+Ranking & Filtering options;Ranking & Filtering options
+CrossChecks;CrossChecks
+Filtering options;Filtering options
+Go to task options;Go to task options
+Go to task;Go to task
+Notification options;Notification options
+Optimization options;Optimization options
+No Strategy selected.;No Strategy selected.
+%d tests with %d simulations;%d tests with %d simulations
+Retest on:;Retest on:
+%d more;%d more
+Higher precision: %s;Higher precision: %s
+optimize Periods and Exit types;optimize Periods and Exit types
+optimize Periods;optimize Periods
+optimize Exit types;optimize Exit types
+Out of sample: %f - %f %, runs: %f - %f;Out of sample: %f - %f %, runs: %f - %f
+In sample: %d - %d days, Out of sample: %d - %d days;In sample: %d - %d days, Out of sample: %d - %d days
+OOS: %f - %f %, runs: %f - %f;OOS: %f - %f %, runs: %f - %f
+IS: %d - %d days, OOS: %d - %d days;IS: %d - %d days, OOS: %d - %d days
+Out of sample: %f %, runs: %d;Out of sample: %f %, runs: %d
+In sample: %d days, Out of sample: %d days;In sample: %d days, Out of sample: %d days
+OOS: %f %, runs: %d;OOS: %f %, runs: %d
+IS: %d days, OOS: %d days;IS: %d days, OOS: %d days
+%d conditions;%d conditions
+App XML error;App XML error
+XML element 'Settings' not found;XML element 'Settings' not found
+Task XML error;Task XML error
+Corrupted XML - element 'Settings' not found;Corrupted XML - element 'Settings' not found
+default value;default value
+Number of results in databank;Number of results in databank
+is bigger;is bigger
+is bigger or equal;is bigger or equal
+is equal;is equal
+is lower;is lower
+is lower or equal;is lower or equal
+Select file to load;Select file to load
+Loading strategy file;Loading strategy file
+You are going to load a new strategy to Optimizer.<br>Do you want to delete all existing results in the Optimizer databank?;You are going to load a new strategy to Optimizer.<br>Do you want to delete all existing results in the Optimizer databank?
+Config XML error;Config XML error
+Select the strategy to optimize and type of optimization;Select the strategy to optimize and type of optimization
+Exit params used;Exit params used
+Exit params unused;Exit params unused
+Booleans;Booleans
+Strategies that open at market price, they use almost all availablle signals and can produce a variety of trading approaches;Strategies that open at market price, they use almost all availablle signals and can produce a variety of trading approaches
+Trend following (breakout) strategies that use stop orders to catch breakouts and go with the trend;Trend following (breakout) strategies that use stop orders to catch breakouts and go with the trend
+Strategies that are exploiting reversal of price from extreme values to mean;Strategies that are exploiting reversal of price from extreme values to mean
+Strategies using fuzzy logic rules - fuzzy rule has multiple conditions, but only a defined % of them must be valid in order for rule to be triggered;Strategies using fuzzy logic rules - fuzzy rule has multiple conditions, but only a defined % of them must be valid in order for rule to be triggered
+Daily strategies that place high emphasis on their robustness in multiple markets;Daily strategies that place high emphasis on their robustness in multiple markets
+Custom build settings are used.;Custom build settings are used.
+Choose one of the types above to apply standard settings.;Choose one of the types above to apply standard settings.
+Order types;Order types
+Weight;Weight
+No order types defined.;No order types defined.
+Exit types;Exit types
+Required;Required
+No exit types defined.;No exit types defined.
+Signals;Signals
+No signals defined.;No signals defined.
+All;All
+Reset to default;Reset to default
+Selected block has no parameters;Selected block has no parameters
+Cannot add random blocks - only %d blocks left unused;Cannot add random blocks - only %d blocks left unused
+Saving settings failed. Block '%s' not found in the grid.;Saving settings failed. Block '%s' not found in the grid.
+Random generation;Random generation
+Genetic evolution;Genetic evolution
+%d generations max / %d islands / %d per island;%d generations max / %d islands / %d per island
+Initial population used;Initial population used
+Restart on finish;Restart on finish
+Conditions to generate: %d-%d;Conditions to generate: %d-%d
+Indicator periods: %d-%d;Indicator periods: %d-%d
+Risk-Reward ratio error - From must be lower or equal To;Risk-Reward ratio error - From must be lower or equal To
+Not required;Not required
+same ranges as SL;same ranges as SL
+Pips based:;Pips based:
+pips;pips
+ATR based: Coefficient:;ATR based: Coefficient:
+Risk-Reward Ratio limit:;Risk-Reward Ratio limit:
+% SL;% SL
+Pips based: %d-%d pips;Pips based: %d-%d pips
+ATR based: Coefficient: %f-%f;ATR based: Coefficient: %f-%f
+Invalid Fuzzy Logic settings. Min value must be lower or equal to max value;Invalid Fuzzy Logic settings. Min value must be lower or equal to max value
+SQX Signals;SQX Signals
+SQX Signals with Fuzzy Logic, True conditions: %d-%d %;SQX Signals with Fuzzy Logic, True conditions: %d-%d %
+Old SQ3 architecture;Old SQ3 architecture
+Both (Long & Short);Both (Long & Short)
+No symmetry;No symmetry
+Entry symmetry;Entry symmetry
+Exit symmetry;Exit symmetry
+Long only;Long only
+Short only;Short only
+Remove setup;Remove setup
+Do you want to remove selected setup?;Do you want to remove selected setup?
+Symbol Name;Symbol Name
+Instrument Specification;Instrument Specification
+Timezone;Timezone
+Date from;Date from
+Date to;Date to
+Total Days;Total Days
+Total Records;Total Records
+Source;Source
+Data type;Data type
+Timestamp represents start of bar time (MetaTrader, Dukascopy, forex data);Timestamp represents start of bar time (MetaTrader, Dukascopy, forex data)
+Timestamp represents end of bar time (NinjaTrader, Tradestation, futures data);Timestamp represents end of bar time (NinjaTrader, Tradestation, futures data)
+You have to select a symbol.;You have to select a symbol.
+Do you want to remove selected symbols (%d) or only clear their data ?;Do you want to remove selected symbols (%d) or only clear their data ?
+Do you want to remove symbol '%s' or only clear its data ?;Do you want to remove symbol '%s' or only clear its data ?
+You have to select some symbol.;You have to select some symbol.
+Symbol name cannot contain any special characters!;Symbol name cannot contain any special characters!
+All data sources;All data sources
+All data types;All data types
+Reason to dismiss;Reason to dismiss
+Count;Count
+% of all;% of all
+Avg. time;Avg. time
+Total time;Total time
+Total tested;Total tested
+Strategies generated;Strategies generated
+Ranking Criterium;Ranking Criterium
+Target;Target
+No items available.;No items available.
+%s must be a number;%s must be a number
+Strategy Name;Strategy Name
+Cannot get databank view;Cannot get databank view
+No results in databank.;No results in databank.
+Cannot delete records from databank when project is in loading/running state;Cannot delete records from databank when project is in loading/running state
+Error while removing reports.;Error while removing reports.
+Strategy problems;Strategy problems
+New view saved.;New view saved.
+View updated.;View updated.
+View deleted;View deleted
+Correlation matrix;Correlation matrix
+Overlapping trades;Overlapping trades
+Computing portfolio correlation;Computing portfolio correlation
+No strategy selected.;No strategy selected.
+Save source code;Save source code
+Copy to clipboard failed.;Copy to clipboard failed.
+Code Editor;Code Editor
+Data Manager;Data Manager
+Grid Control;Grid Control
+Grid test;Grid test
+Home;Home
+Neural Network Trainer;Neural Network Trainer
+Custom Projects;Custom Projects
+Wizard;Wizard
+Monte Carlo retest;Monte Carlo retest
+Data are imported historical data into the program. Data manager allows you to import history from files, or to download it directly from online sources.<br/>Every data is linked with instrument that contains the definition of the imported symbol.;Data are imported historical data into the program. Data manager allows you to import history from files, or to download it directly from online sources.<br/>Every data is linked with instrument that contains the definition of the imported symbol.
+Instruments;Instruments
+Instruments are symbol specifications. Here you specify what is their type, point value pip/tick size, etc.<br/>For example, you can have multiple EURUSD data imported from various sources, but they all share the same instrument - EURUSD.;Instruments are symbol specifications. Here you specify what is their type, point value pip/tick size, etc.<br/>For example, you can have multiple EURUSD data imported from various sources, but they all share the same instrument - EURUSD.
+Sessions;Sessions
+Sessions are definitions of trading time, from market opening to market closing.<br/>Please note that they are not used and not supported in forex / MetaTrader, you can safely use Forex_247 session in MT4.;Sessions are definitions of trading time, from market opening to market closing.<br/>Please note that they are not used and not supported in forex / MetaTrader, you can safely use Forex_247 session in MT4.
+Dukascopy data;Dukascopy data
+File import;File import
+Trades on chart;Trades on chart
+View;View
+Equity chart;Equity chart
+Overview;Overview
+Portfolio correlation;Portfolio correlation
+Monte Carlo tests;Monte Carlo tests
+Source Code;Source Code
+Strategy config;Strategy config
+Trade analysis;Trade analysis
+List of trades;List of trades
+Walk-Forward Results;Walk-Forward Results
+Test indicators;Test indicators
+Test indicator values between platforms;Test indicator values between platforms
+Here you can choose the building blocks that will be used to generate every strategy. You can affect the probability of choosing a block by increasing its weight.<br>Every block has also advanced parameter settings that allow you to modify how block parameters are generated or define some predefined parameter sets to choose from.;Here you can choose the building blocks that will be used to generate every strategy. You can affect the probability of choosing a block by increasing its weight.<br>Every block has also advanced parameter settings that allow you to modify how block parameters are generated or define some predefined parameter sets to choose from.
+Cross checks (robustness);Cross checks (robustness)
+Cross checks allow you to run a sequence of further tests (cross checks) once the strategy passes the basic filters.<br/>You can have strategy retested with higher precision or run a Monte Carlo simulation or Optimization on it.<br/><br/>If you define also filters, you can automatically dismiss strategies that will not pass the cross check filter - this allows you to create a "strategy testing funnel" where only the strategies that pass all the tests are saved (this applies only to Builder).;Cross checks allow you to run a sequence of further tests (cross checks) once the strategy passes the basic filters.<br/>You can have strategy retested with higher precision or run a Monte Carlo simulation or Optimization on it.<br/><br/>If you define also filters, you can automatically dismiss strategies that will not pass the cross check filter - this allows you to create a "strategy testing funnel" where only the strategies that pass all the tests are saved (this applies only to Builder).
+Configure trading engine, symbols and timeframes for the main backtest. You can configure also Out of sample (unseen) periods, and default spread, slippage, commissions.;Configure trading engine, symbols and timeframes for the main backtest. You can configure also Out of sample (unseen) periods, and default spread, slippage, commissions.
+Filter strategies;Filter strategies
+Genetic options;Genetic options
+Configure Genetic options;Configure Genetic options
+Configure initial capital and desired position sizing method.;Configure initial capital and desired position sizing method.
+Notes;Notes
+Save some notes about this configuration;Save some notes about this configuration
+Notification / Pause;Notification / Pause
+Choose strategy to optimize or alternatively optimize all strategies in source databank. You can also configure optimization type - simple or Walk-Forward.;Choose strategy to optimize or alternatively optimize all strategies in source databank. You can also configure optimization type - simple or Walk-Forward.
+Trading options define behavior of the strategy and affect how and when strategy trades. You can limit trading time to a range, close the trade at the end of range or limit maximum trades per day.;Trading options define behavior of the strategy and affect how and when strategy trades. You can limit trading time to a range, close the trade at the end of range or limit maximum trades per day.
+Choose which strategy parameters will be optimized. If you optimize all strategies in databank the parameters are configured in an automatic mode.<br/>You can choose which categoes of parameters will be optimized - periods, exit parameters (Stop Loss, Profit Target), numbers, nonstants..;Choose which strategy parameters will be optimized. If you optimize all strategies in databank the parameters are configured in an automatic mode.<br/>You can choose which categoes of parameters will be optimized - periods, exit parameters (Stop Loss, Profit Target), numbers, nonstants..
+Configure which parts of the strategy should be improved. You can further configure if you want to replace the whole part, or add new blocks to it.;Configure which parts of the strategy should be improved. You can further configure if you want to replace the whole part, or add new blocks to it.
+Ranking;Ranking
+Define how strategy rank is computed and how many strategies to save to databank.<br/>If filtering is available you can configure filters the strategy has to pass before it is saved.;Define how strategy rank is computed and how many strategies to save to databank.<br/>If filtering is available you can configure filters the strategy has to pass before it is saved.
+Configure databank settings;Configure databank settings
+Clone to timezone;Clone to timezone
+Mass delete;Mass delete
+Export to CSV;Export to CSV
+Export to MT4 (FXT & HST);Export to MT4 (FXT & HST)
+Export to MT5 data (99% test);Export to MT5 data (99% test)
+View & Analyze;View & Analyze
+Add new Dukascopy data symbol;Add new Dukascopy data symbol
+Dukascopy Data Disclaimer;Dukascopy Data Disclaimer
+Download data for existing symbol;Download data for existing symbol
+Import data from TickDownloader;Import data from TickDownloader
+Add symbol;Add symbol
+Import file;Import file
+3D Optimization Chart;3D Optimization Chart
+Add instrument;Add instrument
+Add session;Add session
+Build mode;Build mode
+# of Conditions, Periods;# of Conditions, Periods
+Profit Target;Profit Target
+Stop Loss;Stop Loss
+Strategy style;Strategy style
+Trading directions;Trading directions
+High;High
+Low;Low
+Volume;Volume
+Median;Median
+Typical;Typical
+Weighted;Weighted
+Year Markers;Year Markers
+Trend line;Trend line
+Choose Money Management method;Choose Money Management method
+Choose Risk Management method;Choose Risk Management method
+Grid;Grid
+Number of simulations;Number of simulations
+Additional backtest;Additional backtest
+Add backtest;Add backtest
+Main test precision;Main test precision
+Main test spread;Main test spread
+Cross check precision;Cross check precision
+Cross check spread;Cross check spread
+Walk-Forward type:;Walk-Forward type:
+Floating;Floating
+Fixed;Fixed
+Optimize:;Optimize:
+Maximum tests:;Maximum tests:
+you can limit the number of tests WF optimization performs, and thus limit its duration;you can limit the number of tests WF optimization performs, and thus limit its duration
+Delete data;Delete data
+Clear data;Clear data
+Edit symbol;Edit symbol
+Data settings;Data settings
+Data symbol name;Data symbol name
+Bar type;Bar type
+Strategy dismissal stats;Strategy dismissal stats
+Total test times per elements;Total test times per elements
+Total backtests performed (global);Total backtests performed (global)
+Auto scroll;Auto scroll
+Clear log;Clear log
+Clear log on start;Clear log on start
+Rejected;Rejected
+Detailed;Detailed
+Accepted;Accepted
+Time per strategy;Time per strategy
+Time per accepted strategy;Time per accepted strategy
+Accepted strategies per hour;Accepted strategies per hour
+Running time so far;Running time so far
+In databank;In databank
+Total steps;Total steps
+X Axis;X Axis
+Trade;Trade
+Time;Time
+Drawdown;Drawdown
+Stagnation;Stagnation
+Equity;Equity
+Template;Template
+Strategy is not a portfolio.;Strategy is not a portfolio.
+Correlation by;Correlation by
+Correlation of;Correlation of
+Allow negative correlation;Allow negative correlation
+Add empty periods;Add empty periods
+Compute;Compute
+Strategy doesn't have Monte Carlo tests stored.;Strategy doesn't have Monte Carlo tests stored.
+Test choice;Test choice
+Source code type;Source code type
+Save to file;Save to file
+Copy to clipboard;Copy to clipboard
+MM used;MM used
+Put values to variables;Put values to variables
+Generate symmetric variables;Generate symmetric variables
+Strategy doesn't contain any setting.;Strategy doesn't contain any setting.
+Apply strategy config;Apply strategy config
+Walk-Forward Optimization and Matrix Help;Walk-Forward Optimization and Matrix Help
+Robustness score;Robustness score
+Number of Walk-Forward Optimization that passed;Number of Walk-Forward Optimization that passed
+Filter settings;Filter settings
+Robustness score is computed as a % of conditions that passed vs. all conditions;Robustness score is computed as a % of conditions that passed vs. all conditions
+Default WF conditions;Default WF conditions
+Display settings;Display settings
+Options;Options
+3D View;3D View
+Top View;Top View
+Results for;Results for
+Display options;Display options
+Value to display;Value to display
+If you define any conditions here they will be evaluated after this cross check is computed.;If you define any conditions here they will be evaluated after this cross check is computed.
+If strategy fails these conditions, it will be dismissed (thrown away) and no further cross check will be evaluated.;If strategy fails these conditions, it will be dismissed (thrown away) and no further cross check will be evaluated.
+Robustness score must be >;Robustness score must be >
+% to pass;% to pass
+WF Matrix produces a table of X rows and Y columns, where each cell is a different WF optimization test.;WF Matrix produces a table of X rows and Y columns, where each cell is a different WF optimization test.
+Filter passes when it finds an area of;Filter passes when it finds an area of
+rows and;rows and
+columns;columns
+where at least;where at least
+results have robustness score >;results have robustness score >
+Cross check;Cross check
+Basic (fast);Basic (fast)
+Cross Check Settings;Cross Check Settings
+Filters;Filters
+These cross checks require none or only one additional backtest, so they are fast.;These cross checks require none or only one additional backtest, so they are fast.
+Standard (slow);Standard (slow)
+Cross checks that require multiple additional backtests, thus multiplying the time of processing the whole strategy.;Cross checks that require multiple additional backtests, thus multiplying the time of processing the whole strategy.
+Extensive (slowest);Extensive (slowest)
+Walk-Forward process is very slow, it requires tens or even hundreds of repeated backtests of the strategy in different time ranges and settings.;Walk-Forward process is very slow, it requires tens or even hundreds of repeated backtests of the strategy in different time ranges and settings.
+Delete strategies in databank;Delete strategies in databank
+Copy from one databank to another;Copy from one databank to another
+Move from one databank to another;Move from one databank to another
+Databanks;Databanks
+Conditions;Conditions
+Apply to strategies that fit the conditions below;Apply to strategies that fit the conditions below
+Ignore strategies that fit the conditions below, apply to all others;Ignore strategies that fit the conditions below, apply to all others
+Add new condition;Add new condition
+Choose condition;Choose condition
+Condition parameters;Condition parameters
+Databank:;Databank:
+Comparison:;Comparison:
+Value:;Value:
+No tasks defined.;No tasks defined.
+Task;Task
+When Conditions Below Are True;When Conditions Below Are True
+If no conditions exist then it is evaluated as true;If no conditions exist then it is evaluated as true
+Notification type;Notification type
+Send email to;Send email to
+Notification allows you to be notified when project flow gets to a certain point.;Notification allows you to be notified when project flow gets to a certain point.
+Pause project and wait for user action;Pause project and wait for user action
+If checked the project will pause until you unpause it.;If checked the project will pause until you unpause it.
+This lets you do manual filtering of strategies or review of the project process.;This lets you do manual filtering of strategies or review of the project process.
+Retest all strategies from databank;Retest all strategies from databank
+and store results in databank;and store results in databank
+If you choose a different databank to store the retested results, the strategies will be copied to the destination databank;If you choose a different databank to store the retested results, the strategies will be copied to the destination databank
+Add new project;Add new project
+Project name;Project name
+Create;Create
+Create new project;Create new project
+Open existing project;Open existing project
+Add new task;Add new task
+Choose task type;Choose task type
+Confidence level;Confidence level
+Clone to Timezone for;Clone to Timezone for
+Clone to Timezone creates a copy of the source data with all times recomputed in a different timezone.;Clone to Timezone creates a copy of the source data with all times recomputed in a different timezone.
+This way you can use one source data to create multiple "clones", each in its own timezone.;This way you can use one source data to create multiple "clones", each in its own timezone.
+Source data symbol name;Source data symbol name
+Source data timezone;Source data timezone
+Cloned data symbol name;Cloned data symbol name
+Cloned data timezone;Cloned data timezone
+add fixed shift;add fixed shift
+choose timezone;choose timezone
+Remove weekends;Remove weekends
+Proceed;Proceed
+Export data for;Export data for
+Choose data range to export;Choose data range to export
+Select timeframe;Select timeframe
+Select target;Select target
+File prefix;File prefix
+Export;Export
+Export to MetaTrader 4 FXT and HST for;Export to MetaTrader 4 FXT and HST for
+Please note that MT4 has file-size limit of maximum 4GB, it won't be able to process bigger data files.;Please note that MT4 has file-size limit of maximum 4GB, it won't be able to process bigger data files.
+Output folder;Output folder
+MT4 Installation;MT4 Installation
+MT4 Data Folder;MT4 Data Folder
+Server name;Server name
+Name in MT4;Name in MT4
+Load other MT4 data specification file;Load other MT4 data specification file
+Start export;Start export
+Export to MT5 data (99% history quality) for;Export to MT5 data (99% history quality) for
+Select timeframe to export;Select timeframe to export
+Tick data;Tick data
+M1 data;M1 data
+Use fixed spread;Use fixed spread
+User real spread from Tick data;User real spread from Tick data
+View data for;View data for
+Symbol name;Symbol name
+Instrument;Instrument
+Imported timeframe;Imported timeframe
+Imported records;Imported records
+View timeframe;View timeframe
+session;session
+Session End Means EOD;Session End Means EOD
+session template;session template
+Session name;Session name
+Add Mon-Fri;Add Mon-Fri
+Remove;Remove
+Note: Session times are based on exchange;Note: Session times are based on exchange
+Add Dukascopy data;Add Dukascopy data
+Choose from available data;Choose from available data
+Show types;Show types
+Data postfix {Symbol};Data postfix {Symbol}
+This postfix will be optionally added to the data names created;This postfix will be optionally added to the data names created
+StrategyQuant CDN Data Disclaimer;StrategyQuant CDN Data Disclaimer
+Disclaimer;Disclaimer
+In order to provide faster downloads for its clients StrategyQuant offers pre-packaged Dukascopy data for some of the symbols on its own CDN servers.;In order to provide faster downloads for its clients StrategyQuant offers pre-packaged Dukascopy data for some of the symbols on its own CDN servers.
+The data availabe on SQ CDN were created from original Dukascopy data obtained from Dukascopy website. StrategyQuant does not guarantee that the data prepared on its CDN servers exactly match Dukascopy data.;The data availabe on SQ CDN were created from original Dukascopy data obtained from Dukascopy website. StrategyQuant does not guarantee that the data prepared on its CDN servers exactly match Dukascopy data.
+The data are provided "AS IS", "AS AVAILABLE", "WITH ALL ITS FAULTS" and is offered without any covenants or any express, implied or statutory warranties including (without limitation and qualification) any warranties as to accuracy, functionality, performance, merchantability, quiet enjoyment, system integration, data accuracy or fitness for any particular purpose and any warranties arising from trade usage, course of dealing or course of performance.;The data are provided "AS IS", "AS AVAILABLE", "WITH ALL ITS FAULTS" and is offered without any covenants or any express, implied or statutory warranties including (without limitation and qualification) any warranties as to accuracy, functionality, performance, merchantability, quiet enjoyment, system integration, data accuracy or fitness for any particular purpose and any warranties arising from trade usage, course of dealing or course of performance.
+Download Dukascopy data for;Download Dukascopy data for
+Choose data range to download;Choose data range to download
+Redownload options;Redownload options
+Add only missing data;Add only missing data
+Overwrite existing data;Overwrite existing data
+Fast Data Download;Fast Data Download
+Fast download from StrategyQuant CDN (10 x faster download);Fast download from StrategyQuant CDN (10 x faster download)
+If on, Dukascopy data will be downloaded from prepared packages on StrategyQuant CDN servers.;If on, Dukascopy data will be downloaded from prepared packages on StrategyQuant CDN servers.
+Please not that pre-prepared packages are available only for part of the data.;Please not that pre-prepared packages are available only for part of the data.
+StrategyQuant CDN data disclaimer;StrategyQuant CDN data disclaimer
+Start download;Start download
+Import data from TickDownloader for;Import data from TickDownloader for
+If you have TickDownloader installation you can import the data directly from the TD downloaded data folders.;If you have TickDownloader installation you can import the data directly from the TD downloaded data folders.
+Please select your TickDownloader installation folder below.;Please select your TickDownloader installation folder below.
+TickDownloader Installation;TickDownloader Installation
+Start import;Start import
+Data import for;Data import for
+Choose file;Choose file
+Data file;Data file
+Imported data timezone;Imported data timezone
+File format;File format
+Predefined file format;Predefined file format
+Skip;Skip
+rows;rows
+Separator;Separator
+Date format;Date format
+Start Import;Start Import
+Records;Records
+DATABANKS;DATABANKS
+STRATEGIES;STRATEGIES
++ New databank;+ New databank
+Strategy last test;Strategy last test
+Project config;Project config
+Period by;Period by
+Open Time;Open Time
+Close Time;Close Time
+Text;Text
+Case sensitive;Case sensitive
+Regular expression;Regular expression
+Whole word;Whole word
+Save as..;Save as..
+Create new directory;Create new directory
+Create new;Create new
+Rename file;Rename file
+Modify indicator parameters;Modify indicator parameters
+default:;default:
+Shift;Shift
+Errors;Errors
+Indicator tester;Indicator tester
+Bars to reserve;Bars to reserve
+Test data folder;Test data folder
+How to make an indicator test file;How to make an indicator test file
+Download complete indicators tests;Download complete indicators tests
+Number of bars to be ignored at the beginning of the file. This setting is necessary, because some indicators have a certain initialization period during which the values may not match.;Number of bars to be ignored at the beginning of the file. This setting is necessary, because some indicators have a certain initialization period during which the values may not match.
+Add new test;Add new test
+New indicator test;New indicator test
+Select indicators to test;Select indicators to test
+Edit block;Edit block
+Randomly choose 100 blocks;Randomly choose 100 blocks
+Add 10 random blocks;Add 10 random blocks
+Edit possible options;Edit possible options
+Hide chart;Hide chart
+Show chart;Show chart
+Add OOS;Add OOS
+Max # of Generations;Max # of Generations
+Population Size (per island);Population Size (per island)
+Crossover Probability;Crossover Probability
+Mutation Probability;Mutation Probability
+Islands options;Islands options
+Islands (separate evolution);Islands (separate evolution)
+Migrate every Xth generation, X =;Migrate every Xth generation, X =
+Population migration rate;Population migration rate
+Initial population generation;Initial population generation
+Use strategies from Initial population databank as evolution start;Use strategies from Initial population databank as evolution start
+Required size;Required size
+if not used or not enough, rest will be generated;if not used or not enough, rest will be generated
+Generated decimation coefficient;Generated decimation coefficient
+Filter generated initial population;Filter generated initial population
+Evolution management;Evolution management
+Start again when finished (continuous repeating evolution);Start again when finished (continuous repeating evolution)
+Restart evolution if fitness of;Restart evolution if fitness of
+stagnates for;stagnates for
+generation(s);generation(s)
+Choose initial capital;Choose initial capital
+Initial capital;Initial capital
+Choose strategy to optimize;Choose strategy to optimize
+Select strategy file;Select strategy file
+All strategies in databank;All strategies in databank
+Optimization settings;Optimization settings
+Simple optimization;Simple optimization
+Walk - Forward optimization;Walk - Forward optimization
+Store all optimizations into databank;Store all optimizations into databank
+Store only best optimization;Store only best optimization
+Build and Trading Options;Build and Trading Options
+special parameter relation;special parameter relation
+Simple comparison;Simple comparison
+Comparison;Comparison
+Is between;Is between
+is between;is between
+and;and
+If - Then;If - Then
+If;If
+Then;Then
+Optimization method;Optimization method
+Parameter settings;Parameter settings
+Manual;Manual
+Automatic;Automatic
+What to parametrize:;What to parametrize:
+settings;settings
+Maximum optimizations:;Maximum optimizations:
+Total parameters combinations:;Total parameters combinations:
+Preset selected parameters with;Preset selected parameters with
+% distribution;% distribution
+Maximum steps:;Maximum steps:
+Special parameter relations;Special parameter relations
+Select/unselect all;Select/unselect all
+Choose parts to improve;Choose parts to improve
+Entry rules;Entry rules
+LONG;LONG
+SHORT;SHORT
+Exit rules;Exit rules
+Note - If you want to change symmetry of entry or exit block, you can do it in What to build tab.;Note - If you want to change symmetry of entry or exit block, you can do it in What to build tab.
+Strategy Quality ranking (fitness);Strategy Quality ranking (fitness)
+Compute from;Compute from
+Configure automatic filter;Configure automatic filter
+Automatic filter should be used to dismiss strategies that are obviously wrong, for example don't;Automatic filter should be used to dismiss strategies that are obviously wrong, for example don't
+Dismiss strategies with these problems:;Dismiss strategies with these problems:
+Select all / Deselect all;Select all / Deselect all
+Maximum strategies to store in databank;Maximum strategies to store in databank
+Stop generation when;Stop generation when
+Never;Never
+Totally;Totally
+strategies (that passed filters) were generated;strategies (that passed filters) were generated
+Databank is full (reached maximum capacity);Databank is full (reached maximum capacity)
+Strategy filtering conditions;Strategy filtering conditions
+Configure which strategies will be saved into Results databank;Configure which strategies will be saved into Results databank
+Automatic filters;Automatic filters
+Configure automatic dismissal;Configure automatic dismissal
+Custom filters;Custom filters
+Cross check filters;Cross check filters
+In addition to global filters you can filter out strategy also in cross checks.;In addition to global filters you can filter out strategy also in cross checks.
+These filters are configured separately in every cross check method used.;These filters are configured separately in every cross check method used.
+Filter;Filter
+Output databank;Output databank
+Simple strategy [default];Simple strategy [default]
+Simple strategy running on one symbol and timeframe;Simple strategy running on one symbol and timeframe
+Multi-TF or multi-symbol strategy;Multi-TF or multi-symbol strategy
+Strategy looking at main chart and;Strategy looking at main chart and
+additional charts. These can be just another timeframes of original chart or totally different symbols/TFs.;additional charts. These can be just another timeframes of original chart or totally different symbols/TFs.
+It trades only on the main chart.;It trades only on the main chart.
+Strategy from template;Strategy from template
+Strategy created from the template;Strategy created from the template
+Improve some parts of existing strategy / strategies;Improve some parts of existing strategy / strategies
+Improve all strategies in databank;Improve all strategies in databank
+Additional build config;Additional build config
+Use predefined config or create your own in advanced settings;Use predefined config or create your own in advanced settings
+Trend following;Trend following
+Mean reversal;Mean reversal
+Fuzzy;Fuzzy
+Daily;Daily
+Custom config;Custom config
+Go to advanced settings;Go to advanced settings
+What to do;What to do
+Tasks;Tasks
+DATABANKS:;DATABANKS:
+STRATEGIES:;STRATEGIES:
+Optimization type;Optimization type
+Walk-forward;Walk-forward
+Walk-forward matrix;Walk-forward matrix
+Out of sample %;Out of sample %
+Walk Forward runs;Walk Forward runs
+Strategy to optimize;Strategy to optimize
+Chart is not available for tick data.;Chart is not available for tick data.
+Loading data...;Loading data...
+Summary;Summary
+Issue;Issue
+% of data;% of data
+Gaps;Gaps
+Spikes;Spikes
+Bad OHLC;Bad OHLC
+Graphical view;Graphical view
+Detailed list;Detailed list
+Processing ...;Processing ...
+Analyze data quality is not available for Tick and Intraday data.;Analyze data quality is not available for Tick and Intraday data.
+Correlation based on;Correlation based on
+by;by
+Correlation;Correlation
+between;between
+Number of overlapping trades;Number of overlapping trades
+Manage;Manage
+StrategyQuant standard snippet - code locked;StrategyQuant standard snippet - code locked
+evolution of strategies from initial population using genetic programming;evolution of strategies from initial population using genetic programming
+random generation of strategies without evolution;random generation of strategies without evolution
+Conditions to generate;Conditions to generate
+Global Shift (lookback period);Global Shift (lookback period)
+Global Indicators period;Global Indicators period
+Min;Min
+Max;Max
+Use different settings for every chart;Use different settings for every chart
+Is it required?;Is it required?
+Profit target is required;Profit target is required
+Profit target size;Profit target size
+Use same ranges as for Stop loss;Use same ranges as for Stop loss
+Min:;Min:
+Max:;Max:
+Fixed pips;Fixed pips
+ATR-based;ATR-based
+ATR Multiple;ATR Multiple
+ATR Period;ATR Period
+Limit Risk-Reward (SL vs PT) ratio?;Limit Risk-Reward (SL vs PT) ratio?
+Yes, Profit Target will be from;Yes, Profit Target will be from
+% to;% to
+% of Stop loss size;% of Stop loss size
+Stop loss is required;Stop loss is required
+Stop loss size;Stop loss size
+SQX Signals Style;SQX Signals Style
+SQX Signals Style with Fuzzy Logic;SQX Signals Style with Fuzzy Logic
+Minimum % of true conditions;Minimum % of true conditions
+Old SQ3 Style;Old SQ3 Style
+Strategy directions;Strategy directions
+Both (Long and Short);Both (Long and Short)
+Only Long;Only Long
+Only Short;Only Short
+Entry Symmetry;Entry Symmetry
+Exit Symmetry;Exit Symmetry
+The UI is loading, please wait...;The UI is loading, please wait...
+Projects;Projects
+Data sources;Data sources
+Instrumets and Sessions;Instrumets and Sessions
+Welcome to StrategyQuant X;Welcome to StrategyQuant X
+StrategyQuant is a powerful strategy development platform that uses machine learning techniques and genetic programming to automatically generate new automated trading systems for any market or timeframe.;StrategyQuant is a powerful strategy development platform that uses machine learning techniques and genetic programming to automatically generate new automated trading systems for any market or timeframe.
+Start building new strategies by clicking on the button below.;Start building new strategies by clicking on the button below.
+Start Building Strategies;Start Building Strategies
+Getting started with StrategyQuant;Getting started with StrategyQuant
+Post-installation steps;Post-installation steps
+How StrategyQuant works;How StrategyQuant works
+Getting started with the program;Getting started with the program
+Recommended workflow;Recommended workflow
+User's Guide in PDF;User's Guide in PDF
+What's New;What's New
+StrategyQuant4 Release Candidate 4;StrategyQuant4 Release Candidate 4
+Improved parallel processing and how orders are stored - it removed cause of Java crashes and made program run faster.;Improved parallel processing and how orders are stored - it removed cause of Java crashes and made program run faster.
+Improved Walk-Forward optimization engine, now it should be faster and more reliable.;Improved Walk-Forward optimization engine, now it should be faster and more reliable.
+Autoupdater in SQX should finally work correctly.;Autoupdater in SQX should finally work correctly.
+Added support for other languages and translations.;Added support for other languages and translations.
+Fixed numerous other reported issues.;Fixed numerous other reported issues.
+Please check;Please check
+Roadmap;Roadmap
+for complete changelog of this release.;for complete changelog of this release.
+Grid engine overview;Grid engine overview
+Auto-refresh every 3 seconds;Auto-refresh every 3 seconds
+Jobs in progress;Jobs in progress
+Waiting jobs;Waiting jobs
+Last 100 finished jobs;Last 100 finished jobs
+Job ID;Job ID
+Job group ID;Job group ID
+Status;Status
+Created;Created
+Started;Started
+Run time;Run time
+Progress;Progress
+No jobs in progress.;No jobs in progress.
+No waiting jobs.;No waiting jobs.
+Duration;Duration
+No finished jobs.;No finished jobs.
+Continuous;Continuous
+One time;One time
+Waiting;Waiting
+Running;Running
+Success;Success
+Local grid;Local grid
+Compilation;Compilation
+Compiling classes...;Compiling classes...
+Project '%s' has reached task '%s'.;Project '%s' has reached task '%s'.
+No results so far;No results so far
+Best strategy so far;Best strategy so far
+2nd Best strategy so far;2nd Best strategy so far
+3rd Best strategy so far;3rd Best strategy so far
+Symbol '%s' doesn't contain any data;Symbol '%s' doesn't contain any data
+Preparing clone to timezone;Preparing clone to timezone
+multiple;multiple
+Cancel export;Cancel export
+Do you want to keep the export file?;Do you want to keep the export file?
+Directory cannot be empty.;Directory cannot be empty.
+Symbol '%s' doesn't have data in this range.;Symbol '%s' doesn't have data in this range.
+Preparing export to CSV;Preparing export to CSV
+Comma Separated File;Comma Separated File
+Select export file;Select export file
+ExportData;ExportData
+You can choose only one symbol to export.;You can choose only one symbol to export.
+Export to MT4 works only with TICK data.;Export to MT4 works only with TICK data.
+Select MT4 installation folder;Select MT4 installation folder
+Select MT4 Data folder;Select MT4 Data folder
+Select MT4 data specification file;Select MT4 data specification file
+Preparing export to MT4;Preparing export to MT4
+Export to MT5 works only with TICK and M1 data.;Export to MT5 works only with TICK and M1 data.
+Point value;Point value
+Pip/Tick size;Pip/Tick size
+Pip/Tick step;Pip/Tick step
+Default spread;Default spread
+Commissions;Commissions
+No instruments defined.;No instruments defined.
+You have to select some record.;You have to select some record.
+Are you sure you want to remove selected instruments (%d)?;Are you sure you want to remove selected instruments (%d)?
+Are you sure you want to remove instrument '%s'?;Are you sure you want to remove instrument '%s'?
+Remove instruments;Remove instruments
+Remove instrument;Remove instrument
+Session Name;Session Name
+Start time;Start time
+End time;End time
+SEOC;SEOC
+No session times defined.;No session times defined.
+You must select at least one row;You must select at least one row
+Yes;Yes
+No;No
+No session defined. Please define Monday session and try again;No session defined. Please define Monday session and try again
+No suitable Monday session found. Monday session must end on Monday or Tuesday;No suitable Monday session found. Monday session must end on Monday or Tuesday
+You have to create Monday session element;You have to create Monday session element
+Changes not saved;Changes not saved
+Do you really want to discard changes?;Do you really want to discard changes?
+Session template name not filled;Session template name not filled
+No sessions defined;No sessions defined
+No session selected;No session selected
+Removing session;Removing session
+Available data range;Available data range
+No Dukascopy symbols available.;No Dukascopy symbols available.
+No symbols selected;No symbols selected
+This option is available only for users with full licence, not for trial users.;This option is available only for users with full licence, not for trial users.
+Preparing Dukascopy data import;Preparing Dukascopy data import
+You must select at least one Dukascopy record.;You must select at least one Dukascopy record.
+Preparing TickDownloader data import;Preparing TickDownloader data import
+Select TickDownloader data folder;Select TickDownloader data folder
+You must select at least one File record.;You must select at least one File record.
+Delete data format;Delete data format
+New format error;New format error
+Name cannot be empty;Name cannot be empty
+Select file to import;Select file to import
+ImportData;ImportData
+Select type for each column.;Select type for each column.
+Import error;Import error
+Preparing File data import;Preparing File data import
+Cancel import;Cancel import
+Do you really want to cancel the import?;Do you really want to cancel the import?
+Cannot delete view.;Cannot delete view.
+No target chosen for applying settings.;No target chosen for applying settings.
+Period;Period
+Net Profit;Net Profit
+Profit Factor;Profit Factor
+# of trades;# of trades
+% Wins;% Wins
+No annual stats available.;No annual stats available.
+No trades data.;No trades data.
+Cannot delete view. %s;Cannot delete view. %s
+Tradelist view removed;Tradelist view removed
+Period IS;Period IS
+Period OOS;Period OOS
+Days IS;Days IS
+Days OOS;Days OOS
+# of trades IS;# of trades IS
+# of trades OOS;# of trades OOS
+Net Profit IS;Net Profit IS
+Net Profit OOS;Net Profit OOS
+Drawdown IS;Drawdown IS
+Drawdown OOS;Drawdown OOS
+Do you really want to set default conditions?<br>It will overwrite your current settings.;Do you really want to set default conditions?<br>It will overwrite your current settings.
+No data.;No data.
+No search results available.;No search results available.
+Searched '%s' - %d matches;Searched '%s' - %d matches
+File '%s' contains unsaved changes.<br>Do you really want to close it?;File '%s' contains unsaved changes.<br>Do you really want to close it?
+New file;New file
+New directory;New directory
+Templates;Templates
+Are you sure you want to remove this file?;Are you sure you want to remove this file?
+Do you really want to refresh this file from disc? Unsaved changes will be lost.;Do you really want to refresh this file from disc? Unsaved changes will be lost.
+Indicator;Indicator
+Test file name;Test file name
+Exists?;Exists?
+Decimals;Decimals
+Test result;Test result
+No tests.;No tests.
+Decimals count must be a number;Decimals count must be a number
+SQ value;SQ value
+Value from file;Value from file
+No errors.;No errors.
+Indicator '%s' not found;Indicator '%s' not found
+Remove test;Remove test
+Do you want to remove test '%s'?;Do you want to remove test '%s'?
+Remove tests;Remove tests
+Do you want to remove all tests?;Do you want to remove all tests?
+Indicator tests successfully downloaded;Indicator tests successfully downloaded
+Indicator tests download;Indicator tests download
+Parameters settings;Parameters settings
+Do you realy want to close parameters editation?<br>Your changes will be not saved;Do you realy want to close parameters editation?<br>Your changes will be not saved
+Cross check - %s settings cannot be displayed. Missing UI plugin.;Cross check - %s settings cannot be displayed. Missing UI plugin.
+No Session;No Session
+Selected symbol ('%s') has no data.;Selected symbol ('%s') has no data.
+Not enough space for new OOS period;Not enough space for new OOS period
+Removing condition;Removing condition
+Are you sure you want to remove selected condition?;Are you sure you want to remove selected condition?
+Different parameter types used. Parameter '%s' is of type %s and '%s' is of type %s;Different parameter types used. Parameter '%s' is of type %s and '%s' is of type %s
+Value cannot be empty;Value cannot be empty
+Incorrect value '%s'. Expected 'true' or 'false';Incorrect value '%s'. Expected 'true' or 'false'
+Incorrect value '%s'. Expected integer value;Incorrect value '%s'. Expected integer value
+Incorrect value '%s'. Expected numeric value;Incorrect value '%s'. Expected numeric value
+To use fitness '%s' you have to enable this cross check in Settings -> Cross checks.;To use fitness '%s' you have to enable this cross check in Settings -> Cross checks.
+ethod.na;ethod.na
+Records limit reached;Records limit reached
+Max records is set to a number lower than the current number of records in the databank. <br/><br/>Do you want to delete the overabundant records? If you click No, this change will be not applied.;Max records is set to a number lower than the current number of records in the databank. <br/><br/>Do you want to delete the overabundant records? If you click No, this change will be not applied.
+Changing max records value...;Changing max records value...
+Deleting overabundant results...;Deleting overabundant results...
+Ranking & Filtering;Ranking & Filtering
+SQX Template Files;SQX Template Files
+SQX Strategy Files;SQX Strategy Files
+Settings reset;Settings reset
+Do you want to reset your settings to '%s' strategy type?;Do you want to reset your settings to '%s' strategy type?
+With %d condition(s);With %d condition(s)
+Remove project;Remove project
+Are you sure you want to remove '%s' project?;Are you sure you want to remove '%s' project?
+SQX Project Files;SQX Project Files
+Save project;Save project
+Cannot change tasks flow while the project is running;Cannot change tasks flow while the project is running
+Retest options;Retest options
+Condition that is always false.;Condition that is always false.
+Always False;Always False
+Condition that is always true.;Condition that is always true.
+Always True;Always True
+Date of bar (in broker time), comparable with GetDate() function;Date of bar (in broker time), comparable with GetDate() function
+Sunday=0,Monday=1,Tuesday=2,Wednesday=3,Thursday=4,Friday=5,Saturday=6;Sunday=0,Monday=1,Tuesday=2,Wednesday=3,Thursday=4,Friday=5,Saturday=6
+DayOfWeek[#Shift#];DayOfWeek[#Shift#]
+Bar[#Shift#] day of week = #Day#;Bar[#Shift#] day of week = #Day#
+Bar[#Shift#] day of week != #Day#;Bar[#Shift#] day of week != #Day#
+Hour[#Shift#];Hour[#Shift#]
+Bar[#Shift#] hour is #Hour#;Bar[#Shift#] hour is #Hour#
+Minute[#Shift#];Minute[#Shift#]
+Bar[#Shift#] minute is #Minute#;Bar[#Shift#] minute is #Minute#
+Time of given bar;Time of given bar
+Time[#Shift#];Time[#Shift#]
+Bar[#Shift#] time is #Hour#:#Minute#;Bar[#Shift#] time is #Hour#:#Minute#
+Current date (in broker time), comparable with GetDate() function;Current date (in broker time), comparable with GetDate() function
+Current day of week (in broker time). Sunday=0,Monday=1,Tuesday=2,Wednesday=3,Thursday=4,Friday=5,Saturday=6;Current day of week (in broker time). Sunday=0,Monday=1,Tuesday=2,Wednesday=3,Thursday=4,Friday=5,Saturday=6
+Current day of week is #Day#;Current day of week is #Day#
+Current hour (in broker time);Current hour (in broker time)
+Current hour is #Hour#;Current hour is #Hour#
+Current minute (in broker time);Current minute (in broker time)
+Current minute is #Minute#;Current minute is #Minute#
+Current time (in broker time);Current time (in broker time)
+Current time is #Hour#:#Minute#;Current time is #Hour#:#Minute#
+Is triggered on bar open. This happens only once during the bar, so you can use this condition for strategies that should open the trade only on bar opening.;Is triggered on bar open. This happens only once during the bar, so you can use this condition for strategies that should open the trade only on bar opening.
+Is Bar Open;Is Bar Open
+IsBarOpen;IsBarOpen
+Is triggered when BearishEngulfing pattern is formed;Is triggered when BearishEngulfing pattern is formed
+BearishEngulfing pattern;BearishEngulfing pattern
+BearishEngulfing pattern before #Shift# bars;BearishEngulfing pattern before #Shift# bars
+Is triggered when BullishEngulfing pattern is formed;Is triggered when BullishEngulfing pattern is formed
+BullishEngulfing pattern;BullishEngulfing pattern
+BullishEngulfing pattern before #Shift# bars;BullishEngulfing pattern before #Shift# bars
+Is triggered when DarkCloud pattern is formed;Is triggered when DarkCloud pattern is formed
+DarkCloud pattern;DarkCloud pattern
+DarkCloud pattern before #Shift# bars;DarkCloud pattern before #Shift# bars
+Is triggered when Doji pattern is formed;Is triggered when Doji pattern is formed
+Doji pattern;Doji pattern
+Doji pattern before #Shift# bars;Doji pattern before #Shift# bars
+Is triggered when Hammer pattern is formed;Is triggered when Hammer pattern is formed
+Hammer pattern;Hammer pattern
+Hammer pattern before #Shift# bars;Hammer pattern before #Shift# bars
+Is triggered when PiercingLine pattern is formed;Is triggered when PiercingLine pattern is formed
+PiercingLine pattern;PiercingLine pattern
+PiercingLine pattern before #Shift# bars;PiercingLine pattern before #Shift# bars
+Is triggered when ShootingStar pattern is formed;Is triggered when ShootingStar pattern is formed
+ShootingStar pattern;ShootingStar pattern
+ShootingStar pattern before #Shift# bars;ShootingStar pattern before #Shift# bars
+Crosses Above;Crosses Above
+#Left# crosses above #Right#;#Left# crosses above #Right#
+Crosses Below;Crosses Below
+#Left# crosses below #Right#;#Left# crosses below #Right#
+(=) Equals;(=) Equals
+#Left# = #Right#;#Left# = #Right#
+Number of bars the value has to be falling;Number of bars the value has to be falling
+If set to true, then indicator doesn't have to be falling all the time, it can have some values that are equal (but it cannot be rising);If set to true, then indicator doesn't have to be falling all the time, it can have some values that are equal (but it cannot be rising)
+Is falling;Is falling
+#Indicator# is falling;#Indicator# is falling
+Bars falling;Bars falling
+Falling properties;Falling properties
+Allow same values;Allow same values
+(>) Is greater;(>) Is greater
+#Left# > #Right#;#Left# > #Right#
+(>=) Is greater or equal;(>=) Is greater or equal
+#Left# >= #Right#;#Left# >= #Right#
+(<) Is lower;(<) Is lower
+#Left# < #Right#;#Left# < #Right#
+(<=) Is lower or equal;(<=) Is lower or equal
+#Left# <= #Right#;#Left# <= #Right#
+Number of bars the value has to be rising;Number of bars the value has to be rising
+If set to true, then indicator doesn't have to be rising all the time, it can have some values that are equal (but it cannot be falling);If set to true, then indicator doesn't have to be rising all the time, it can have some values that are equal (but it cannot be falling)
+Is rising;Is rising
+#Indicator# is rising;#Indicator# is rising
+Bars rising;Bars rising
+Rising properties;Rising properties
+Not;Not
+Not #Value#;Not #Value#
+(<>) Not equals;(<>) Not equals
+#Left# <> #Right#;#Left# <> #Right#
+Absolute value of a number;Absolute value of a number
+(ABS) Absolute value;(ABS) Absolute value
+Abs(#Value#);Abs(#Value#)
+Converts real pips value (for example 0.002) to pips that can be used in stop loss or profit target. Example: converts 0.002 to 20. This is an opposite function to ConvertToRealPips();Converts real pips value (for example 0.002) to pips that can be used in stop loss or profit target. Example: converts 0.002 to 20. This is an opposite function to ConvertToRealPips()
+(2PIP) ConvertToPips;(2PIP) ConvertToPips
+ConvertToPips(#Value#);ConvertToPips(#Value#)
+Converts number to real pips that can be used as price level for price, stop loss or profit target. Example: converts 20 to 0.002. This is an opposite function to ConvertToPips();Converts number to real pips that can be used as price level for price, stop loss or profit target. Example: converts 20 to 0.002. This is an opposite function to ConvertToPips()
+(2RPIP) ConvertToRealPips;(2RPIP) ConvertToRealPips
+ConvertToRealPips(#Value#);ConvertToRealPips(#Value#)
+Call your own function. You can specify any MQL command here or call a function defined in /Code/CustomFunctions.mq4 file. You are responsible for using the function correctly;Call your own function. You can specify any MQL command here or call a function defined in /Code/CustomFunctions.mq4 file. You are responsible for using the function correctly
+(CUST) Custom function;(CUST) Custom function
+#Function#;#Function#
+(/) Division;(/) Division
+(#Left# / #Right#);(#Left# / #Right#)
+Exponential value of a number;Exponential value of a number
+(EXP) Exponential;(EXP) Exponential
+Exponential(#Value#);Exponential(#Value#)
+Returns day as YYYYMMDD number, comparable with Bar Time or Current Time values;Returns day as YYYYMMDD number, comparable with Bar Time or Current Time values
+(DATE) GetDate;(DATE) GetDate
+GetDate(#Day#, #Month#, #Year#);GetDate(#Day#, #Month#, #Year#)
+Returns time as HHMMNN number, comparable with Bar Time or Current Time values;Returns time as HHMMNN number, comparable with Bar Time or Current Time values
+(TIME) GetTime;(TIME) GetTime
+GetTime(#Hour#, #Minute#, #Second#);GetTime(#Hour#, #Minute#, #Second#)
+Highest value of indicator in given period;Highest value of indicator in given period
+Period (bars back) in which indicator highest value is checked;Period (bars back) in which indicator highest value is checked
+Nth highest value in given period. ) means highest value, 1 means second highest value, etc.;Nth highest value in given period. ) means highest value, 1 means second highest value, etc.
+(IH) Indicator Highest Value;(IH) Indicator Highest Value
+Indicator Highest(#NthValue#, #Period#, #Indicator#);Indicator Highest(#NthValue#, #Period#, #Indicator#)
+Nth highest value;Nth highest value
+Lowest value of indicator in given period;Lowest value of indicator in given period
+Period (bars back) in which indicator lowest value is checked;Period (bars back) in which indicator lowest value is checked
+Nth lowest value in given period. ) means lowest value, 1 means second lowest value, etc.;Nth lowest value in given period. ) means lowest value, 1 means second lowest value, etc.
+(IL) Indicator Lowest Value;(IL) Indicator Lowest Value
+Indicator Lowest(#NthValue#, #Period#, #Indicator#);Indicator Lowest(#NthValue#, #Period#, #Indicator#)
+Nth lowest value;Nth lowest value
+(LOG) Log;(LOG) Log
+Log(#Value#);Log(#Value#)
+Maximum of two values;Maximum of two values
+(MAX) Maximum;(MAX) Maximum
+Max(#Value1#, #Value2#);Max(#Value1#, #Value2#)
+Minimum of two values;Minimum of two values
+(MIN) Minimum;(MIN) Minimum
+Min(#Value1#, #Value2#);Min(#Value1#, #Value2#)
+(-) Minus;(-) Minus
+(#Left# - #Right#);(#Left# - #Right#)
+(*) Multiplication;(*) Multiplication
+(#Left# * #Right#);(#Left# * #Right#)
+(+) Plus;(+) Plus
+(#Left# + #Right#);(#Left# + #Right#)
+Returns the most recent value of indicator in the last X bars.;Returns the most recent value of indicator in the last X bars.
+Number of bars back for which the indicator value is checked;Number of bars back for which the indicator value is checked
+Recent(#Indicator#);Recent(#Indicator#)
+Rounds value to given decimal places;Rounds value to given decimal places
+(RND) Round;(RND) Round
+Round(#Value#, #Decimals#);Round(#Value#, #Decimals#)
+(SQRT) Sqrt;(SQRT) Sqrt
+Sqrt(#Value#);Sqrt(#Value#)
+(ADX) Average Directional Movement Index;(ADX) Average Directional Movement Index
+ADX(#Period#, #Line#)[#Shift#];ADX(#Period#, #Line#)[#Shift#]
+Input;Input
+Is triggered if ADX changes direction downwards;Is triggered if ADX changes direction downwards
+(ADX) ADX changes direction downwards;(ADX) ADX changes direction downwards
+ADX(#Period#) changes direction downwards;ADX(#Period#) changes direction downwards
+Is triggered if ADX changes direction upwards;Is triggered if ADX changes direction upwards
+(ADX) ADX changes direction upwards;(ADX) ADX changes direction upwards
+ADX(#Period#) changes direction upwards;ADX(#Period#) changes direction upwards
+(ADX) ADX crosses below Level;(ADX) ADX crosses below Level
+ADX(#Period#) crosses below #Level#;ADX(#Period#) crosses below #Level#
+(ADX) ADX crosses above Level;(ADX) ADX crosses above Level
+ADX(#Period#) crosses above #Level#;ADX(#Period#) crosses above #Level#
+Is triggered if ADX is falling;Is triggered if ADX is falling
+(ADX) ADX is falling;(ADX) ADX is falling
+ADX(#Period#) is falling;ADX(#Period#) is falling
+(ADX) ADX is higher than Level;(ADX) ADX is higher than Level
+ADX(#Period#) > #Level#;ADX(#Period#) > #Level#
+(ADX) ADX is lower than Level;(ADX) ADX is lower than Level
+ADX(#Period#) < #Level#;ADX(#Period#) < #Level#
+Is triggered if ADX is rising;Is triggered if ADX is rising
+(ADX) ADX is rising;(ADX) ADX is rising
+ADX(#Period#) is rising;ADX(#Period#) is rising
+(AO) Aroon;(AO) Aroon
+Aroon(#Period#).#Line#[#Shift#];Aroon(#Period#).#Line#[#Shift#]
+Is triggered if Aroon Up crosses above Aroon Down;Is triggered if Aroon Up crosses above Aroon Down
+(AO) Aroon Up crosses above Aroon Down;(AO) Aroon Up crosses above Aroon Down
+Aroon(#Period#).Up crosses above Aroon Down;Aroon(#Period#).Up crosses above Aroon Down
+Is triggered if Aroon Up crosses below Aroon Down;Is triggered if Aroon Up crosses below Aroon Down
+(AO) Aroon Up crosses below Aroon Down;(AO) Aroon Up crosses below Aroon Down
+Aroon(#Period#).Up crosses below Aroon Down;Aroon(#Period#).Up crosses below Aroon Down
+Is triggered if Aroon Down falls from top and Aroon Up is around middle of the range;Is triggered if Aroon Down falls from top and Aroon Up is around middle of the range
+(AO) Aroon Down falls from top;(AO) Aroon Down falls from top
+Aroon(#Period#).Down falls from top;Aroon(#Period#).Down falls from top
+Is triggered if Aroon Up rises from bottom and Aroon Down is around middle of the range;Is triggered if Aroon Up rises from bottom and Aroon Down is around middle of the range
+(AO) Aroon Up rises from bottom;(AO) Aroon Up rises from bottom
+Aroon(#Period#).Up rises from bottom;Aroon(#Period#).Up rises from bottom
+(ATR) Average True Range;(ATR) Average True Range
+ATR(#Period#)[#Shift#];ATR(#Period#)[#Shift#]
+Is triggered if ATR changes direction downwards;Is triggered if ATR changes direction downwards
+(ATR) ATR changes direction downwards;(ATR) ATR changes direction downwards
+ATR(#Period#) changes direction downwards;ATR(#Period#) changes direction downwards
+Is triggered if ATR changes direction upwards;Is triggered if ATR changes direction upwards
+(ATR) ATR changes direction upwards;(ATR) ATR changes direction upwards
+ATR(#Period#) changes direction upwards;ATR(#Period#) changes direction upwards
+(ATR) ATR crosses below Level;(ATR) ATR crosses below Level
+ATR(#Period#) crosses below #Level#;ATR(#Period#) crosses below #Level#
+(ATR) ATR crosses above Level;(ATR) ATR crosses above Level
+ATR(#Period#) crosses above #Level#;ATR(#Period#) crosses above #Level#
+Is triggered if ATR is falling;Is triggered if ATR is falling
+(ATR) ATR is falling;(ATR) ATR is falling
+ATR(#Period#) is falling;ATR(#Period#) is falling
+(ATR) ATR is higher than Level;(ATR) ATR is higher than Level
+ATR(#Period#) > #Level#;ATR(#Period#) > #Level#
+(ATR) ATR is lower than Level;(ATR) ATR is lower than Level
+ATR(#Period#) < #Level#;ATR(#Period#) < #Level#
+Is triggered if ATR is rising;Is triggered if ATR is rising
+(ATR) ATR is rising;(ATR) ATR is rising
+ATR(#Period#) is rising;ATR(#Period#) is rising
+(AV) Average Volume;(AV) Average Volume
+AV(#Period#)[#Shift#];AV(#Period#)[#Shift#]
+(AV) Average Volume is falling;(AV) Average Volume is falling
+AV(#Period#)[#Shift#] is falling;AV(#Period#)[#Shift#] is falling
+(AV) Average Volume is rising;(AV) Average Volume is rising
+AV(#Period#)[#Shift#] is rising;AV(#Period#)[#Shift#] is rising
+Is triggered if Volume is falling;Is triggered if Volume is falling
+(VOL) Volume is falling;(VOL) Volume is falling
+Volume is falling;Volume is falling
+Is triggered if Volume is rising;Is triggered if Volume is rising
+(VOL) Volume is rising;(VOL) Volume is rising
+Volume is rising;Volume is rising
+(AWO) Awesome Oscillator;(AWO) Awesome Oscillator
+AwesomeOscillator()[#Shift#];AwesomeOscillator()[#Shift#]
+Is triggered if AWO changes direction downwards;Is triggered if AWO changes direction downwards
+(AWO) Awesome Oscillator changes direction downwards;(AWO) Awesome Oscillator changes direction downwards
+AwesomeOscillator() changes direction downwards;AwesomeOscillator() changes direction downwards
+Is triggered if Awesome Oscillator changes direction upwards;Is triggered if Awesome Oscillator changes direction upwards
+(AWO) Awesome Oscillator changes direction upwards;(AWO) Awesome Oscillator changes direction upwards
+AwesomeOscillator() changes direction upwards;AwesomeOscillator() changes direction upwards
+(AWO) Awesome Oscillator crosses below Level;(AWO) Awesome Oscillator crosses below Level
+AwesomeOscillator() crosses below #Level#;AwesomeOscillator() crosses below #Level#
+(AWO) Awesome Oscillator crosses above Level;(AWO) Awesome Oscillator crosses above Level
+AwesomeOscillator() crosses above #Level#;AwesomeOscillator() crosses above #Level#
+Is triggered if Awesome Oscillator is falling;Is triggered if Awesome Oscillator is falling
+(AWO) Awesome Oscillator is falling;(AWO) Awesome Oscillator is falling
+AwesomeOscillator() is falling;AwesomeOscillator() is falling
+(AWO) Awesome Oscillator is higher than Level;(AWO) Awesome Oscillator is higher than Level
+AwesomeOscillator() > #Level#;AwesomeOscillator() > #Level#
+(AWO) Awesome Oscillator is lower than Level;(AWO) Awesome Oscillator is lower than Level
+AwesomeOscillator() < #Level#;AwesomeOscillator() < #Level#
+Is triggered if Awesome Oscillator is rising;Is triggered if Awesome Oscillator is rising
+(AWO) Awesome Oscillator is rising;(AWO) Awesome Oscillator is rising
+AwesomeOscillator() is rising;AwesomeOscillator() is rising
+(BR) BarRange;(BR) BarRange
+BarRange[#Shift#];BarRange[#Shift#]
+returns value of biggest range (high - low of one candle) of candles in given period;returns value of biggest range (high - low of one candle) of candles in given period
+(BRNG) Biggest Range;(BRNG) Biggest Range
+BiggestRange(#Period#)[#Shift#];BiggestRange(#Period#)[#Shift#]
+returns highest high of candles in given time range;returns highest high of candles in given time range
+(HRNG) Highest in range;(HRNG) Highest in range
+HighestInRange(#TimeFrom#, #TimeTo#);HighestInRange(#TimeFrom#, #TimeTo#)
+returns lowest low of candles in given time range;returns lowest low of candles in given time range
+(LRNG) Lowest in range;(LRNG) Lowest in range
+LowestInRange(#TimeFrom#, #TimeTo#);LowestInRange(#TimeFrom#, #TimeTo#)
+returns value of smallest range (high - low of one candle) of candles in given period;returns value of smallest range (high - low of one candle) of candles in given period
+(SRNG) Smallest Range;(SRNG) Smallest Range
+SmallestRange(#Period#)[#Shift#];SmallestRange(#Period#)[#Shift#]
+(BP) Bears Power;(BP) Bears Power
+BearsPower(#Period#, #ComputedFrom#)[#Shift#];BearsPower(#Period#, #ComputedFrom#)[#Shift#]
+Is triggered if Bears Power changes direction downwards;Is triggered if Bears Power changes direction downwards
+(BEP) Bears Power changes direction downwards;(BEP) Bears Power changes direction downwards
+BearsPower(#Period#) changes direction downwards;BearsPower(#Period#) changes direction downwards
+Is triggered if Bears Power changes direction upwards;Is triggered if Bears Power changes direction upwards
+(BEP) Bears Power changes direction upwards;(BEP) Bears Power changes direction upwards
+BearsPower(#Period#) changes direction upwards;BearsPower(#Period#) changes direction upwards
+(BEP) Bears Power crosses below Level;(BEP) Bears Power crosses below Level
+BearsPower(#Period#) crosses below #Level#;BearsPower(#Period#) crosses below #Level#
+(BEP) Bears Power crosses above Level;(BEP) Bears Power crosses above Level
+BearsPower(#Period#) crosses above #Level#;BearsPower(#Period#) crosses above #Level#
+Is triggered if Bears Power is falling;Is triggered if Bears Power is falling
+(BEP) Bears Power is falling;(BEP) Bears Power is falling
+BearsPower(#Period#) is falling;BearsPower(#Period#) is falling
+(BEP) Bears Power is higher than Level;(BEP) Bears Power is higher than Level
+BearsPower(#Period#) > #Level#;BearsPower(#Period#) > #Level#
+(BEP) Bears Power is lower than Level;(BEP) Bears Power is lower than Level
+BearsPower(#Period#) < #Level#;BearsPower(#Period#) < #Level#
+Is triggered if Bears Power is rising;Is triggered if Bears Power is rising
+(BEP) Bears Power is rising;(BEP) Bears Power is rising
+BearsPower(#Period#) is rising;BearsPower(#Period#) is rising
+(BB) Bar closes above Lower band;(BB) Bar closes above Lower band
+Bar closes above BB(#Period#, #Deviation#).Lower;Bar closes above BB(#Period#, #Deviation#).Lower
+(BB) Bar closes above Upper band;(BB) Bar closes above Upper band
+Bar closes above BB(#Period#, #Deviation#).Upper;Bar closes above BB(#Period#, #Deviation#).Upper
+(BB) Bar closes below Lower band;(BB) Bar closes below Lower band
+Bar closes below BB(#Period#, #Deviation#).Lower;Bar closes below BB(#Period#, #Deviation#).Lower
+(BB) Bar closes below Upper band;(BB) Bar closes below Upper band
+Bar closes below BB(#Period#, #Deviation#).Upper;Bar closes below BB(#Period#, #Deviation#).Upper
+(BB) Bar opens above Lower band;(BB) Bar opens above Lower band
+Bar opens above BB(#Period#, #Deviation#).Lower;Bar opens above BB(#Period#, #Deviation#).Lower
+(BB) Bar opens above Lower band after opened below;(BB) Bar opens above Lower band after opened below
+Bar opens above BB(#Period#, #Deviation#).Lower after opened below;Bar opens above BB(#Period#, #Deviation#).Lower after opened below
+(BB) Bar opens above Upper band;(BB) Bar opens above Upper band
+Bar opens above BB(#Period#, #Deviation#).Upper;Bar opens above BB(#Period#, #Deviation#).Upper
+(BB) Bar opens above Upper band after opened below;(BB) Bar opens above Upper band after opened below
+Bar opens above BB(#Period#, #Deviation#).Upper after opened below;Bar opens above BB(#Period#, #Deviation#).Upper after opened below
+(BB) Bar opens below Lower band;(BB) Bar opens below Lower band
+Bar opens below BB(#Period#, #Deviation#).Lower;Bar opens below BB(#Period#, #Deviation#).Lower
+(BB) Bar opens below Lower band after opened above;(BB) Bar opens below Lower band after opened above
+Bar opens below BB(#Period#, #Deviation#).Lower after opened above;Bar opens below BB(#Period#, #Deviation#).Lower after opened above
+(BB) Bar opens below Upper band;(BB) Bar opens below Upper band
+Bar opens below BB(#Period#, #Deviation#).Upper;Bar opens below BB(#Period#, #Deviation#).Upper
+(BB) Bar opens below Upper band after opened above;(BB) Bar opens below Upper band after opened above
+Bar opens below BB(#Period#, #Deviation#).Upper after opened above;Bar opens below BB(#Period#, #Deviation#).Upper after opened above
+Is triggered if BB is falling;Is triggered if BB is falling
+(BB) Lower band is falling;(BB) Lower band is falling
+BB(#Period#, #Deviation#).Lower is falling;BB(#Period#, #Deviation#).Lower is falling
+Is triggered if BB is rising;Is triggered if BB is rising
+(BB) Lower band is rising;(BB) Lower band is rising
+BB(#Period#, #Deviation#).Lower is rising;BB(#Period#, #Deviation#).Lower is rising
+(BBR) BB Range;(BBR) BB Range
+BB Range(#Period#, #Deviation#)[#Shift#];BB Range(#Period#, #Deviation#)[#Shift#]
+(BB) Upper band is falling;(BB) Upper band is falling
+BB(#Period#, #Deviation#).Upper is falling;BB(#Period#, #Deviation#).Upper is falling
+(BB) Upper band is rising;(BB) Upper band is rising
+BB(#Period#, #Deviation#).Upper is rising;BB(#Period#, #Deviation#).Upper is rising
+(BBWR) BB Width Ratio;(BBWR) BB Width Ratio
+BB WR(#Period#, #Deviation#)[#Shift#];BB WR(#Period#, #Deviation#)[#Shift#]
+(BB) Bollinger Bands;(BB) Bollinger Bands
+BollingerBands(#Period#, #Deviation#).#Line#[#Shift#];BollingerBands(#Period#, #Deviation#).#Line#[#Shift#]
+(BUP) Bulls Power;(BUP) Bulls Power
+BullsPower(#Period#, #ComputedFrom#)[#Shift#];BullsPower(#Period#, #ComputedFrom#)[#Shift#]
+Is triggered if Bulls Power changes direction downwards;Is triggered if Bulls Power changes direction downwards
+(BUP) Bulls Power changes direction downwards;(BUP) Bulls Power changes direction downwards
+BullsPower(#Period#) changes direction downwards;BullsPower(#Period#) changes direction downwards
+Is triggered if Bulls Power changes direction upwards;Is triggered if Bulls Power changes direction upwards
+(BUP) Bulls Power changes direction upwards;(BUP) Bulls Power changes direction upwards
+BullsPower(#Period#) changes direction upwards;BullsPower(#Period#) changes direction upwards
+(BUP) Bulls Power crosses below Level;(BUP) Bulls Power crosses below Level
+BullsPower(#Period#) crosses below #Level#;BullsPower(#Period#) crosses below #Level#
+(BUP) Bulls Power crosses above Level;(BUP) Bulls Power crosses above Level
+BullsPower(#Period#) crosses above #Level#;BullsPower(#Period#) crosses above #Level#
+Is triggered if Bulls Power is falling;Is triggered if Bulls Power is falling
+(BUP) Bulls Power is falling;(BUP) Bulls Power is falling
+BullsPower(#Period#) is falling;BullsPower(#Period#) is falling
+(BUP) Bulls Power is higher than Level;(BUP) Bulls Power is higher than Level
+BullsPower(#Period#) > #Level#;BullsPower(#Period#) > #Level#
+(BUP) Bulls Power is lower than Level;(BUP) Bulls Power is lower than Level
+BullsPower(#Period#) < #Level#;BullsPower(#Period#) < #Level#
+Is triggered if Bulls Power is rising;Is triggered if Bulls Power is rising
+(BUP) Bulls Power is rising;(BUP) Bulls Power is rising
+BullsPower(#Period#) is rising;BullsPower(#Period#) is rising
+Commodity channel index;Commodity channel index
+(CCI) Commodity Channel Index;(CCI) Commodity Channel Index
+CCI(#Period#)[#Shift#];CCI(#Period#)[#Shift#]
+Is triggered if CCI changes direction downwards;Is triggered if CCI changes direction downwards
+(CCI) CCI changes direction downwards;(CCI) CCI changes direction downwards
+CCI(#Period#) changes direction downwards;CCI(#Period#) changes direction downwards
+Is triggered if CCI changes direction upwards;Is triggered if CCI changes direction upwards
+(CCI) CCI changes direction upwards;(CCI) CCI changes direction upwards
+CCI(#Period#) changes direction upwards;CCI(#Period#) changes direction upwards
+(CCI) CCI crosses below Level;(CCI) CCI crosses below Level
+CCI(#Period#) crosses below #Level#;CCI(#Period#) crosses below #Level#
+(CCI) CCI crosses above Level;(CCI) CCI crosses above Level
+CCI(#Period#) crosses above #Level#;CCI(#Period#) crosses above #Level#
+Is triggered if CCI is falling;Is triggered if CCI is falling
+(CCI) CCI is falling;(CCI) CCI is falling
+CCI(#Period#) is falling;CCI(#Period#) is falling
+(CCI) CCI is higher than Level;(CCI) CCI is higher than Level
+CCI(#Period#) > #Level#;CCI(#Period#) > #Level#
+(CCI) CCI is lower than Level;(CCI) CCI is lower than Level
+CCI(#Period#) < #Level#;CCI(#Period#) < #Level#
+Is triggered if CCI is rising;Is triggered if CCI is rising
+(CCI) CCI is rising;(CCI) CCI is rising
+CCI(#Period#) is rising;CCI(#Period#) is rising
+DeMarker;DeMarker
+(DE) DeMarker;(DE) DeMarker
+DeMarker(#Period#)[#Shift#];DeMarker(#Period#)[#Shift#]
+Is triggered if DeMarker changes direction downwards;Is triggered if DeMarker changes direction downwards
+(DEM) DeMarker changes direction downwards;(DEM) DeMarker changes direction downwards
+DeMarker(#Period#) changes direction downwards;DeMarker(#Period#) changes direction downwards
+Is triggered if DeMarker changes direction upwards;Is triggered if DeMarker changes direction upwards
+(DEM) DeMarker changes direction upwards;(DEM) DeMarker changes direction upwards
+DeMarker(#Period#) changes direction upwards;DeMarker(#Period#) changes direction upwards
+(DEM) DeMarker crosses below Level;(DEM) DeMarker crosses below Level
+DeMarker(#Period#) crosses below #Level#;DeMarker(#Period#) crosses below #Level#
+(DEM) DeMarker crosses above Level;(DEM) DeMarker crosses above Level
+DeMarker(#Period#) crosses above #Level#;DeMarker(#Period#) crosses above #Level#
+Is triggered if DeMarker is falling;Is triggered if DeMarker is falling
+(DEM) DeMarker is falling;(DEM) DeMarker is falling
+DeMarker(#Period#) is falling;DeMarker(#Period#) is falling
+(DEM) DeMarker is higher than Level;(DEM) DeMarker is higher than Level
+DeMarker(#Period#) > #Level#;DeMarker(#Period#) > #Level#
+(DEM) DeMarker is lower than Level;(DEM) DeMarker is lower than Level
+DeMarker(#Period#) < #Level#;DeMarker(#Period#) < #Level#
+Is triggered if DeMarker is rising;Is triggered if DeMarker is rising
+(DEM) DeMarker is rising;(DEM) DeMarker is rising
+DeMarker(#Period#) is rising;DeMarker(#Period#) is rising
+(DI+) DI+ crosses below DI-;(DI+) DI+ crosses below DI-
+DI+(#Period#) crosses below DI-(#Period#);DI+(#Period#) crosses below DI-(#Period#)
+(DI+) DI+ crosses above DI-;(DI+) DI+ crosses above DI-
+DI+(#Period#) crosses above DI-(#Period#);DI+(#Period#) crosses above DI-(#Period#)
+Is triggered if DI- changes direction downwards;Is triggered if DI- changes direction downwards
+(DI-) DI- changes direction downwards;(DI-) DI- changes direction downwards
+DI-(#Period#) changes direction downwards;DI-(#Period#) changes direction downwards
+Is triggered if DI- changes direction upwards;Is triggered if DI- changes direction upwards
+(DI-) DI- changes direction upwards;(DI-) DI- changes direction upwards
+DI-(#Period#) changes direction upwards;DI-(#Period#) changes direction upwards
+Is triggered if DI- is falling;Is triggered if DI- is falling
+(DI-) DI- is falling;(DI-) DI- is falling
+DI-(#Period#) is falling;DI-(#Period#) is falling
+Is triggered if DI- is rising;Is triggered if DI- is rising
+(DI-) DI- is rising;(DI-) DI- is rising
+DI-(#Period#) is rising;DI-(#Period#) is rising
+Is triggered if DI+ changes direction downwards;Is triggered if DI+ changes direction downwards
+(DI+) DI+ changes direction downwards;(DI+) DI+ changes direction downwards
+DI+(#Period#) changes direction downwards;DI+(#Period#) changes direction downwards
+Is triggered if DI+ changes direction upwards;Is triggered if DI+ changes direction upwards
+(DI+) DI+ changes direction upwards;(DI+) DI+ changes direction upwards
+DI+(#Period#) changes direction upwards;DI+(#Period#) changes direction upwards
+Is triggered if DI+ is falling;Is triggered if DI+ is falling
+(DI+) DI+ is falling;(DI+) DI+ is falling
+DI+(#Period#) is falling;DI+(#Period#) is falling
+(DI+) DI+ is higher than DI-;(DI+) DI+ is higher than DI-
+DI+(#Period#) > DI-(#Period#);DI+(#Period#) > DI-(#Period#)
+(DI+) DI+ is lower than DI-;(DI+) DI+ is lower than DI-
+DI+(#Period#) < DI-(#Period#);DI+(#Period#) < DI-(#Period#)
+Is triggered if DI+ is rising;Is triggered if DI+ is rising
+(DI+) DI+ is rising;(DI+) DI+ is rising
+DI+(#Period#) is rising;DI+(#Period#) is rising
+Choose range of Fibo indicator;Choose range of Fibo indicator
+Only for some of Fibo ranges - select value of X here;Only for some of Fibo ranges - select value of X here
+(FIB) Fibo;(FIB) Fibo
+Fibo;Fibo
+(H) Bar opens above Highest after opened below;(H) Bar opens above Highest after opened below
+Bar opens above Highest(#Period#) after opened below;Bar opens above Highest(#Period#) after opened below
+(L) Bar opens above Lowest after opened below;(L) Bar opens above Lowest after opened below
+Bar opens above Lowest(#Period#) after opened below;Bar opens above Lowest(#Period#) after opened below
+(H) Bar opens below Highest band after opened above;(H) Bar opens below Highest band after opened above
+Bar opens below Highest(#Period#) after opened above;Bar opens below Highest(#Period#) after opened above
+(L) Bar opens below Lowest after opened above;(L) Bar opens below Lowest after opened above
+Bar opens below Lowest(#Period#) after opened above;Bar opens below Lowest(#Period#) after opened above
+Returns highest value of given period of bars;Returns highest value of given period of bars
+Highest(#Period#)[#Shift#];Highest(#Period#)[#Shift#]
+returns shift of the bar with highest value from the bars of given type;returns shift of the bar with highest value from the bars of given type
+(HI) Highest index;(HI) Highest index
+HighestIndex(#Period#);HighestIndex(#Period#)
+Returns lowest value of given period of bars;Returns lowest value of given period of bars
+Lowest(#Period#)[#Shift#];Lowest(#Period#)[#Shift#]
+returns shift of the bar with lowest value from the bars of given type;returns shift of the bar with lowest value from the bars of given type
+(LI) Lowest index;(LI) Lowest index
+LowestIndex(#Period#);LowestIndex(#Period#)
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#)[#Shift#];Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#)[#Shift#]
+Tenkan;Tenkan
+Kijun;Kijun
+Senkou;Senkou
+(Ichimoku) Chikou Span cross bearish;(Ichimoku) Chikou Span cross bearish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span cross bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span cross bearish
+Signal strength (at least);Signal strength (at least)
+(Ichimoku) Chikou Span cross bullish;(Ichimoku) Chikou Span cross bullish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span cross bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Chikou Span cross bullish
+(Ichimoku) price crosses KijunSen bearish;(Ichimoku) price crosses KijunSen bearish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) price crosses KijunSen bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) price crosses KijunSen bearish
+(Ichimoku) price crosses KijunSen bullish;(Ichimoku) price crosses KijunSen bullish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) price crosses KijunSen bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) price crosses KijunSen bullish
+(Ichimoku) Kumo breakout bearish;(Ichimoku) Kumo breakout bearish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo breakout bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo breakout bearish
+(Ichimoku) Kumo breakout bullish;(Ichimoku) Kumo breakout bullish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo breakout bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Kumo breakout bullish
+(Ichimoku) Senkou Span cross bearish;(Ichimoku) Senkou Span cross bearish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span cross bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span cross bearish
+(Ichimoku) Senkou Span cross bullish;(Ichimoku) Senkou Span cross bullish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span cross bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) Senkou Span cross bullish
+(Ichimoku) TenkanSen crosses KijunSen bearish ;(Ichimoku) TenkanSen crosses KijunSen bearish 
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen crosses KijunSen bearish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen crosses KijunSen bearish
+(Ichimoku) TenkanSen crosses KijunSen bullish;(Ichimoku) TenkanSen crosses KijunSen bullish
+Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen crosses KijunSen bullish;Ichimoku(#TenkanPeriod#,#KijunPeriod#,#SenkouPeriod#) TenkanSen crosses KijunSen bullish
+Signal strength;Signal strength
+Is triggered if Bar closes above KC Lower band;Is triggered if Bar closes above KC Lower band
+(KC) Bar closes above Lower band;(KC) Bar closes above Lower band
+Bar closes above Keltner Channel(#Period#, #Deviation#).Lower;Bar closes above Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar closes above KC Upper band;Is triggered if Bar closes above KC Upper band
+(KC) Bar closes above Upper band;(KC) Bar closes above Upper band
+Bar closes above Keltner Channel(#Period#, #Deviation#).Upper;Bar closes above Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar closes below KC Lower band;Is triggered if Bar closes below KC Lower band
+(KC) Bar closes below Lower band;(KC) Bar closes below Lower band
+Bar closes below Keltner Channel(#Period#, #Deviation#).Lower;Bar closes below Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar closes below KC Upper band;Is triggered if Bar closes below KC Upper band
+(KC) Bar closes below Upper band;(KC) Bar closes below Upper band
+Bar closes below Keltner Channel(#Period#, #Deviation#).Upper;Bar closes below Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar opens above KC Lower band;Is triggered if Bar opens above KC Lower band
+(KC) Bar opens above Lower band;(KC) Bar opens above Lower band
+Bar opens above Keltner Channel(#Period#, #Deviation#).Lower;Bar opens above Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar opens above KC Lower band after opened below;Is triggered if Bar opens above KC Lower band after opened below
+(KC) Bar opens above Lower band after opened below;(KC) Bar opens above Lower band after opened below
+Bar opens above Keltner Channel(#Period#, #Deviation#).Lower after opened below;Bar opens above Keltner Channel(#Period#, #Deviation#).Lower after opened below
+Is triggered if Bar opens above KC Upper band;Is triggered if Bar opens above KC Upper band
+(KC) Bar opens above Upper band;(KC) Bar opens above Upper band
+Bar opens above Keltner Channel(#Period#, #Deviation#).Upper;Bar opens above Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar opens above KC Upper band after opened below;Is triggered if Bar opens above KC Upper band after opened below
+(KC) Bar opens above Upper band after opened below;(KC) Bar opens above Upper band after opened below
+Bar opens above Keltner Channel(#Period#, #Deviation#).Upper after opened below;Bar opens above Keltner Channel(#Period#, #Deviation#).Upper after opened below
+Is triggered if Bar opens below KC Lower band;Is triggered if Bar opens below KC Lower band
+(KC) Bar opens below Lower band;(KC) Bar opens below Lower band
+Bar opens below Keltner Channel(#Period#, #Deviation#).Lower;Bar opens below Keltner Channel(#Period#, #Deviation#).Lower
+Is triggered if Bar opens below KC Lower band after opened above;Is triggered if Bar opens below KC Lower band after opened above
+(KC) Bar opens below Lower band after opened above;(KC) Bar opens below Lower band after opened above
+Bar opens below Keltner Channel(#Period#, #Deviation#).Lower after opened above;Bar opens below Keltner Channel(#Period#, #Deviation#).Lower after opened above
+Is triggered if Bar opens below KC Upper band;Is triggered if Bar opens below KC Upper band
+(KC) Bar opens below Upper band;(KC) Bar opens below Upper band
+Bar opens below Keltner Channel(#Period#, #Deviation#).Upper;Bar opens below Keltner Channel(#Period#, #Deviation#).Upper
+Is triggered if Bar opens below KC Upper band after opened above;Is triggered if Bar opens below KC Upper band after opened above
+(KC) Bar opens below Upper band after opened above;(KC) Bar opens below Upper band after opened above
+Bar opens below Keltner Channel(#Period#, #Deviation#).Upper after opened above;Bar opens below Keltner Channel(#Period#, #Deviation#).Upper after opened above
+Is triggered if KC Lower band is falling;Is triggered if KC Lower band is falling
+(KC) Lower band is falling;(KC) Lower band is falling
+Keltner Channel(#Period#, #Deviation#).Lower is falling;Keltner Channel(#Period#, #Deviation#).Lower is falling
+Is triggered if KC Lower band is rising;Is triggered if KC Lower band is rising
+(KC) Lower band is rising;(KC) Lower band is rising
+Keltner Channel(#Period#, #Deviation#).Lower is rising;Keltner Channel(#Period#, #Deviation#).Lower is rising
+Is triggered if KC Upper band is falling;Is triggered if KC Upper band is falling
+(KC) Upper band is falling;(KC) Upper band is falling
+Keltner Channel(#Period#, #Deviation#).Upper is falling;Keltner Channel(#Period#, #Deviation#).Upper is falling
+Is triggered if KC Upper band is rising;Is triggered if KC Upper band is rising
+(KC) Upper band is rising;(KC) Upper band is rising
+Keltner Channel(#Period#, #Deviation#).Upper is rising;Keltner Channel(#Period#, #Deviation#).Upper is rising
+(KC) Keltner Channel;(KC) Keltner Channel
+Keltner Channel(#Period#, #Deviation#).#Line#[#Shift#];Keltner Channel(#Period#, #Deviation#).#Line#[#Shift#]
+(LinReg) Linear Regression;(LinReg) Linear Regression
+LinReg(#Period#)[#Shift#];LinReg(#Period#)[#Shift#]
+(LinReg) Bar closes above LinReg;(LinReg) Bar closes above LinReg
+Bar closes above LinReg(#Period#);Bar closes above LinReg(#Period#)
+(LinReg) Bar closes below LinReg;(LinReg) Bar closes below LinReg
+Bar closes below LinReg(#Period#);Bar closes below LinReg(#Period#)
+(LinReg) Bar opens above LinReg;(LinReg) Bar opens above LinReg
+Bar opens above LinReg(#Period#);Bar opens above LinReg(#Period#)
+(LinReg) Bar opens above LinReg after opened below;(LinReg) Bar opens above LinReg after opened below
+Bar opens above LinReg(#Period#) after opened below;Bar opens above LinReg(#Period#) after opened below
+(LinReg) Bar opens below LinReg;(LinReg) Bar opens below LinReg
+Bar opens below LinReg(#Period#);Bar opens below LinReg(#Period#)
+(LinReg) Bar opens below LinReg after opened above;(LinReg) Bar opens below LinReg after opened above
+Bar opens below LinReg(#Period#) after opened above;Bar opens below LinReg(#Period#) after opened above
+Is triggered if LinReg is falling;Is triggered if LinReg is falling
+(LinReg) LinReg is falling;(LinReg) LinReg is falling
+LinReg(#Period#) is falling;LinReg(#Period#) is falling
+Is triggered if LinReg is rising;Is triggered if LinReg is rising
+(LinReg) LinReg is rising;(LinReg) LinReg is rising
+LinReg(#Period#) is rising;LinReg(#Period#) is rising
+(MACD) MACD;(MACD) MACD
+MACD(#Fast#, #Slow#, #Smooth#).#Line#[#Shift#];MACD(#Fast#, #Slow#, #Smooth#).#Line#[#Shift#]
+Is triggered if MACD Main changes direction downwards;Is triggered if MACD Main changes direction downwards
+(MACD) MACD Main line changes direction downwards;(MACD) MACD Main line changes direction downwards
+MACD(#Fast#, #Slow#, #Smooth#).Main changes direction downwards;MACD(#Fast#, #Slow#, #Smooth#).Main changes direction downwards
+Is triggered if MACD Main changes direction upwards;Is triggered if MACD Main changes direction upwards
+(MACD) MACD Main line changes direction upwards;(MACD) MACD Main line changes direction upwards
+MACD(#Fast#, #Slow#, #Smooth#).Main changes direction upwards;MACD(#Fast#, #Slow#, #Smooth#).Main changes direction upwards
+(MACD) MACD Main line crosses above Level;(MACD) MACD Main line crosses above Level
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses above #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main crosses above #Level#
+(MACD) MACD Main line crosses above Signal;(MACD) MACD Main line crosses above Signal
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses above MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main crosses above MACD.Signal
+(MACD) MACD Main line crosses above 0;(MACD) MACD Main line crosses above 0
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses above 0;MACD(#Fast#, #Slow#, #Smooth#).Main crosses above 0
+(MACD) MACD Main line crosses below Level;(MACD) MACD Main line crosses below Level
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses below #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main crosses below #Level#
+(MACD) MACD Main line crosses below Signal;(MACD) MACD Main line crosses below Signal
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses below MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main crosses below MACD.Signal
+(MACD) MACD Main line crosses below 0;(MACD) MACD Main line crosses below 0
+MACD(#Fast#, #Slow#, #Smooth#).Main crosses below 0;MACD(#Fast#, #Slow#, #Smooth#).Main crosses below 0
+Is triggered if MACD Main is falling;Is triggered if MACD Main is falling
+(MACD) MACD Main line is falling;(MACD) MACD Main line is falling
+MACD(#Fast#, #Slow#, #Smooth#).Main is falling;MACD(#Fast#, #Slow#, #Smooth#).Main is falling
+(MACD) MACD Main line is higher than Level;(MACD) MACD Main line is higher than Level
+MACD(#Fast#, #Slow#, #Smooth#).Main > #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main > #Level#
+(MACD) MACD Main line is higher than Signal;(MACD) MACD Main line is higher than Signal
+MACD(#Fast#, #Slow#, #Smooth#).Main > MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main > MACD.Signal
+(MACD) MACD Main line is higher than 0;(MACD) MACD Main line is higher than 0
+MACD(#Fast#, #Slow#, #Smooth#).Main > 0;MACD(#Fast#, #Slow#, #Smooth#).Main > 0
+(MACD) MACD Main line is lower than Level;(MACD) MACD Main line is lower than Level
+MACD(#Fast#, #Slow#, #Smooth#).Main < #Level#;MACD(#Fast#, #Slow#, #Smooth#).Main < #Level#
+(MACD) MACD Main line is lower than Signal;(MACD) MACD Main line is lower than Signal
+MACD(#Fast#, #Slow#, #Smooth#).Main < MACD.Signal;MACD(#Fast#, #Slow#, #Smooth#).Main < MACD.Signal
+(MACD) MACD Main line is lower than 0;(MACD) MACD Main line is lower than 0
+MACD(#Fast#, #Slow#, #Smooth#).Main < 0;MACD(#Fast#, #Slow#, #Smooth#).Main < 0
+Is triggered if MACD Main is rising;Is triggered if MACD Main is rising
+(MACD) MACD Main line is rising;(MACD) MACD Main line is rising
+MACD(#Fast#, #Slow#, #Smooth#).Main is rising;MACD(#Fast#, #Slow#, #Smooth#).Main is rising
+Is triggered if MACD Signal is falling;Is triggered if MACD Signal is falling
+(MACD) MACD Signal line is falling;(MACD) MACD Signal line is falling
+MACD(#Fast#, #Slow#, #Smooth#).Signal is falling;MACD(#Fast#, #Slow#, #Smooth#).Signal is falling
+Is triggered if MACD Signal is rising;Is triggered if MACD Signal is rising
+(MACD) MACD Signal line is rising;(MACD) MACD Signal line is rising
+MACD(#Fast#, #Slow#, #Smooth#).Signal is rising;MACD(#Fast#, #Slow#, #Smooth#).Signal is rising
+(MOM) Momentum changes direction downwards;(MOM) Momentum changes direction downwards
+Momentum(#Period#) changes direction downwards;Momentum(#Period#) changes direction downwards
+(MOM) Momentum changes direction upwards;(MOM) Momentum changes direction upwards
+Momentum(#Period#) changes direction upwards;Momentum(#Period#) changes direction upwards
+(MOM) Momentum crosses below Level;(MOM) Momentum crosses below Level
+Momentum(#Period#) crosses below #Level#;Momentum(#Period#) crosses below #Level#
+(MOM) Momentum crosses above Level;(MOM) Momentum crosses above Level
+Momentum(#Period#) crosses above #Level#;Momentum(#Period#) crosses above #Level#
+(MO) Momentum;(MO) Momentum
+Momentum(#Period#)[#Shift#];Momentum(#Period#)[#Shift#]
+Is triggered if Momentum is falling;Is triggered if Momentum is falling
+(MOM) Momentum is falling;(MOM) Momentum is falling
+Momentum(#Period#) is falling;Momentum(#Period#) is falling
+(MOM) Momentum is higher than Level;(MOM) Momentum is higher than Level
+Momentum(#Period#) > #Level#;Momentum(#Period#) > #Level#
+(MOM) Momentum is lower than Level;(MOM) Momentum is lower than Level
+Momentum(#Period#) < #Level#;Momentum(#Period#) < #Level#
+Is triggered if Momentum is rising;Is triggered if Momentum is rising
+(MOM) Momentum is rising;(MOM) Momentum is rising
+Momentum(#Period#) is rising;Momentum(#Period#) is rising
+Exponential Moving Average;Exponential Moving Average
+(EMA) Exponential Moving Average;(EMA) Exponential Moving Average
+EMA(#Period#)[#Shift#];EMA(#Period#)[#Shift#]
+Linear Weighted Moving Average;Linear Weighted Moving Average
+(LWMA) Linear Weighted Moving Average;(LWMA) Linear Weighted Moving Average
+LWMA(#Period#)[#Shift#];LWMA(#Period#)[#Shift#]
+(MA) Bar closes above Moving Average;(MA) Bar closes above Moving Average
+Bar closes above #Type# Moving Average(#Period#);Bar closes above #Type# Moving Average(#Period#)
+Method;Method
+(MA) Bar closes below Moving Average;(MA) Bar closes below Moving Average
+Bar closes below #Type# Moving Average(#Period#);Bar closes below #Type# Moving Average(#Period#)
+(MA) Bar opens above Moving Average;(MA) Bar opens above Moving Average
+Bar opens above #Type# Moving Average(#Period#);Bar opens above #Type# Moving Average(#Period#)
+(MA) Bar opens above Moving Average after opened below;(MA) Bar opens above Moving Average after opened below
+Bar opens above #Type# Moving Average(#Period#) after opened below;Bar opens above #Type# Moving Average(#Period#) after opened below
+(MA) Bar opens below Moving Average;(MA) Bar opens below Moving Average
+Bar opens below #Type# Moving Average(#Period#);Bar opens below #Type# Moving Average(#Period#)
+(MA) Bar opens below Moving Average after opened above;(MA) Bar opens below Moving Average after opened above
+Bar opens below #Type# Moving Average(#Period#) after opened above;Bar opens below #Type# Moving Average(#Period#) after opened above
+Is triggered if MA is falling;Is triggered if MA is falling
+(MA) Moving Average is falling;(MA) Moving Average is falling
+#Type# Moving Average(#Period#) is falling;#Type# Moving Average(#Period#) is falling
+Is triggered if MA is rising;Is triggered if MA is rising
+(MA) Moving Average is rising;(MA) Moving Average is rising
+#Type# Moving Average(#Period#) is rising;#Type# Moving Average(#Period#) is rising
+Simple Moving Average;Simple Moving Average
+(SMA) Simple Moving Average;(SMA) Simple Moving Average
+SMA(#Period#)[#Shift#];SMA(#Period#)[#Shift#]
+Smoothed Moving Average;Smoothed Moving Average
+(SMMA) Smoothed Moving Average;(SMMA) Smoothed Moving Average
+SMMA(#Period#)[#Shift#];SMMA(#Period#)[#Shift#]
+Triple Exponential Moving Average;Triple Exponential Moving Average
+(TEMA) Triple Exponential Moving Average;(TEMA) Triple Exponential Moving Average
+TEMA(#Period#)[#Shift#];TEMA(#Period#)[#Shift#]
+(MTATR) Average True Range;(MTATR) Average True Range
+MTATR(#Period#)[#Shift#];MTATR(#Period#)[#Shift#]
+(OSMA) Moving Average Of Oscillator;(OSMA) Moving Average Of Oscillator
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#)[#Shift#];OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#)[#Shift#]
+Fast EMA;Fast EMA
+Slow EMA;Slow EMA
+Is triggered if OSMA changes direction downwards;Is triggered if OSMA changes direction downwards
+(OSMA) OSMA changes direction downwards;(OSMA) OSMA changes direction downwards
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) changes direction downwards;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) changes direction downwards
+Is triggered if OSMA changes direction upwards;Is triggered if OSMA changes direction upwards
+(OSMA) OSMA changes direction upwards;(OSMA) OSMA changes direction upwards
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) changes direction upwards;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) changes direction upwards
+(OSMA) OSMA crosses below 0;(OSMA) OSMA crosses below 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) crosses below 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) crosses below 0
+(OSMA) OSMA crosses above 0;(OSMA) OSMA crosses above 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) crosses above 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) crosses above 0
+Is triggered if OSMA is falling;Is triggered if OSMA is falling
+(OSMA) OSMA is falling;(OSMA) OSMA is falling
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) is falling;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) is falling
+(OSMA) OSMA is higher than 0;(OSMA) OSMA is higher than 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) > 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) > 0
+(OSMA) OSMA is lower than 0;(OSMA) OSMA is lower than 0
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) < 0;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) < 0
+Is triggered if OSMA is rising;Is triggered if OSMA is rising
+(OSMA) OSMA is rising;(OSMA) OSMA is rising
+OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) is rising;OSMA(#FastEMA#, #SlowEMA#, #SignalPeriod#) is rising
+(PSAR) Parabolic SAR;(PSAR) Parabolic SAR
+ParabolicSAR(#Step#, #Maximum#)[#Shift#];ParabolicSAR(#Step#, #Maximum#)[#Shift#]
+(PSAR) Price is above Parabolic SAR;(PSAR) Price is above Parabolic SAR
+(PSAR) Price is below Parabolic SAR;(PSAR) Price is below Parabolic SAR
+Pivots;Pivots
+(Pivots) Pivots;(Pivots) Pivots
+Pivots(#StartHour#:#StartMinute#)[#Shift#];Pivots(#StartHour#:#StartMinute#)[#Shift#]
+(QQE) Quantitative Qualitative Estimation;(QQE) Quantitative Qualitative Estimation
+QQE(#RSIPeriod#)[#Shift#];QQE(#RSIPeriod#)[#Shift#]
+RSIPeriod;RSIPeriod
+sF;sF
+wF;wF
+Is triggered if QQE Value1 changes direction downwards;Is triggered if QQE Value1 changes direction downwards
+(QQE) QQE Value1 line changes direction downwards;(QQE) QQE Value1 line changes direction downwards
+QQE(#RSIPeriod#).Value1 changes direction downwards;QQE(#RSIPeriod#).Value1 changes direction downwards
+Is triggered if QQE Value1 changes direction upwards;Is triggered if QQE Value1 changes direction upwards
+(QQE) QQE Value1 line changes direction upwards;(QQE) QQE Value1 line changes direction upwards
+QQE(#RSIPeriod#).Value1 changes direction upwards;QQE(#RSIPeriod#).Value1 changes direction upwards
+(QQE) QQE Value1 line crosses above Level;(QQE) QQE Value1 line crosses above Level
+QQE(#RSIPeriod#).Value1 crosses above #Level#;QQE(#RSIPeriod#).Value1 crosses above #Level#
+(QQE) QQE Value1 line crosses above Value2;(QQE) QQE Value1 line crosses above Value2
+QQE(#RSIPeriod#).Value1 crosses above QQE.Value2;QQE(#RSIPeriod#).Value1 crosses above QQE.Value2
+(QQE) QQE Value1 line crosses below Level;(QQE) QQE Value1 line crosses below Level
+QQE(#RSIPeriod#).Value1 crosses below #Level#;QQE(#RSIPeriod#).Value1 crosses below #Level#
+(QQE) QQE Value1 line crosses below Value2;(QQE) QQE Value1 line crosses below Value2
+QQE(#RSIPeriod#).Value1 crosses below QQE.Value2;QQE(#RSIPeriod#).Value1 crosses below QQE.Value2
+Is triggered if QQE Value1 is falling;Is triggered if QQE Value1 is falling
+(QQE) QQE Value1 line is falling;(QQE) QQE Value1 line is falling
+QQE(#RSIPeriod#).Value1 is falling;QQE(#RSIPeriod#).Value1 is falling
+(QQE) QQE Value1 line is higher than Level;(QQE) QQE Value1 line is higher than Level
+QQE(#RSIPeriod#).Value1 > #Level#;QQE(#RSIPeriod#).Value1 > #Level#
+(QQE) QQE Value1 line is higher than Value2;(QQE) QQE Value1 line is higher than Value2
+QQE(#RSIPeriod#).Value1 > QQE.Value2;QQE(#RSIPeriod#).Value1 > QQE.Value2
+(QQE) QQE Value1 line is lower than Level;(QQE) QQE Value1 line is lower than Level
+QQE(#RSIPeriod#).Value1 < #Level#;QQE(#RSIPeriod#).Value1 < #Level#
+(QQE) QQE Value1 line is lower than Value2;(QQE) QQE Value1 line is lower than Value2
+QQE(#RSIPeriod#).Value1 < QQE.Value2;QQE(#RSIPeriod#).Value1 < QQE.Value2
+Is triggered if QQE Value1 is rising;Is triggered if QQE Value1 is rising
+(QQE) QQE Value1 line is rising;(QQE) QQE Value1 line is rising
+QQE(#RSIPeriod#).Value1 is rising;QQE(#RSIPeriod#).Value1 is rising
+Is triggered if QQE Value2 is falling;Is triggered if QQE Value2 is falling
+(QQE) QQE Value2 line is falling;(QQE) QQE Value2 line is falling
+QQE(#RSIPeriod#).Value2 is falling;QQE(#RSIPeriod#).Value2 is falling
+Is triggered if QQE Value2 is rising;Is triggered if QQE Value2 is rising
+(QQE) QQE Value2 line is rising;(QQE) QQE Value2 line is rising
+QQE(#RSIPeriod#).Value2 is rising;QQE(#RSIPeriod#).Value2 is rising
+(RSI) Relative Strength Index;(RSI) Relative Strength Index
+RSI(#Period#)[#Shift#];RSI(#Period#)[#Shift#]
+Is triggered if RSI changes direction downwards;Is triggered if RSI changes direction downwards
+(RSI) RSI changes direction downwards;(RSI) RSI changes direction downwards
+RSI(#Period#) changes direction downwards;RSI(#Period#) changes direction downwards
+Is triggered if RSI changes direction upwards;Is triggered if RSI changes direction upwards
+(RSI) RSI changes direction upwards;(RSI) RSI changes direction upwards
+RSI(#Period#) changes direction upwards;RSI(#Period#) changes direction upwards
+(RSI) RSI crosses below Level;(RSI) RSI crosses below Level
+RSI(#Period#) crosses below #Level#;RSI(#Period#) crosses below #Level#
+(RSI) RSI crosses above Level;(RSI) RSI crosses above Level
+RSI(#Period#) crosses above #Level#;RSI(#Period#) crosses above #Level#
+Is triggered if RSI is falling;Is triggered if RSI is falling
+(RSI) RSI is falling;(RSI) RSI is falling
+RSI(#Period#) is falling;RSI(#Period#) is falling
+(RSI) RSI is higher than Level;(RSI) RSI is higher than Level
+RSI(#Period#) > #Level#;RSI(#Period#) > #Level#
+(RSI) RSI is lower than Level;(RSI) RSI is lower than Level
+RSI(#Period#) < #Level#;RSI(#Period#) < #Level#
+Is triggered if RSI is rising;Is triggered if RSI is rising
+(RSI) RSI is rising;(RSI) RSI is rising
+RSI(#Period#) is rising;RSI(#Period#) is rising
+(STDDEV) Standard Deviation;(STDDEV) Standard Deviation
+StdDev(#Period#)[#Shift#];StdDev(#Period#)[#Shift#]
+Is triggered if StdDev changes direction downwards;Is triggered if StdDev changes direction downwards
+(StdDev) StdDev changes direction downwards;(StdDev) StdDev changes direction downwards
+StdDev(#Period#) changes direction downwards;StdDev(#Period#) changes direction downwards
+Is triggered if StdDev changes direction upwards;Is triggered if StdDev changes direction upwards
+(StdDev) StdDev changes direction upwards;(StdDev) StdDev changes direction upwards
+StdDev(#Period#) changes direction upwards;StdDev(#Period#) changes direction upwards
+(StdDev) StdDev crosses below Level;(StdDev) StdDev crosses below Level
+StdDev(#Period#) crosses below #Level#;StdDev(#Period#) crosses below #Level#
+(StdDev) StdDev crosses above Level;(StdDev) StdDev crosses above Level
+StdDev(#Period#) crosses above #Level#;StdDev(#Period#) crosses above #Level#
+Is triggered if StdDev is falling;Is triggered if StdDev is falling
+(StdDev) StdDev is falling;(StdDev) StdDev is falling
+StdDev(#Period#) is falling;StdDev(#Period#) is falling
+(StdDev) StdDev is higher than Level;(StdDev) StdDev is higher than Level
+StdDev(#Period#) > #Level#;StdDev(#Period#) > #Level#
+(StdDev) StdDev is lower than Level;(StdDev) StdDev is lower than Level
+StdDev(#Period#) < #Level#;StdDev(#Period#) < #Level#
+Is triggered if StdDev is rising;Is triggered if StdDev is rising
+(StdDev) StdDev is rising;(StdDev) StdDev is rising
+StdDev(#Period#) is rising;StdDev(#Period#) is rising
+(STOCH) Stochastic;(STOCH) Stochastic
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).#Line#[#Shift#];Stoch(#KPeriod#, #DPeriod#, #Slowing#).#Line#[#Shift#]
+%K Period;%K Period
+%D Period;%D Period
+MA Method;MA Method
+(STOCH) Fast %K crosses below Level;(STOCH) Fast %K crosses below Level
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K crosses below #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K crosses below #Level#
+(STOCH) Fast %K crosses above Level;(STOCH) Fast %K crosses above Level
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K crosses above #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K crosses above #Level#
+(STOCH) Fast %K is lower than Slow %D;(STOCH) Fast %K is lower than Slow %D
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K is lower than Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K is lower than Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D
+(STOCH) Fast %K is higher than Slow %D;(STOCH) Fast %K is higher than Slow %D
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K is higher than Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Fast %K is higher than Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D
+Is triggered if Stochastic changes direction downwards;Is triggered if Stochastic changes direction downwards
+(STOCH) Slow %D changes direction downwards;(STOCH) Slow %D changes direction downwards
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D changes direction downwards;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D changes direction downwards
+Is triggered if Stochastic changes direction upwards;Is triggered if Stochastic changes direction upwards
+(STOCH) Slow %D changes direction upwards;(STOCH) Slow %D changes direction upwards
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D changes direction upwards;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D changes direction upwards
+(STOCH) Slow %D crosses below Level;(STOCH) Slow %D crosses below Level
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D crosses below #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D crosses below #Level#
+(STOCH) Slow %D crosses above Level;(STOCH) Slow %D crosses above Level
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D crosses above #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D crosses above #Level#
+Is triggered if Stochastic is falling;Is triggered if Stochastic is falling
+(STOCH) Slow %D is falling;(STOCH) Slow %D is falling
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D is falling;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D is falling
+(STOCH) Slow %D is higher than Level;(STOCH) Slow %D is higher than Level
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D > #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D > #Level#
+(STOCH) Slow %D is lower than Level;(STOCH) Slow %D is lower than Level
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D < #Level#;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D < #Level#
+Is triggered if Stochastic is rising;Is triggered if Stochastic is rising
+(STOCH) Slow %D is rising;(STOCH) Slow %D is rising
+Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D is rising;Stoch(#KPeriod#, #DPeriod#, #Slowing#).Slow %D is rising
+The Williams Percent Range is a momentum indicator that is designed to identify overbought and oversold areas in a nontrending market.;The Williams Percent Range is a momentum indicator that is designed to identify overbought and oversold areas in a nontrending market.
+(WILL%R) Williams Percent Range;(WILL%R) Williams Percent Range
+Williams %R(#Period#)[#Shift#];Williams %R(#Period#)[#Shift#]
+Is triggered if Williams%R changes direction downwards;Is triggered if Williams%R changes direction downwards
+(WPR) Williams%R changes direction downwards;(WPR) Williams%R changes direction downwards
+Williams%R(#Period#) changes direction downwards;Williams%R(#Period#) changes direction downwards
+Is triggered if Williams%R changes direction upwards;Is triggered if Williams%R changes direction upwards
+(WPR) Williams%R changes direction upwards;(WPR) Williams%R changes direction upwards
+Williams%R(#Period#) changes direction upwards;Williams%R(#Period#) changes direction upwards
+(WPR) Williams%R crosses below Level;(WPR) Williams%R crosses below Level
+Williams%R(#Period#) crosses below #Level#;Williams%R(#Period#) crosses below #Level#
+(WPR) Williams%R crosses above Level;(WPR) Williams%R crosses above Level
+Williams%R(#Period#) crosses above #Level#;Williams%R(#Period#) crosses above #Level#
+Is triggered if Williams%R is falling;Is triggered if Williams%R is falling
+(WPR) Williams%R is falling;(WPR) Williams%R is falling
+Williams%R(#Period#) is falling;Williams%R(#Period#) is falling
+(WPR) Williams%R is higher than Level;(WPR) Williams%R is higher than Level
+Williams%R(#Period#) > #Level#;Williams%R(#Period#) > #Level#
+(WPR) Williams%R is lower than Level;(WPR) Williams%R is lower than Level
+Williams%R(#Period#) < #Level#;Williams%R(#Period#) < #Level#
+Is triggered if Williams%R is rising;Is triggered if Williams%R is rising
+(WPR) Williams%R is rising;(WPR) Williams%R is rising
+Williams%R(#Period#) is rising;Williams%R(#Period#) is rising
+Close all positions that fit the criteria;Close all positions that fit the criteria
+Magic number that can identify the order.;Magic number that can identify the order.
+Comment can be also used to identify the order. In case of Comment, order matches if the order comments contains the text specified here.;Comment can be also used to identify the order. In case of Comment, order matches if the order comments contains the text specified here.
+Order identification;Order identification
+Close most profitable position that fits the criteria;Close most profitable position that fits the criteria
+Close most profitable position;Close most profitable position
+Close specified position or its part;Close specified position or its part
+Order size;Order size
+Close least profitable position that fits the criteria;Close least profitable position that fits the criteria
+Close least profitable position;Close least profitable position
+Sets Profit Target to a specified level. If PT already exists it will be moved.;Sets Profit Target to a specified level. If PT already exists it will be moved.
+(PT) Set Profit Target;(PT) Set Profit Target
+Set Profit Target;Set Profit Target
+Sets Stop Loss to a specified level. If SL already exists it will be moved.;Sets Stop Loss to a specified level. If SL already exists it will be moved.
+(SL) Set Stop Loss;(SL) Set Stop Loss
+Set Stop Loss;Set Stop Loss
+Opens limit order at given price;Opens limit order at given price
+(LMT) Enter at limit;(LMT) Enter at limit
+EnterAtLimit;EnterAtLimit
+Opens order at current market price;Opens order at current market price
+Magic number is used to identify this trade, it should be unique for every trade you open.;Magic number is used to identify this trade, it should be unique for every trade you open.
+If set to true, it will allow to place multiple trades with the same Magic Number;If set to true, it will allow to place multiple trades with the same Magic Number
+(MKT) Enter at market;(MKT) Enter at market
+EnterAtMarket;EnterAtMarket
+Basic;Basic
+Opens stop order at given price;Opens stop order at given price
+Number of bars this pending order will be valid, after then it expires. 0 means it never expires.;Number of bars this pending order will be valid, after then it expires. 0 means it never expires.
+If existing stop order with the same identification exist, should it be replaced?;If existing stop order with the same identification exist, should it be replaced?
+(STOP) Enter at stop;(STOP) Enter at stop
+EnterAtStop;EnterAtStop
+Advanced;Advanced
+Replace Existing Order;Replace Existing Order
+Opens order at current market price<br/> If there already is existing order to an opposite direction, it closes it first.;Opens order at current market price<br/> If there already is existing order to an opposite direction, it closes it first.
+(MKT) Enter/reverse at market;(MKT) Enter/reverse at market
+Enter/ReverseAtMarket;Enter/ReverseAtMarket
+Number constant;Number constant
+(BOOL) Boolean;(BOOL) Boolean
+#Value#;#Value#
+Boolean Variable;Boolean Variable
+(BVAR) Boolean Variable;(BVAR) Boolean Variable
+#Variable#;#Variable#
+Double Variable;Double Variable
+(DVAR) Double Variable;(DVAR) Double Variable
+Integer Variable;Integer Variable
+(IVAR) Int Variable;(IVAR) Int Variable
+(NUM) Number;(NUM) Number
+#Number#;#Number#
+Assigns a value to the variable;Assigns a value to the variable
+Choose variable to which you want to assign some value;Choose variable to which you want to assign some value
+(VAR) Assign variable;(VAR) Assign variable
+Assign variable;Assign variable
+Define your own action. You can specify any valid MQL command here, or call a custom MQL function defined in /code/CustomFunctions.mq4 file (only desktop version);Define your own action. You can specify any valid MQL command here, or call a custom MQL function defined in /code/CustomFunctions.mq4 file (only desktop version)
+Custom action;Custom action
+Draws Down Arrow;Draws Down Arrow
+(v) Draw Down Arrow;(v) Draw Down Arrow
+Draw Down Arrow;Draw Down Arrow
+Draws Up Arrow;Draws Up Arrow
+(^) Draw Up Arrow;(^) Draw Up Arrow
+Draw Up Arrow;Draw Up Arrow
+Log message to a given file. The file will be placed in {MT4}/tester/files (for backtest) or in {MT4}/experts/files (for real trading);Log message to a given file. The file will be placed in {MT4}/tester/files (for backtest) or in {MT4}/experts/files (for real trading)
+Logs the specified text to a journal. The text is written to Strategy Tester : Journal during backtest, and to Terminal : Experts during live trading.;Logs the specified text to a journal. The text is written to Strategy Tester : Journal during backtest, and to Terminal : Experts during live trading.
+Sends email with specified text. It relies on correct SMTP settings in MT4 in Tools : Options : Email;Sends email with specified text. It relies on correct SMTP settings in MT4 in Tools : Options : Email
+(ASK) Ask;(ASK) Ask
+Ask;Ask
+(BID) Bid;(BID) Bid
+Bid;Bid
+(C) Close;(C) Close
+Close[#Shift#];Close[#Shift#]
+(DC) Daily Close;(DC) Daily Close
+CloseD[#Shift#];CloseD[#Shift#]
+(HA C) Heiken Ashi Close;(HA C) Heiken Ashi Close
+Heiken Ashi Close[#Shift#];Heiken Ashi Close[#Shift#]
+(HA H) Heiken Ashi High;(HA H) Heiken Ashi High
+Heiken Ashi High[#Shift#];Heiken Ashi High[#Shift#]
+(HA L) Heiken Ashi Low;(HA L) Heiken Ashi Low
+Heiken Ashi Low[#Shift#];Heiken Ashi Low[#Shift#]
+(HA O) Heiken Ashi Open;(HA O) Heiken Ashi Open
+Heiken Ashi Open[#Shift#];Heiken Ashi Open[#Shift#]
+(H) High;(H) High
+High[#Shift#];High[#Shift#]
+(DH) Daily High;(DH) Daily High
+HighD[#Shift#];HighD[#Shift#]
+(L) Low;(L) Low
+Low[#Shift#];Low[#Shift#]
+(DL) Daily Low;(DL) Daily Low
+LowD[#Shift#];LowD[#Shift#]
+(O) Open;(O) Open
+Open[#Shift#];Open[#Shift#]
+(DO) Daily Open;(DO) Daily Open
+OpenD[#Shift#];OpenD[#Shift#]
+Spread in pips;Spread in pips
+(V) Volume;(V) Volume
+Volume[#Shift#];Volume[#Shift#]
+Returns account balance in account currency.;Returns account balance in account currency.
+(ACB) AccountBalance;(ACB) AccountBalance
+AccountBalance();AccountBalance()
+Returns account equity in account currency.;Returns account equity in account currency.
+(ACC) AccountEquity;(ACC) AccountEquity
+AccountEquity();AccountEquity()
+Returns number of bars since the specified order was opened.;Returns number of bars since the specified order was opened.
+BarsSinceOrderClosed(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");BarsSinceOrderClosed(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+BarsSinceOrderOpen(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");BarsSinceOrderOpen(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns last closed P/L in money for order with given Magic Number. It will return 0 if the order hasn't closed yet. If Magic Number is 0, it will return closed P/L of last order.;Returns last closed P/L in money for order with given Magic Number. It will return 0 if the order hasn't closed yet. If Magic Number is 0, it will return closed P/L of last order.
+Leave at 0 for very last trade. 1 means trade befor ethe last one, 2 means trade before that, etc.;Leave at 0 for very last trade. 1 means trade befor ethe last one, 2 means trade before that, etc.
+Closed P/L (in money);Closed P/L (in money)
+Closed P/L in money(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");Closed P/L in money(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Other;Other
+Returns last closed P/L in pips for order with given Magic Number. It will return 0 if the order hasn't closed yet. If Magic Number is 0, it will return closed P/L of last order.;Returns last closed P/L in pips for order with given Magic Number. It will return 0 if the order hasn't closed yet. If Magic Number is 0, it will return closed P/L of last order.
+Closed P/L (in pips);Closed P/L (in pips)
+Closed P/L in pips(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");Closed P/L in pips(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns true if direction of last order matches. Considers only executed orders, not pending orders that were closed.;Returns true if direction of last order matches. Considers only executed orders, not pending orders that were closed.
+Last order(#Symbol#, #MagicNumber#, \"#Comment#\") was #Direction#;Last order(#Symbol#, #MagicNumber#, \"#Comment#\") was #Direction#
+Returns true is direction of last order doesn't match the specified direction. Considers only executed orders, not pending orders that were closed.;Returns true is direction of last order doesn't match the specified direction. Considers only executed orders, not pending orders that were closed.
+Last order(#Symbol#, #MagicNumber#, \"#Comment#\") was not #Direction#;Last order(#Symbol#, #MagicNumber#, \"#Comment#\") was not #Direction#
+Returns current market position, it will search for all orders that fit the criteria. If there are orders to both long and short, it will return direction of first order found.;Returns current market position, it will search for all orders that fit the criteria. If there are orders to both long and short, it will return direction of first order found.
+(MKT) MarketPosition;(MKT) MarketPosition
+MarketPosition(#Symbol#, #MagicNumber#, \"#Comment#\");MarketPosition(#Symbol#, #MagicNumber#, \"#Comment#\")
+Market Position Is Flat;Market Position Is Flat
+Is triggered if the first identified live order that fits the criteria is Long. It doesn't consider pending orders.;Is triggered if the first identified live order that fits the criteria is Long. It doesn't consider pending orders.
+Market Position(#Symbol#, #MagicNumber#, \"#Comment#\") is Long;Market Position(#Symbol#, #MagicNumber#, \"#Comment#\") is Long
+Is triggered if the first identified live order that fits the criteria is Short. It doesn't consider pending orders.;Is triggered if the first identified live order that fits the criteria is Short. It doesn't consider pending orders.
+Market Position(#Symbol#, #MagicNumber#, \"#Comment#\") is Short;Market Position(#Symbol#, #MagicNumber#, \"#Comment#\") is Short
+Returns number of market positions that fit the criteria.;Returns number of market positions that fit the criteria.
+MarketPositionsCount(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");MarketPositionsCount(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns the sum of all open positions that fit the criteria.;Returns the sum of all open positions that fit the criteria.
+MarketPositionSize(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");MarketPositionSize(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns true if there wasn't active trade that was closed recently - which means at the same bar or even the same minute. This block can be used to filter too frequent trading and improve backtesting accuracy.;Returns true if there wasn't active trade that was closed recently - which means at the same bar or even the same minute. This block can be used to filter too frequent trading and improve backtesting accuracy.
+NoTradeRecentlyClosed(#Symbol#, #MagicNumber#);NoTradeRecentlyClosed(#Symbol#, #MagicNumber#)
+Returns open P/L for specified order in money. If you'll not specify any order, it will return sum of open P/L for all active orders.;Returns open P/L for specified order in money. If you'll not specify any order, it will return sum of open P/L for all active orders.
+Open P/L (in money);Open P/L (in money)
+Open P/L in money(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");Open P/L in money(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns open P/L for specified order in pips. If you'll not specify any order, it will return sum of open P/L for all active orders.;Returns open P/L for specified order in pips. If you'll not specify any order, it will return sum of open P/L for all active orders.
+Open P/L (in pips);Open P/L (in pips)
+Open P/L in pips(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");Open P/L in pips(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns open price level for specified order;Returns open price level for specified order
+Order Open Price;Order Open Price
+OrderOpenPrice(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");OrderOpenPrice(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns Profit Target level for specified order;Returns Profit Target level for specified order
+Order Profit Target;Order Profit Target
+OrderProfitTarget(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");OrderProfitTarget(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Returns Stop Loss level for specified order;Returns Stop Loss level for specified order
+Order Stop Loss;Order Stop Loss
+OrderStopLoss(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\");OrderStopLoss(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\")
+Is triggered when there doesn't exist specified pending order;Is triggered when there doesn't exist specified pending order
+Pending order doesn't exist;Pending order doesn't exist
+Pending order(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\") doesn't exist;Pending order(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\") doesn't exist
+Is triggered when there exists specified pending order;Is triggered when there exists specified pending order
+Pending order(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\") exists;Pending order(#Symbol#, #MagicNumber#, #Direction#, \"#Comment#\") exists
+Returns true if there was active trade that was closed recently - which means at the same bar or even the same minute.;Returns true if there was active trade that was closed recently - which means at the same bar or even the same minute.
+Check if trade closed this bar.;Check if trade closed this bar.
+Check if trade closed in the last minute.;Check if trade closed in the last minute.
+TradeRecentlyClosed(#Symbol#, #MagicNumber#);TradeRecentlyClosed(#Symbol#, #MagicNumber#)
+Close Condition;Close Condition
+AHPR;AHPR
+Arithmetic Holding Period Return;Arithmetic Holding Period Return
+Ambiguous Trades;Ambiguous Trades
+Ambiguous Trades - trades that start and end at the same bar;Ambiguous Trades - trades that start and end at the same bar
+Ambiguous Trades %;Ambiguous Trades %
+Ambiguous Trades Percentage - trades that start and end at the same bar;Ambiguous Trades Percentage - trades that start and end at the same bar
+Annual % Return;Annual % Return
+Annual Percentage Return;Annual Percentage Return
+Annual % Return/Max DD %;Annual % Return/Max DD %
+Annual Percentage Return vs Drawdown ratio;Annual Percentage Return vs Drawdown ratio
+Avg. Abs Trade;Avg. Abs Trade
+Average Absolute Trade (including losing trades);Average Absolute Trade (including losing trades)
+Avg. Bars in Trade;Avg. Bars in Trade
+Average Bars In Trade;Average Bars In Trade
+Avg. Bars Loss;Avg. Bars Loss
+Average Bars In Trade for Loser;Average Bars In Trade for Loser
+Avg. Bars Win;Avg. Bars Win
+Average Bars In Trade for Winner;Average Bars In Trade for Winner
+Avg Consec. Losses;Avg Consec. Losses
+Average Consecutive Losses;Average Consecutive Losses
+Avg Consec. Wins;Avg Consec. Wins
+Average Consecutive Wins;Average Consecutive Wins
+Avg. Loss;Avg. Loss
+Average Losing Trade;Average Losing Trade
+Avg. Profit Per Day;Avg. Profit Per Day
+Avg. Profit Per Month;Avg. Profit Per Month
+Avg. Profit Per Year;Avg. Profit Per Year
+Avg. Trade;Avg. Trade
+Average Trade;Average Trade
+Avg. Trades Per Day;Avg. Trades Per Day
+Avg. Trades Per Month;Avg. Trades Per Month
+Avg. Trades Per Year;Avg. Trades Per Year
+Avg. Win;Avg. Win
+Average Winning Trade;Average Winning Trade
+Backtest Duration (s);Backtest Duration (s)
+Backtest duration in seconds;Backtest duration in seconds
+CAGR;CAGR
+Compound Annual Growth Rate;Compound Annual Growth Rate
+CalmarRatio;CalmarRatio
+Commission;Commission
+Degrees of freedom;Degrees of freedom
+Max DD %;Max DD %
+Max Drawdown in %;Max Drawdown in %
+Max DD pips;Max DD pips
+Max Drawdown in pips;Max Drawdown in pips
+Expectancy;Expectancy
+Exposure;Exposure
+Exposure = # bars in all positions / total # bars in the sample;Exposure = # bars in all positions / total # bars in the sample
+Fitness;Fitness
+Fitness rank;Fitness rank
+Gross profit;Gross profit
+Initial deposit;Initial deposit
+Max Consec. Losses;Max Consec. Losses
+Maximum Consecutive Losses;Maximum Consecutive Losses
+Max Consec. Wins;Max Consec. Wins
+Maximum Consecutive Wins;Maximum Consecutive Wins
+Max Profit;Max Profit
+Mini equity chart;Mini equity chart
+Net profit;Net profit
+# of canceled;# of canceled
+Number of canceled trades;Number of canceled trades
+# of losses;# of losses
+Number of losses;Number of losses
+# of profits;# of profits
+Number of profits;Number of profits
+Number of trades;Number of trades
+Payout ratio;Payout ratio
+Profit factor;Profit factor
+Results Name;Results Name
+Ret/DD Ratio;Ret/DD Ratio
+Return / Drawdown Ratio;Return / Drawdown Ratio
+R Expectancy;R Expectancy
+RSquared;RSquared
+RSquared - how straight is the equity curve;RSquared - how straight is the equity curve
+Sharpe Ratio;Sharpe Ratio
+Sharpe Ratio (annualized);Sharpe Ratio (annualized)
+Strategy Quality Number;Strategy Quality Number
+SQN Score;SQN Score
+Strategy Quality Number Score;Strategy Quality Number Score
+Stability;Stability
+Stability - how straight and steep is the equity curve;Stability - how straight and steep is the equity curve
+Stagnation in Days;Stagnation in Days
+% Stagnation;% Stagnation
+Stagnation in % from total days;Stagnation in % from total days
+Standard Deviation of Trades;Standard Deviation of Trades
+Symbol on which the test was made;Symbol on which the test was made
+Symmetry;Symmetry
+How symmetrical is profit between Long and Short side?;How symmetrical is profit between Long and Short side?
+TimeFrame;TimeFrame
+Timeframe on which the test was made;Timeframe on which the test was made
+Total Trading Days;Total Trading Days
+Total Trading Months;Total Trading Months
+Total Trading Years;Total Trading Years
+Trades Symmetry;Trades Symmetry
+How symmetrical is number oftrades between Long and Short side?;How symmetrical is number oftrades between Long and Short side?
+Winning Percent;Winning Percent
+Worst Year Profit;Worst Year Profit
+ZProbability;ZProbability
+ZScore;ZScore
+Balance;Balance
+BarsInTrade;BarsInTrade
+Close price;Close price
+Close time;Close time
+Close type;Close type
+Comment;Comment
+Comm/Swap;Comm/Swap
+MAE ($);MAE ($)
+MAE (pips);MAE (pips)
+MFE ($);MFE ($)
+MFE (pips);MFE (pips)
+Open price;Open price
+Open time;Open time
+Orig. Open time;Orig. Open time
+% Drawdown;% Drawdown
+Profit/Loss;Profit/Loss
+Profit/Loss Pct;Profit/Loss Pct
+Profit/Loss Pips;Profit/Loss Pips
+Result name;Result name
+Size;Size
+Ticket;Ticket
+Time in trade;Time in trade
+Max Drawdown in one run;Max Drawdown in one run
+Max % Drawdown in one run;Max % Drawdown in one run
+Max profit in one run;Max profit in one run
+Max profit in one run as % of total;Max profit in one run as % of total
+Max Stagnation in %;Max Stagnation in %
+Min trades in one run;Min trades in one run
+Percentage of profitable runs;Percentage of profitable runs
+Number of closed positions;Number of closed positions
+Number of closed trades;Number of closed trades
+Number of open positions;Number of open positions
+Number of open trades;Number of open trades
+Average strategies per hour;Average strategies per hour
+Strategies;Strategies
+Avg. strategies per hour;Avg. strategies per hour
+Top Strategy;Top Strategy
+Top 3 Strategies Avg;Top 3 Strategies Avg
+All Strategies Avg;All Strategies Avg
+Heap memory chart;Heap memory chart
+Memory;Memory
+Memory Usage;Memory Usage
+Heap Size;Heap Size
+Off-heap memory chart;Off-heap memory chart
+Off-Heap Size;Off-Heap Size
+Off-heap memory info;Off-heap memory info
+Allocated objects;Allocated objects
+Allocated memory;Allocated memory
+Number of bars after which this trade will automatically be closed;Number of bars after which this trade will automatically be closed
+Exit After Bars;Exit After Bars
+Move StopLoss to Break Even;Move StopLoss to Break Even
+Move SL to BE;Move SL to BE
+SL to BE - Add pips;SL to BE - Add pips
+Trailing Stop;Trailing Stop
+TS Activation Level;TS Activation Level
+<b>Strategy will risk given amount of money for every trade</b><br/>This is basic money management without compounding. It can be used to test real performance of strategies whose Stop Loss is based on ATR.;<b>Strategy will risk given amount of money for every trade</b><br/>This is basic money management without compounding. It can be used to test real performance of strategies whose Stop Loss is based on ATR.
+Risk in $;Risk in $
+Order size will be rounded to the selected number of decimal places. Use 2 for microlots, 1 for mini lots and 0 for stocks and futures.;Order size will be rounded to the selected number of decimal places. Use 2 for microlots, 1 for mini lots and 0 for stocks and futures.
+How many lots should be traded if we disable or cannot use Money Management - for example when computed trade size is 0;How many lots should be traded if we disable or cannot use Money Management - for example when computed trade size is 0
+The biggest lot size allowed;The biggest lot size allowed
+Fixed amount;Fixed amount
+Fixed amount: #RiskedMoney# $;Fixed amount: #RiskedMoney# $
+RiskedMoney;RiskedMoney
+Size Decimals;Size Decimals
+Size if no MM;Size if no MM
+Lots;Lots
+Maximum lots;Maximum lots
+Fixed amount, #RiskedMoney# $;Fixed amount, #RiskedMoney# $
+<b>No money management</b><br/>Strategy will trade with fixed number of lots.;<b>No money management</b><br/>Strategy will trade with fixed number of lots.
+Order size (number of lots for forex);Order size (number of lots for forex)
+Fixed size;Fixed size
+Fixed size: #Lots# lots;Fixed size: #Lots# lots
+Fixed size, #Size# lots;Fixed size, #Size# lots
+<b>Risk fixed percentage of balance</b>;<b>Risk fixed percentage of balance</b>
+How big percentage of your account will be risked in every trade?;How big percentage of your account will be risked in every trade?
+Risk fixed % balance;Risk fixed % balance
+Risk fixed % balance: #Risk#%;Risk fixed % balance: #Risk#%
+Risk in %;Risk in %
+Risk #Risk#% of balance;Risk #Risk#% of balance
+<b>Risk fixed percentage of account size</b><br/>Strategy will risk a given % of equity for every trade.<br/><br/>This is a simple but very effective money management that will allow the strategy to increase the number of lots as your account grows.<br/><br/>It is recommended to risk around 2-5% of the account per trade.;<b>Risk fixed percentage of account size</b><br/>Strategy will risk a given % of equity for every trade.<br/><br/>This is a simple but very effective money management that will allow the strategy to increase the number of lots as your account grows.<br/><br/>It is recommended to risk around 2-5% of the account per trade.
+If order doesn't have SL then this predefined StopLoss will be used to compute the correct trade size according to money management;If order doesn't have SL then this predefined StopLoss will be used to compute the correct trade size according to money management
+Risk fixed % of account;Risk fixed % of account
+Risk fixed % of account: #Risk#%, #Lots# lots, #MaxLots# max. lots;Risk fixed % of account: #Risk#%, #Lots# lots, #MaxLots# max. lots
+Risk;Risk
+StopLoss in pips;StopLoss in pips
+Risk #Risk#% of account;Risk #Risk#% of account
+<b>Size computed as Balance / StockSize.</b> Position sizing method specifically for stocks.;<b>Size computed as Balance / StockSize.</b> Position sizing method specifically for stocks.
+If set to true, it will use current account balance. Otherwise it will use initial capital.;If set to true, it will use current account balance. Otherwise it will use initial capital.
+The biggest size allowed;The biggest size allowed
+Stocks size by price;Stocks size by price
+Use account balance;Use account balance
+Maximum size;Maximum size
+Stocks size by price, max #MaxSize# lots;Stocks size by price, max #MaxSize# lots
+Randomize trades order;Randomize trades order
+Randomize trades order, with method #Method#;Randomize trades order, with method #Method#
+Randomly skip trades;Randomly skip trades
+Randomly skip trades, with probability #Probability# %;Randomly skip trades, with probability #Probability# %
+Probability;Probability
+<b>Note!</b>If you choose this option then robustness tests will be tested with Selected Timeframe precision, while original strategy will be tested with configured precision.<br/>This might cause difference in results between original strategy and simulations because of different precision.<br/>To avoid this, use Selected Timeframe precision in Setings : Data.;<b>Note!</b>If you choose this option then robustness tests will be tested with Selected Timeframe precision, while original strategy will be tested with configured precision.<br/>This might cause difference in results between original strategy and simulations because of different precision.<br/>To avoid this, use Selected Timeframe precision in Setings : Data.
+Randomize history data;Randomize history data
+Randomize history data, with probability #Probability# % and max price change #MaxChange# % of ATR;Randomize history data, with probability #Probability# % and max price change #MaxChange# % of ATR
+Max change;Max change
+Randomize min distance;Randomize min distance
+Randomize min distance from price from #Min# to #Max#;Randomize min distance from price from #Min# to #Max#
+Randomize slippage;Randomize slippage
+Randomize slippage from #Min# to #Max#;Randomize slippage from #Min# to #Max#
+Randomize spread;Randomize spread
+Randomize spread from #Min# to #Max#;Randomize spread from #Min# to #Max#
+Randomize starting bar;Randomize starting bar
+Randomize starting bar, with max change #MaxChange#;Randomize starting bar, with max change #MaxChange#
+If true, it uses symmetric parameters - the parameters will be shared for long and short side. Otherwise, the parameters for long and short side will be independent.;If true, it uses symmetric parameters - the parameters will be shared for long and short side. Otherwise, the parameters for long and short side will be independent.
+Randomize strategy parameters;Randomize strategy parameters
+Randomize strategy parameters, with probability #Probability# % and max change #MaxChange# %;Randomize strategy parameters, with probability #Probability# % and max change #MaxChange# %
+Symmetric parameters;Symmetric parameters
+Every trade will be allowed.;Every trade will be allowed.
+Allow all trades;Allow all trades
+SQ Default;SQ Default
+SQ with Portfolio;SQ with Portfolio
+TS Overview;TS Overview
+Long vs Short P/L;Long vs Short P/L
+Long P/L;Long P/L
+Short P/L;Short P/L
+Long vs Short trades;Long vs Short trades
+Long trades;Long trades
+Short trades;Short trades
+P/L by day;P/L by day
+P/L;P/L
+P/L by hour;P/L by hour
+P/L by month;P/L by month
+P/L by trade duration;P/L by trade duration
+P/L by weekday;P/L by weekday
+P/L by year;P/L by year
+PL by Year;PL by Year
+PL in money by Year;PL in money by Year
+PL in pips by Year;PL in pips by Year
+PL in % by Year;PL in % by Year
+Profit;Profit
+Loss;Loss
+P/L Growth by duration;P/L Growth by duration
+P/L Growth / Time;P/L Growth / Time
+Long Profit/Loss;Long Profit/Loss
+Short Profit/Loss;Short Profit/Loss
+Trades by day;Trades by day
+Trades;Trades
+Trades by duration;Trades by duration
+Trades by hour;Trades by hour
+Trades by month;Trades by month
+Trades by weekday;Trades by weekday
+Trades by year;Trades by year
+Wins/Losses by day;Wins/Losses by day
+Wins/Losses by hour;Wins/Losses by hour
+Wins/Losses by month;Wins/Losses by month
+Wins/Losses by weekday;Wins/Losses by weekday
+Wins/Losses Profit by day;Wins/Losses Profit by day
+Wins/Losses Profit by hour;Wins/Losses Profit by hour
+Wins/Losses Profit by month;Wins/Losses Profit by month
+Wins/Losses Profit by weekday;Wins/Losses Profit by weekday
+None;None
+No commissions;No commissions
+<b>Percentage based commissions</b><br/>Used mainly for stocks, it computes commission as % of actual price of purchased asset.;<b>Percentage based commissions</b><br/>Used mainly for stocks, it computes commission as % of actual price of purchased asset.
+Commission in % of price per full lot (5 means 5%);Commission in % of price per full lot (5 means 5%)
+Percentage based;Percentage based
+Commission #Commission# % price;Commission #Commission# % price
+<b>Simple size-based commissions</b><br/>Simple method of commissions computation - it uses commissions in $ per lot and multiplies it by actual trade size.;<b>Simple size-based commissions</b><br/>Simple method of commissions computation - it uses commissions in $ per lot and multiplies it by actual trade size.
+Commission in $ per complete lot;Commission in $ per complete lot
+Size based;Size based
+Commission per lot: #Commission# $;Commission per lot: #Commission# $
+<b>No scaling</b>;<b>No scaling</b>
+No scaling;No scaling
+Close all positions at end of day?;Close all positions at end of day?
+End Of Day Timewhen to close all positions. If set to 0, it will close all positions from previous day at midnight.;End Of Day Timewhen to close all positions. If set to 0, it will close all positions from previous day at midnight.
+Exit At End Of Day;Exit At End Of Day
+End Of Day Exit Time;End Of Day Exit Time
+Close all positions at end of the week (Friday)?;Close all positions at end of the week (Friday)?
+Time on Friday when to close all positions;Time on Friday when to close all positions
+Exit On Friday;Exit On Friday
+Friday Exit Time;Friday Exit Time
+Limit trading to given time range?;Limit trading to given time range?
+Time range for taking signal - from time;Time range for taking signal - from time
+Time range for taking signal - to time;Time range for taking signal - to time
+Close all positions at end of range?;Close all positions at end of range?
+Limit Time Range;Limit Time Range
+Time Range From;Time Range From
+Time Range To;Time Range To
+Exit At End Of Range;Exit At End Of Range
+Maximum allowed number of trades per day, 0 means there is no limit.;Maximum allowed number of trades per day, 0 means there is no limit.
+Maximum Trades Per Day;Maximum Trades Per Day
